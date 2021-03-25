@@ -2,9 +2,9 @@
 title: FORM
 description: パターン検出コードのヘルプページ
 translation-type: tm+mt
-source-git-commit: aa44c3ce87496f412191000f1980a7ebbde386cd
+source-git-commit: 9a02482d023ce1a6cbbff24b8e6509c91ddd2a6b
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 0%
 
 * `modified.feature`:これらの機能、アセット、またはAPIは、Cloud Serviceのために更新または変更されました。Cloud Serviceに移行する前に、移行ユーティリティを実行し、これらの機能とアセットをCloud Serviceと互換性のあるものにします。
 * `unavailable.feature`:環境に、使用できない機能とアセットまたはCloud Serviceから削除された機能が含まれています。このような機能やアセットは、Cloud Service環境に移行しないでください。
-* `unsupported.feature`:お使いの環境で、Cloud Serviceではまだサポートされていない機能が使用されています。このような機能やアセットは、Cloud Service環境に移行しないでください。 機能の可用性については、毎月のリリースノートを確認してください。
-* `unsupported.api`:お使いの環境には、まだCloud ServiceでサポートされていないAPIがいくつかあります。Cloud Serviceに移行する前に、これらのAPIを無効にする、置き換える、またはコードから削除します。 機能の可用性については、毎月のリリースノートを確認してください。
+* `unsupported.feature`:お使いの環境で、Cloud Serviceではまだサポートされていない機能が使用されています。このような機能やアセットは、Cloud Service環境に移行しないでください。 機能の利用に関する情報については、毎月のリリースノートを参照してください。
+* `unsupported.api`:お使いの環境には、まだCloud ServiceでサポートされていないAPIがいくつかあります。Cloud Serviceに移行する前に、これらのAPIを無効にする、置き換える、またはコードから削除します。 機能の利用に関する情報については、毎月のリリースノートを参照してください。
 
 一部の機能やAPIをCloud Serviceと互換性を持たせるために必要な置き換えやその他の対応については、[考えられる示唆とリスク](#implications-and-risks)と[考えられる解決策](#solutions)の節を参照してください
 
@@ -75,19 +75,19 @@ ht-degree: 0%
 
 * このようなフォームを[!DNL Cloud Service]環境に移動する前に、既存のアダプティブFormsから確認手順を削除します。 (VERIFY_STEP)
 
-* 既存のアダプティブフォームを変更して、「RESTエンドポイントへの送信](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint)」、「[電子メール](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email)を送信」、「[フォームデータモデルを使用した送信](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model)」、「[AEMワークフロー](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow)送信アクションを呼び出します。 [FormsポータルとFormsポータルの送信アクションはまだ使用できません。 機能の可用性については、毎月のリリースノートを確認してください。 (FORMSポータル送信、FORMSポータル)
+* 既存のアダプティブフォームを変更して、「RESTエンドポイントへの送信](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint)」、「[電子メール](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email)を送信」、「[フォームデータモデルを使用した送信](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model)」、「[AEMワークフロー](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow)送信アクションを呼び出します。 [FormsポータルとFormsポータルの送信アクションはまだ使用できません。 機能の利用に関する情報については、毎月のリリースノートを参照してください。 (FORMSポータル送信、FORMSポータル)
 
 * AEMワークフローを開発し、既存のアダプティブフォームを変更して、**[!UICONTROL 「Forms Workflowへ送信」]**「送信」アクションを使用する代わりに、[AEMワークフロー](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow)送信アクションを使用してAEMワークフローにデータを送信できます。 カスタムの送信アクションを作成して、[!UICONTROL Forms Workflow]に送信を使用する代わりに、データ、添付ファイル、またはレコードのドキュメント(DoR)をLiveCycleプロセスに送信できます。 (LC_WORKFLOW_SUBMISSION)
 
-* インタラクティブコミュニケーション機能の可用性については、毎月のリリースノートを確認してください。 この機能が使用できない限り、Cloud Service環境にInteractive Communications、Letters、および関連する辞書を移行しないでください。 (FP_プロファイル_INTERACTIVE_COMMUNICATIONS)
+* Interactive Communications機能の可用性については、毎月のリリースノートを参照してください。 この機能が使用できない限り、Cloud Service環境にInteractive Communications、Letters、および関連する辞書を移行しないでください。 (FP_プロファイル_INTERACTIVE_COMMUNICATIONS)
 
-* Cloud Serviceに移行する前に、アダプティブFormsで「**[!UICONTROL ドラフトとして保存]**」および「**[!UICONTROL 自動保存]**&#x200B;を有効にする」オプションを無効にします。 これらのオプションは、Cloud ServiceのFormsポータル機能がリリースされた後に有効にできます。 機能の可用性については、毎月のリリースノートを確認してください。 (DRAFT_AUTO_SAVE、DRAFT_SAVE)
+* Cloud Serviceに移行する前に、アダプティブFormsで「**[!UICONTROL ドラフトとして保存]**」および「**[!UICONTROL 自動保存]**&#x200B;を有効にする」オプションを無効にします。 これらのオプションは、Cloud ServiceのFormsポータル機能がリリースされた後に有効にできます。 機能の利用に関する情報については、毎月のリリースノートを参照してください。 (DRAFT_AUTO_SAVE、DRAFT_SAVE)
 
 * メタデータアコーディオンは置き換えられません。 フォームをCloud Serviceに移行する前に、フォームから削除してください。(METADATA_ACCORDION_FORM_コンテナ)
 
 * Adobe Experience Managerが提供するCAPTCHAサービスの代わりに、Google reCaptchaを使用します。 (FORMS_CAPTCHA)
 
-* レスポンシブデザインのアダプティブFormsオファー。 これらのフォームは、基になるデバイスに基づいて外観、デザインおよびインタラクティブ性を変更します。 [!DNL AEM Forms]アプリの提供状況に関する毎月のリリースノートを見ながら、モバイルデバイスでアダプティブFormsを引き続き使用できます。 (AEM_FORMS_APP)
+* レスポンシブデザインのアダプティブFormsオファー。 これらのフォームは、基になるデバイスに基づいて外観、デザインおよびインタラクティブ性を変更します。 アダプティブFormsをモバイルデバイスで引き続き使用できます。 [!DNL AEM Forms]アプリの提供状況については、毎月のリリースノートを参照してください。 (AEM_FORMS_APP)
 
 * ドキュメントサービスワークフロー手順を使用するAEMワークフローモデルは移行しないでください。 また、ドキュメントサービスのワークフロー手順を使用するワークフローモデルにユーザーデータを送信するアダプティブFormsを移行または更新しないでください。また、フォームを移行する前に、[サポートされているアクション](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html)に送信します。 (WORKFLOW_DOCSERVICES)
 

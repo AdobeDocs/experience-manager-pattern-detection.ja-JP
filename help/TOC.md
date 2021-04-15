@@ -1,23 +1,23 @@
 ---
 hide: true
-user-guide-title: Experience Managerパターン検出ガイド
-breadcrumb-title: AEM Pattern Detection
-user-guide-description: Adobe Experience Managerパターン検出について説明します。
+user-guide-title: Experience Manager パターン検出ガイド
+breadcrumb-title: AEM パターン検出
+user-guide-description: Adobe Experience Manager パターン検出について学習します。
 feature-set: Experience Manager
 feature: 開発者ツール
 role: デベロッパー
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a6ba6e93c89644160650882ecbf17028bec35068
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '46'
-ht-degree: 21%
+ht-degree: 100%
 
 ---
 
 
-# Experience Managerパターン検出ガイド{#table-of-contents}
+# Experience Manager パターン検出ガイド {#table-of-contents}
 
-+ [麻生](aso.md)
++ [ASO](aso.md)
 + [CAV](cav.md)
 + [CCL](ccl.md)
 + [CCOM](ccom.md)
@@ -30,7 +30,7 @@ ht-degree: 21%
 + [INST](inst.md)
 + [IOI](ioi.md)
 + [LOCP](locp.md)
-+ [ルイ](lui.md)
++ [LUI](lui.md)
 + [MSM](msm.md)
 + [NBCC](nbcc.md)
 + [OAUI](oaui.md)
@@ -38,7 +38,7 @@ ht-degree: 21%
 + [OID](oid.md)
 + [PCX](pcx.md)
 + [[!DNL REP]](rep.md)
-+ [海](umi.md)
++ [UMI](umi.md)
 + [URC](urc.md)
 + [URS](urs.md)
 + [WRK](wrk.md)

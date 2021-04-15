@@ -1,14 +1,14 @@
 ---
 source-git-commit: 6615eef21010d2f9ccbc7ecab32cf21901ca5387
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '73'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
-# Adobe Experience Managerパターン検出
+# Adobe Experience Manager パターン検出
 
-これは、Adobe Experience Managerパターン検出のリポジトリです。
+Adobe Experience Manager パターン検出のリポジトリです。
 
 ドキュメントに対する貢献を歓迎します。次のリソースを参照してください。
 

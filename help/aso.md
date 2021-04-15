@@ -1,41 +1,41 @@
 ---
-title: 麻生
+title: ASO
 description: パターン検出コードのヘルプページ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
 
 # ASO {#aso}
 
-AEMシステムの概要
+AEM システムの概要
 
 ## 背景 {#background}
 
-`ASO` AEMインスタンスに関する一般的な情報を識別します。各検索は、特定のタイプのシステム情報の1つの値を提供します。
+`ASO` は、AEM インスタンスに関する一般的な情報を識別します。各検索結果に、特定タイプのシステム情報の値が 1 つ示されます。
 
-サブタイプは、異なる種類の情報を識別するために使用されます。
+サブタイプを使用して、各種情報を識別します。
 
-* `aem.version`:AEMバージョン。
-* `aem.product`:AEM製品の使用の検出(コマース、Formsなど)
-* `node.count`:特定のタイプ（ページ、アセットなど）のノード数の概算。
-* `node.store`:ノードストアの実装タイプ(SegmentNodeStore、DocumentNodeStore)。
-* `data.store`:データストア実装の種類(FileDataStore、S3DataStore、AzureDataStore)。
-* `maintenance.task`:メンテナンスタスク。
-* `slow.query`:ゆっくりしたクエリ。
+* `aem.version`：AEM のバージョン
+* `aem.product`：使用されているAEM 製品（Commerce、Formsなど）の検出
+* `node.count`：特定タイプ（ページ、アセットなど）のノードの概算数
+* `node.store`：ノードストアの実装タイプ（SegmentNodeStore、DocumentNodeStore）
+* `data.store`：データストアの実装タイプ（FileDataStore、S3DataStore、AzureDataStore）
+* `maintenance.task`：メンテナンスタスク
+* `slow.query`：低速のクエリ
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 
-* AEMバージョン、ノード数、ノードストアとデータストアの実装タイプは、情報提供を目的としています。
-* カスタムアプリケーションは、AEMでCloud Serviceとして使用できない製品や機能に依存している場合があります。
-* サポートされていない機能を使用してアップグレードすると、アップグレードに失敗し、アプリケーションが機能しなくなる場合があります。
+* AEM バージョン、ノード数、ノードストアとデータストアの実装タイプは、情報提供を目的として報告されます。
+* カスタムアプリケーションは、AEM as a Cloud Service で使用できない製品や機能に依存している場合があります。
+* サポートされていない機能を使用したままアップグレードすると、アップグレードが失敗し、アプリケーションが機能しなくなることがあります。
 
 ## 可能な解決策 {#solutions}
 
-* サポートされていない製品や機能を含むAEMアップグレードは推奨されないため、サポートされない場合があります。
-* Cloud ServiceとしてのAEMの最新の変更点については、[リリースノート](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ja)を参照してください。
-* 詳しい説明を入手したり、懸念事項に対処するには、[AEMサポートチーム](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+* サポートされていない製品や機能を含む AEM アップグレードは推奨されず、サポートの対象外となる場合があります。
+* AEM as a Cloud Service における最新の変更事項については、[リリースノート](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ja)を参照してください。
+* 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。

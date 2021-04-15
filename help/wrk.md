@@ -1,11 +1,11 @@
 ---
 title: WRK
 description: パターン検出コードのヘルプページ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2391ad7851d4e6634a7bacd684b08db44a9c78e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
@@ -16,20 +16,20 @@ ht-degree: 10%
 
 ## 背景 {#background}
 
-`WRK` ワークフローモデルまたはランチャーに関連する検索を識別します。これらは、AEMにCloud Serviceーとしてアップグレードする場合、カスタムアセットワークフローモデルを移行する必要があるので、レポートされます。
+`WRK` は、ワークフローモデルまたはランチャーに関連する情報を識別します。これらの情報は、AEM as a Cloud Service へのアップグレード時にはカスタムアセットワークフローモデルの移行が必須になるため、報告されます。
 
-サブタイプは、現在検出されているワークフローの問題の種類を識別するために使用されます。
+サブタイプを使用して、現在検出されているワークフローの問題の種類を識別します。
 
-* `custom.asset.workflow`:カスタムアセットワークフローモデルまたはランチャーの検出。
+* `custom.asset.workflow`：カスタムアセットワークフローモデル、ランチャーを検出しました。
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 
-* アセットの処理は、従来、AEM Authorインスタンスで実行されるアセットワークフローで実行されてきました。 AEMをCloud Serviceとして、アセットマイクロサービスによってアセット処理が実行されるようになりました。 (詳しくは、[アセットのマイクロサービスの概要](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=ja)を参照してください。
-* 標準のアセットワークフローは、自動的にアセットマイクロサービスに対応します。
-* アセットワークフローのカスタマイズは、AEMをCloud Serviceとして操作するために、移行する必要があります。
+* アセットの処理はこれまで、AEM オーサーインスタンス上で実行するアセットワークフローで実行されていました。現在、AEM as a Cloud Service でのアセット処理は、アセットマイクロサービスによって実行されています（詳細については、「[アセットマイクロサービスの概要](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=ja)」を参照してください）。
+* 標準のアセットワークフローは、アセットマイクロサービスで自動的にサポートされます。
+* アセットワークフローをカスタマイズする場合は、AEM as a Cloud Service に対応させるために移行が必要です。
 
 ## 可能な解決策 {#solutions}
 
-* カスタムアセットワークフローモデルまたはランチャーが識別された場合は、[アセットワークフロー移行ツール](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/asset-workflow-migration-tool.html)を実行することを計画します。
-* 詳しくは、[Asset microservices](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html?lang=ja)を使用する前にを参照してください。
-* 詳しい説明を入手したり、懸念事項に対処するには、[AEMサポートチーム](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+* カスタムアセットワークフローモデル、またはランチャーが識別された場合は、[アセットワークフロー移行ツール](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/asset-workflow-migration-tool.html?lang=ja)の実行を検討します。
+* 詳細については、「[アセットマイクロサービスの概要](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html?lang=ja)」を参照してください。
+* 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。

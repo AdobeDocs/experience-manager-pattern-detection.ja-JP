@@ -1,11 +1,11 @@
 ---
 title: MSM
 description: パターン検出コードのヘルプページ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2391ad7851d4e6634a7bacd684b08db44a9c78e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '89'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 13%
 
 ## 背景 {#background}
 
-`MSM` AEMマルチサイトマネージャ機能に関する一般的な情報を示します。これは、システムの特徴付けを助けるために提供される。
+`MSM` は、AEM Multi Site Manager の機能に関する一般情報を識別します。この情報は、システムの特徴を把握するときに役立ちます。
 
-サブタイプは、異なる種類の情報を識別するために使用されます。
+サブタイプを使用して、各種情報を識別します。
 
-* `cq.livesyncconfig.found`:AEMに追加されたコンテンツ内の `/jcr:content/cq:LiveSyncConfig` ノードの検出。これは、マルチサイトマネージャーの使用を示しています。
+* `cq.livesyncconfig.found`：AEM に追加されたコンテンツで `/jcr:content/cq:LiveSyncConfig` ノードが検出され、Multi Site Manager が使用されていることを示します。
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 
 
 ## 可能な解決策 {#solutions}
 
-* 詳しい説明を入手したり、懸念事項に対処するには、[AEMサポートチーム](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+* 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。

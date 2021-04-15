@@ -1,11 +1,11 @@
 ---
 title: LOCP
 description: パターン検出コードのヘルプページ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4f94d4a1e0b8eb7bedbedba2c8a683f34655b527
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 43%
 
 ## 背景 {#background}
 
-`LOCP` コンテンツを配信するカスタムパッケージの検出を識別します。これは、アンチパターン `/libs`です（ACLの場合を除く）。
+`LOCP` は、コンテンツを `/libs` に配信するカスタムパッケージを検出し識別します。これは、ACL の場合を除き、アンチパターンです。
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 
@@ -25,5 +25,5 @@ ht-degree: 43%
 
 ## 可能な解決策 {#solutions}
 
-* カスタマーパッケージでは、`/libs`ではなく`/apps`にコンテンツを展開する必要があります。
-* 詳しい説明を入手したり、懸念事項に対処するには、[AEMサポートチーム](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+* カスタムパッケージでは、コンテンツは、`/libs` ではなく `/apps` にデプロイする必要があります。
+* 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。

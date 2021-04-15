@@ -1,11 +1,11 @@
 ---
-title: ルイ
+title: LUI
 description: パターン検出コードのヘルプページ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
@@ -16,36 +16,33 @@ ht-degree: 6%
 
 ## 背景 {#background}
 
-`LUI` AEMの新しいバージョンおよびAEMでCloud Serviceとして推奨されない、またはサポートされない非推奨のユーザーインターフェイス要素の使用を示します。
+`LUI` は、非推奨（廃止予定）のユーザーインターフェイス要素を識別します。これらの要素は、AEM の後続バージョンや AEM as a Cloud Service ではサポートされなくなるため推奨されません。
 
-サブタイプは、アップグレードが必要または必要な様々なタイプのユーザーインターフェイス要素を識別するために使用されます。
+サブタイプを使用して、アップグレードの必要な各種のユーザーインターフェイス要素を識別します。
 
-* `legacy.dialog.classic`:ExtJSに基づくクラシックUIダイアログは、Coralに変更する必要があります。
-   * これは、ダイアログ名が「dialog」または「design_dialog」の場合、および
-`jcr:primaryType`プロパティ値または`xtype`プロパティ値は「cq:Dialog」です。
-* `legacy.dialog.coral2`:Coral 2の対話は、Coral 3を使用するように更新する必要があります。
-   * これは、ダイアログとその子コンテンツノード名が「cq:dialog/content」の場合に検出されます。
-&quot;cq:design_dialog/content&quot;、&quot;cq:dialog.coral2/content&quot;、&quot;cq:design_dialog.coral2/content&quot;
-`sling:resourceType`プロパティ値に
-&quot;granite/ui/components/coral/foundation&quot;
-* `legacy.custom.component`:から継承するコンポーネント `foundation/components`は、コアコンポーネントを使用するように更新する必要があります。
-   * これは、`jcr:primaryType`プロパティの値が「cq:Component」で、
-      `sling:resourceSuperType` プロパティの値に「foundation/components」またはいずれかの
-      `sling:resourceSuperType` スーパータイプコンポーネントのチェーンのプロパティ値には、「foundation/components」が含まれます。
-* `legacy.static.template`:静的テンプレートは、編集可能なテンプレートにアップグレードする必要があります。
-   * これは、`jcr:primaryType`プロパティの値が「cq:Template」の場合に検出されます。
+* `legacy.dialog.classic`：ExtJS に基づくクラシック UI ダイアログは、Coral UI に変更する必要があります。
+   * この状況は、ダイアログ名が「dialog」または「design_dialog」の場合、および `jcr:primaryType` プロパティ値または `xtype` プロパティ値が「cq:Dialog」の場合に検出されます。
+* `legacy.dialog.coral2`：Coral 2 のダイアログは、Coral 3 を使用するように更新する必要があります。
+   * この状況は、ダイアログと子コンテンツノードの名前が「cq:dialog/content」、「cq:design_dialog/content」、「cq:dialog.coral2/content」、
+または「cq:design_dialog.coral2/content」の場合、および `sling:resourceType` プロパティ値に「granite/ui/components/coral/foundation」が含まれる場合に検出されます。
+* `legacy.custom.component`：`foundation/components` から継承されるコンポーネントは、コアコンポーネントを使用するように更新する必要があります。
+   * この状況は、`jcr:primaryType` プロパティ値が「cq:Component」で、
+      `sling:resourceSuperType` プロパティ値に「foundation/components」が含まれる場合、
+      またはスーパータイプコンポーネントチェーンのいずれかの `sling:resourceSuperType` プロパティ値に「foundation/components」が含まれている場合に検出されます。
+* `legacy.static.template`：静的テンプレートは、編集可能なテンプレートにアップグレードする必要があります。
+   * この状況は、`jcr:primaryType` プロパティ値が「cq:Template」の場合に検出されます。
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 
-* クラシックUIは、AEMではCloud Serviceとして使用できなくなりました。 オーサリングの標準のインターフェイスは、タッチ対応UIです。
-* 既存のカスタムコンポーネントに依存すると、時間の経過と共にメンテナンスコストが増加する可能性があります。
+* AEM as a Cloud Service ではクラシック UI が使用できなくなりました。オーサリングの標準インターフェイスは、タッチ対応 UI です。
+* 従来のカスタムコンポーネントへの依存を続けると、時間の経過とともにメンテナンスコストが増大する可能性があります。
 
 ## 可能な解決策 {#solutions}
 
-* [AEM Modernization Tools suite](https://opensource.adobe.com/aem-modernize-tools/)を利用して、AEM Sitesの実装を最新化する手間を省きます。 これらのツールには、次の変換が含まれます。
-   * Classic (ExtJS) Dialogs to Coral Dialogs
+* [AEM Modernization Tools スイート](https://opensource.adobe.com/aem-modernize-tools/)を利用すると、AEM Sites の最新化に伴う労力を軽減することができます。これらのツールは、次の変換に対応します。
+   * クラシック（ExtJS）ダイアログから Coral ダイアログへ
    * 基盤コンポーネントからコアコンポーネントへ
-   * 編集可能なテンプレートとレスポンシブグリッドへの静的テンプレートと列コントロール
-   * 編集可能なテンプレートポリシーに対するデザインおよびデザインダイアログ
-* プロジェクトのカスタムコンポーネントライブラリとトランジションを、可能な限り、標準化された[コアコンポーネント](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=ja)のセットにレビューし、開発時間を短縮し、アプリケーションのメンテナンスコストを削減します。
-* 詳しい説明を入手したり、懸念事項に対処するには、[AEMサポートチーム](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+   * 静的テンプレートおよび列コントロールから編集可能テンプレートおよびレスポンシブグリッドへ
+   * デザインおよびデザインダイアログから編集可能テンプレートポリシーへ
+* プロジェクトのカスタムコンポーネントライブラリを見直し、可能であれば、標準化された[コアコンポーネント](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=ja)への移行を検討することにより、アプリケーションの開発時間を短縮し、メンテナンスコストを削減することができます。
+* 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。

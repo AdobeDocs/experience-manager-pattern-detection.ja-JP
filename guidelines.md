@@ -1,7 +1,7 @@
 ---
 source-git-commit: 6615eef21010d2f9ccbc7ecab32cf21901ca5387
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '752'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ AEM ドキュメントの読者は世界中に存在し、英語を母国語と�
 
 #### マイクロソフトのスタイルガイドへの準拠
 
-マイクロソフトのスタイルガイド『[The Microsoft Manual of Style](https://docs.microsoft.com/ja-jp/style-guide/welcome/)』』（英語版）は、ソフトウェアドキュメントに重点を置いたドキュメントスタイルガイドで、無料で入手できます。AEM ドキュメントは、可能な限り、このガイドに従っています。
+マイクロソフトのスタイルガイド『[The Microsoft Manual of Style](https://docs.microsoft.com/ja-jp/style-guide/welcome/)』（英語版）は、ソフトウェアドキュメントに重点を置いたドキュメントスタイルガイドで、無料で入手できます。AEM ドキュメントは、可能な限り、このガイドに従っています。
 
 ### 書式設定
 

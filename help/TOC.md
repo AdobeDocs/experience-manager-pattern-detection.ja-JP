@@ -4,8 +4,8 @@ user-guide-title: Experience Manager パターン検出ガイド
 breadcrumb-title: AEM パターン検出
 user-guide-description: Adobe Experience Manager パターン検出について学習します。
 feature-set: Experience Manager
-feature: 開発者ツール
-role: デベロッパー
+feature: Developer Tools
+role: Developer
 translation-type: ht
 source-git-commit: a6ba6e93c89644160650882ecbf17028bec35068
 workflow-type: ht

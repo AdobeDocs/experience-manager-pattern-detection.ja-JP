@@ -1,20 +1,28 @@
 ---
 title: DG
 description: パターン検出コードのヘルプページ
-translation-type: ht
-source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
-workflow-type: ht
-source-wordcount: '409'
-ht-degree: 100%
+exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
+translation-type: tm+mt
+source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
+workflow-type: tm+mt
+source-wordcount: '569'
+ht-degree: 87%
 
 ---
-
 
 # DG {#dg}
 
 開発者ガイドライン
 
 ## 背景 {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_dg_overview"
+>title="開発者向けガイドライン"
+>abstract="DGコードは、AEM 6.5およびAEMで選択された開発ガイドラインの偏差をCloud Serviceとして識別します。 ベストプラクティスに従うと、システムの保守性とパフォーマンスが向上します。これらの逸脱は、AEM の旧バージョンを含む他のアプリケーションコンテキストでは問題にならない場合もありますが、AEM as a Cloud Service で使用した場合に問題が起きる可能性があります。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html" text="AEM開発 — ガイドラインとベストプラクティス"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="AEM as a Cloud Service の開発ガイドライン"
+
 
 `DG` は、選択された開発ガイドラインの [AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html?lang=ja) および [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=ja) に対する逸脱を識別します。ベストプラクティスに従うと、システムの保守性とパフォーマンスが向上します。これらの逸脱は、AEM の旧バージョンを含む他のアプリケーションコンテキストでは問題にならない場合もありますが、AEM as a Cloud Service で使用した場合に問題が起きる可能性があります。
 
@@ -38,6 +46,13 @@ ht-degree: 100%
    * [バックグラウンドタスクと長時間を要するジョブ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=ja#background-tasks-and-long-running-jobs)に関する AEM as a Cloud Service 開発ガイドラインでは、スケジュールされたタスクとして実行されるコードは、それが実行されているインスタンスがいつでも停止できることを前提にすべきであるとしています。したがって、コードには耐障害性と再開可能性が求められます。
 
 ## 可能な解決策 {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_dg_guidance"
+>title="導入ガイダンス"
+>abstract="AEMの開発ガイドラインとベストプラクティスに従い、お客様は、Sling Commonsスケジューラーの使用に関する実装を確認し、Sling Jobsに再構築し、システム保守タスクを再構築し、バイナリデータのストリーミングを確認し、コードをCloud ServiceとしてAEMに準拠するようにリファクタリングする必要があります。"
+>additional-url="https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing" text="Sling ジョブ"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html" text="AEM as a Cloud Service のメンテナンスタスク"
 
 * `java.io.inputstream`
    * バイナリをデータストアに直接追加するダイレクトバイナリアップロードアプローチを使用します。

@@ -1,14 +1,14 @@
 ---
 title: CAV
 description: パターン検出コードのヘルプページ
-translation-type: ht
-source-git-commit: 2391ad7851d4e6634a7bacd684b08db44a9c78e8
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
+translation-type: tm+mt
+source-git-commit: 1966a3e83ab6b2247d9f1095c8965eac399e3b6e
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 73%
 
 ---
-
 
 # CAV {#cav}
 
@@ -16,9 +16,15 @@ ht-degree: 100%
 
 ## 背景 {#background}
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_cav_overview"
+>title="コンテンツ領域違反"
+>abstract="CAVコードは、コンテンツ分類のルールに違反する方法で異なるコンテンツ領域が使用されているパターンを識別します。 この違反により、AEMにCloud Serviceとして移行した後に変更が必要になる可能性のある、オーバーレイ、制限付きコンテンツの概要が提供されます。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html#platform" text="Sling Resource Merger"
+
 `CAV` は、コンテンツ分類ルールに違反する形でコンテンツ領域が使用されているパターンを識別します。
 
-Sling リクエスト処理では、リソースのコンテンツ（特にリソースの `sling:resourceType` プロパティ）を使用して、コンテンツのレンダリングに用いるスクリプトを決定する方法を定義します（詳細については、「[スクリプトの検索](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/the-basics.html?lang=ja#locating-the-script)」を参照してください）。Sling では、「オーバーレイ」や「オーバーライド」を使用して、リソースにアクセスしたり、結合したりすることもできます。これらの方法は、[Sling Resource Merger](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html?lang=ja) および[オーバーレイ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html?lang=ja)で説明されています。
+Sling リクエスト処理では、リソースのコンテンツ（特にリソースの `sling:resourceType` プロパティ）を使用して、コンテンツのレンダリングに用いるスクリプトを決定する方法を定義します詳しくは、[スクリプトの検索](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/the-basics.html?lang=ja#locating-the-script)を参照してください。 Sling では、「オーバーレイ」や「オーバーライド」を使用して、リソースにアクセスしたり、結合したりすることもできます。これらの方法は、[Sling Resource Merger](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html?lang=ja) および[オーバーレイ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html?lang=ja)で説明されています。
 
 お客様が `/libs` のどの領域を安全に使用でき、オーバーレイできるのかを容易に把握できるように、`/libs` の コンテンツは「mixin」プロパティ（Public、Abstract、Final、および Internal）で分類されています。各分類は、コンテンツがどのように使用、継承、オーバーレイされるかを規定するルールを示します。詳細については、「[持続可能なアップグレード](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html?lang=ja)」を参照してください。
 
@@ -28,6 +34,13 @@ Sling リクエスト処理では、リソースのコンテンツ（特にリ�
 * セキュリティの更新が有効ではありません。
 
 ## 可能な解決策 {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_cav_guidance"
+>title="導入ガイダンス"
+>abstract="異なるコンテンツ領域違反が存在するCASで識別されるパターンを確認する必要があります。 コンテンツの最終的な分類領域と内部的な分類領域は避ける必要があります。 ヘルプと説明については、Adobeサポートにお問い合わせください。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html" text="持続可能なアップグレード"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloudサポート"
 
 * コンテンツオーバーレイを使用する場合は、必要最小限にとどめてください。
 * 特に、制限付きコンテンツ（分類が Final と Internal のコンテンツ）にはオーバーレイを使用しないでください。

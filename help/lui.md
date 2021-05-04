@@ -1,20 +1,26 @@
 ---
 title: LUI
 description: パターン検出コードのヘルプページ
-translation-type: ht
-source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
-workflow-type: ht
-source-wordcount: '347'
-ht-degree: 100%
+exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
+translation-type: tm+mt
+source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 68%
 
 ---
-
 
 # LUI {#lui}
 
 レガシーユーザーインターフェイス
 
 ## 背景 {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_lui_overview"
+>title="レガシーユーザーインターフェイス"
+>abstract="LUIは、AEMの新しいバージョンやAEMで推奨されない、またはサポートされない非推奨のユーザーインターフェイス要素の使用をCloud Serviceとして識別します。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=ja" text="主な変更点 — AEMをCloud Serviceとして"
 
 `LUI` は、非推奨（廃止予定）のユーザーインターフェイス要素を識別します。これらの要素は、AEM の後続バージョンや AEM as a Cloud Service ではサポートされなくなるため推奨されません。
 
@@ -34,10 +40,23 @@ ht-degree: 100%
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_lui_guidance"
+>title="導入ガイダンス"
+>abstract="AEMでは、クラシックUIはCloud Serviceとしては使用できなくなり、オーサリングの標準インターフェイスはタッチ対応UIです。 ベストプラクティスは、サポートされていないインターフェイスをすべて移動し、リンクされたカスタマイズを、AEMとCloud Serviceとして互換性のある新しい機能や機能にリファクタリングすることです。 お客様は、既存のAEM Modernization Suiteを利用して、AEM Sitesの実装を最新化するために必要な労力を削減できます。"
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="AEM Modernization Tools"
+
 * AEM as a Cloud Service ではクラシック UI が使用できなくなりました。オーサリングの標準インターフェイスは、タッチ対応 UI です。
 * 従来のカスタムコンポーネントへの依存を続けると、時間の経過とともにメンテナンスコストが増大する可能性があります。
 
 ## 可能な解決策 {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_lui_tools"
+>title="ツールとリソース"
+>abstract="AEM Modernization Suiteの支援により、お客様はClassic(ExtJS)のダイアログをCoralダイアログに変換できます。 目的は、お客様がサポートされていない機能や従来の機能から堅牢かつ最新のAEM製品に移行する際の支援です。 これらのツールは、構成に対応し、拡張可能で構成に対応しています。 また、カスタムコンポーネントの代わりに標準化されたコアコンポーネントのセットを使用して、開発時間を短縮し、アプリケーションのメンテナンスコストを削減することも検討します。"
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/component.html" text="コンポーネントコンバータ"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="コアコンポーネント"
 
 * [AEM Modernization Tools スイート](https://opensource.adobe.com/aem-modernize-tools/)を利用すると、AEM Sites の最新化に伴う労力を軽減することができます。これらのツールは、次の変換に対応します。
    * クラシック（ExtJS）ダイアログから Coral ダイアログへ

@@ -1,20 +1,27 @@
 ---
 title: INST
 description: パターン検出コードのヘルプページ
-translation-type: ht
-source-git-commit: ae3e162da40441fba39e6e9d283c495d15f40ba1
-workflow-type: ht
-source-wordcount: '315'
-ht-degree: 100%
+exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
+translation-type: tm+mt
+source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
+workflow-type: tm+mt
+source-wordcount: '523'
+ht-degree: 74%
 
 ---
-
 
 # INST {#inst}
 
 インストール済みアーティファクト
 
 ## 背景 {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_inst_overview"
+>title="インストール済みアーティファクト"
+>abstract="INSTは、お客様がAEMにインストールしたカスタムおよびサードパーティのパッケージおよびバンドルを識別します。 こうした情報は、システムの状態やアップグレード作業の全般的な範囲を把握するために報告されます。サードパーティ製パッケージは、Cloud Serviceの開発およびパッケージングのガイドラインとしてAEMに準拠する必要があります。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="開発ガイドライン —Cloud ServiceとしてのAEM"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html" text="パッケージ化のガイドライン — AEMをCloud Serviceとして"
 
 `INST` は、お客様によって AEM にインストールされたカスタムパッケージおよびサードパーティ製パッケージのバンドルを識別します。こうした情報は、システムの状態やアップグレード作業の全般的な範囲を把握するために報告されます。
 
@@ -29,11 +36,25 @@ ht-degree: 100%
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_inst_guidance"
+>title="導入ガイダンス"
+>abstract="CRX Package Managerを使用してサードパーティパッケージをインストールできなくなりました。 お客様は、これらのインストールされたアーティファクトを確認し、AEMをCloud Serviceとして使用できるように、アーティファクトの構造と最適化を行う必要があります。 サードパーティ製パッケージと AEM as a Cloud Service との互換性は、パッケージの作成者またはアドビに確認する必要があります。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#embeddeds" text="コンテナパッケージへのサブパッケージの埋め込み"
+
+
 * CRX パッケージマネージャーを使用してサードパーティ製パッケージを AEM as a Cloud Service にインストールすることはできません。
 * サードパーティ製パッケージに依存するアプリケーションは、AEM as a Cloud Service での動作に合わせて正しくデプロイしない限り、期待通り動作しないことがあります。
 * サードパーティベンダーのパッケージは、AEM as a Cloud Service 用に最適化されていないと、意図しない動作をする可能性があります。
 
 ## 可能な解決策 {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_inst_tools"
+>title="ツールとリソース"
+>abstract="WKND-legacyプロジェクトを確認し、INST違反をAEMCloud Serviceと互換性を持たせる方法を理解します。 また、GithubのINST違反の例を確認し、AEMでCloud Serviceとしてこの問題を修正して導入する方法を理解してください。"
+>additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="WKND — レガシープロジェクト"
+>additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="INST違反の例 — Github"
 
 * サードパーティ製パッケージは、Cloud Manager の[デプロイメントプロセス](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/deploy-code.html?lang=ja#deployment-process)を使用して、プロジェクトの一部として AEM にデプロイする必要があります。
 * AEM as a Cloud Service のプロジェクトに[サードパーティ製パッケージを組み込む](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ja#embedding-3rd-party-packages)方法を確認します。

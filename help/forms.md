@@ -3,10 +3,10 @@ title: FORM
 description: パターン検出コードのヘルプページ
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 translation-type: tm+mt
-source-git-commit: cbd43bca20831c19eb30703cc1ec528c75f2a2ef
+source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
-source-wordcount: '1136'
-ht-degree: 41%
+source-wordcount: '1228'
+ht-degree: 39%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 41%
 [!DNL Adobe Experience Manager Forms]
 
 ## 背景 {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_forms_overview"
+>title="FORMS"
+>abstract="Formsコードは、Adobe Experience Manager FormsからAdobe Experience Manager Formsへの移行に関連する潜在的な問題をCloud Serviceとして特定します。 Cloud Serviceに移行する前に、潜在的な意味合いと関連するリスクを確認し、これらの問題に対処します。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/forms.html#implications-and-risks" text="可能性のある影響およびリスク"
 
 `FORMS` から [!DNL Adobe Experience Manager Forms] への移行に関連する潜在的な問題を、として特定 [!DNL Adobe Experience Manager Form]し [!DNL Cloud Service]ます。[!DNL Cloud Service]に移行する前に、これらの問題に対処してください。
 
@@ -62,6 +68,12 @@ ht-degree: 41%
 * [ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology) サービスの手順は、AEMワークフローでは使用できません。(WORKFLOW_DOCSERVICES)
 
 ## 可能な解決策 {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_forms_guidance"
+>title="導入ガイダンス"
+>abstract="FORMSコードで公開された情報は、一部の機能およびAPIをCloud Serviceと互換性を持たせるために必要な置き換えやその他の対応に関するガイダンスを提供できます。 ヘルプと説明を求めるAdobeサポートにご連絡ください。"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloudサポート"
 
 * 移行ユーティリティを使用して、現在の環境にあるルールスクリプトをすべて再利用可能な関数に変換します。再利用可能な関数をビジュアルルールエディターで使用することにより、引き続き、ルールスクリプトで取得した結果を利用できるようになります。(CODE_EDITOR)
 

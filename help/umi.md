@@ -1,20 +1,27 @@
 ---
 title: UMI
 description: パターン検出コードのヘルプページ
-translation-type: ht
-source-git-commit: 4f94d4a1e0b8eb7bedbedba2c8a683f34655b527
-workflow-type: ht
-source-wordcount: '145'
-ht-degree: 100%
+exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
+translation-type: tm+mt
+source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
+workflow-type: tm+mt
+source-wordcount: '234'
+ht-degree: 70%
 
 ---
-
 
 # UMI {#umi}
 
 アップグレード設定ミスの問題
 
 ## 背景 {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_umi_overview"
+>title="アップグレード設定ミスの問題"
+>abstract="UMIは、アップグレードの失敗や機能の低下など、アップグレード時に問題を引き起こす特定のOSGi設定への変更を識別します。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=ja" text="主な変更点 — AEMをCloud Serviceとして"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ja" text="AEMをCloud Serviceとして — リリースノート"
 
 `UMI` は、アップグレードに伴い、アップグレードの失敗や機能低下も含め、問題を生じる原因となる特定の OSGi 設定への変更を識別します。
 
@@ -32,6 +39,12 @@ ht-degree: 100%
    * 特定の機能で所定の動作が実行されない場合があります。例えば、`org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` を変更すると、一部の JSP ファイルがコンパイルから除外され、結果的に機能が欠落することがあります。
 
 ## 可能な解決策 {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_umi_guidance"
+>title="導入ガイダンス"
+>abstract="ベストプラクティスは、現在の設定を確認し、前述の設定に対して行った変更を元に戻して、将来のアップグレードの問題を回避することです。 ヘルプと説明を求めるAdobeサポートにご連絡ください。"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloudサポート"
 
 * 上記の 4 つの設定は、変更または削除しないでください。
 * 設定を変更した場合は、所定の値に戻す必要があります。これらの値は、`UMI` メッセージで指示されます。

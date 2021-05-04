@@ -1,20 +1,27 @@
 ---
 title: PCX
 description: パターン検出コードのヘルプページ
-translation-type: ht
-source-git-commit: 2391ad7851d4e6634a7bacd684b08db44a9c78e8
-workflow-type: ht
-source-wordcount: '149'
-ht-degree: 100%
+exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
+translation-type: tm+mt
+source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
+workflow-type: tm+mt
+source-wordcount: '227'
+ht-degree: 74%
 
 ---
-
 
 # PCX {#pcx}
 
 ページの複雑さ
 
 ## 背景 {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_pcx_overview"
+>title="ページの複雑さ"
+>abstract="PCXは、構造内に多数のノードを含むページを識別します。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=ja" text="主な変更点 — AEMをCloud Serviceとして"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ja" text="AEMをCloud Serviceとして — リリースノート"
 
 `PCX` は、構造中に多数のノードを含むページを識別します。
 
@@ -28,6 +35,12 @@ ht-degree: 100%
 * ページに含まれる多数のノードが、レンダリングパフォーマンスに影響を及ぼす可能性があります。
 
 ## 可能な解決策 {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_pcx_guidance"
+>title="導入ガイダンス"
+>abstract="ベストプラクティスは、ページの複雑さを軽減するためのコンテンツ構造を確認することです。これにより、ページレンダリングのパフォーマンスが向上します。 ヘルプと説明を求めるAdobeサポートにご連絡ください。"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloudサポート"
 
 * ページに含まれる総ノード数を減らすために次の手順を実行します。
    * 不要なコンテナがないことを確認します。

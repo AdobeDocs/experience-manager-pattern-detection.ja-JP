@@ -1,20 +1,26 @@
 ---
 title: OID
 description: パターン検出コードのヘルプページ
-translation-type: ht
-source-git-commit: 5a83dd8d08da974a5d775032b8dbea2593be9d15
-workflow-type: ht
-source-wordcount: '298'
-ht-degree: 100%
+exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
+translation-type: tm+mt
+source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 73%
 
 ---
-
 
 # OID {#oid}
 
 Oak Index Definition
 
 ## 背景 {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_oid_overview"
+>title="Oakインデックスの定義"
+>abstract="OIDは、Oakインデックスの定義に関連する問題を識別します。 標準 Oak インデックス定義に加えられた変更を識別します。AEM as a Cloud Service と互換性のないカスタム Oak インデックス定義も識別されます。各OID検索のメッセージは、インデックスを識別し、追加情報を提供します。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html#how-to-use" text="コンテンツインデックスのガイドライン"
 
 `OID` は、Oak インデックスの定義に関連する問題を識別します。標準 Oak インデックス定義に加えられた変更を識別します。AEM as a Cloud Service と互換性のないカスタム Oak インデックス定義も識別されます。`OID` の各検索結果に関するメッセージには、インデックスと追加情報が記載されます。
 
@@ -25,11 +31,25 @@ Oak Index Definition
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_oid_guidance"
+>title="導入ガイダンス"
+>abstract="ベストプラクティスは、すべてのカスタムインデックスを確認し、コンテンツインデックスのガイドラインに従って構造を再作成することです。 Index Converterを利用して、既存のカスタムOakインデックス定義を、Cloud Service互換のカスタムOakインデックス定義としてAEMに移行します。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#oak-indexes" text="パッケージのガイドライン"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/index-converter.html#refactoring-tools" text="インデックスコンバーター"
+
 * 標準 Oak インデックス定義に対する変更は、AEM のアップグレード中に失われることがあります。
 * Oak の定義は不変であるため、カスタムプロジェクトコードでパッケージ化します。またデプロイは Cloud Manager を使用してのみ行います。
 * Oak インデックス定義はすべて、AEM as Cloud Service での Oak インデックスに関する命名規則、その他のルールに準拠する必要があります。準拠していない定義は、意図しない動作の原因になります。
 
 ## 可能な解決策 {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_oid_tools"
+>title="ツールとリソース"
+>abstract="WKND-legacyプロジェクトを確認し、プロジェクトでOID違反を解決する方法を理解します。 また、GithubのOID違反の例を確認し、Index Converterツールを使用して従来のインデックスを変換し、AEMとの互換性を持たせる方法を理解してください。"
+>additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid" text="WKND — レガシープロジェクト"
+>additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid" text="OID違反の例 — Github"
 
 * メッセージで特定されたインデックスルールの違反を解決します。
 * Oak インデックスの新しい定義やカスタム定義をデプロイする場合は、AEM as a Cloud Service の[パッケージガイドライン](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ja)に従ってください。

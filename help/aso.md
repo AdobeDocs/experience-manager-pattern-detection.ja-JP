@@ -1,20 +1,26 @@
 ---
 title: ASO
 description: パターン検出コードのヘルプページ
-translation-type: ht
-source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
-workflow-type: ht
-source-wordcount: '198'
-ht-degree: 100%
+exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
+translation-type: tm+mt
+source-git-commit: 449288e567adda9998a89e0ad5198fd5a4e93f35
+workflow-type: tm+mt
+source-wordcount: '300'
+ht-degree: 71%
 
 ---
-
 
 # ASO {#aso}
 
 AEM システムの概要
 
 ## 背景 {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_aso_overview"
+>title="AEM システムの概要"
+>abstract="ASOコードは、AEMインスタンスに関する一般的な情報を識別します。 各検索結果には、移行計画やリファクタリング作業に役立つ、特定のタイプのシステム情報の1つの値が提供されます。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEMをCloud Serviceとして — リリースノート"
 
 `ASO` は、AEM インスタンスに関する一般的な情報を識別します。各検索結果に、特定タイプのシステム情報の値が 1 つ示されます。
 
@@ -35,6 +41,12 @@ AEM システムの概要
 * サポートされていない機能を使用したままアップグレードすると、アップグレードが失敗し、アプリケーションが機能しなくなることがあります。
 
 ## 可能な解決策 {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_aso_guidance"
+>title="導入ガイダンス"
+>abstract="ASOコードで公開された情報は、バージョン、製品アドオン、システムレベル情報など、AEM環境の一般的な情報を提供します。この情報は、AEMのCloud Serviceとしてサポートされていない製品や機能について確認する必要があります。 ヘルプと説明については、Adobeサポートにお問い合わせください。"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloudサポート"
 
 * サポートされていない製品や機能を含む AEM アップグレードは推奨されず、サポートの対象外となる場合があります。
 * AEM as a Cloud Service における最新の変更事項については、[リリースノート](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ja)を参照してください。

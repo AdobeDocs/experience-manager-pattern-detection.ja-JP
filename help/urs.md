@@ -1,18 +1,24 @@
 ---
 title: URS
 description: パターン検出コードのヘルプページ
-translation-type: ht
-source-git-commit: 5a83dd8d08da974a5d775032b8dbea2593be9d15
-workflow-type: ht
-source-wordcount: '295'
-ht-degree: 100%
+exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
+translation-type: tm+mt
+source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
+workflow-type: tm+mt
+source-wordcount: '408'
+ht-degree: 78%
 
 ---
-
 
 # URS {#urs}
 
 サポートされていないリポジトリ構造
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_urs_overview"
+>title="サポートされていないリポジトリ構造"
+>abstract="URSは、サポートされないリポジトリ構造のケースを識別します。 この情報は、AEM製品コードと顧客コードの間の競合、リポジトリ内の他のフォルダーへの/etcからのコンテンツの再構成などを避けるために、情報を表示します。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html" text="リポジトリの再構築"
 
 ## 背景 {#background}
 
@@ -34,6 +40,13 @@ ht-degree: 100%
 * パッケージ中に可変コンテンツと不変コンテンツの両方が含まれていると、デプロイメント中に問題が起こることがあります。
 
 ## 可能な解決策 {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_urs_guidance"
+>title="導入ガイダンス"
+>abstract="ベストプラクティスは、コードプロジェクトを確認し、AEMプロジェクト構造のガイドラインに従っていることを確認し、AEMでCloud Serviceとして意図しない動作を引き起こす可能性のある古い/サポートされていないリポジトリパスに依存しないようにすることです。 ヘルプと説明を求めるAdobeサポートにご連絡ください。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html" text="AEMプロジェクト構造のガイドライン"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloudサポート"
 
 * AEM as a Cloud Service を準備する際のガイダンスとして、「[リポジトリの再構築](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html?lang=ja)」を参照してください。
 * リポジトリの可変領域と不変領域の詳細については、「[AEM プロジェクト構造](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ja)」も参照してください。

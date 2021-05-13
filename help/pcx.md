@@ -2,11 +2,11 @@
 title: PCX
 description: パターン検出コードのヘルプページ
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_overview"
 >title="ページの複雑さ"
->abstract="PCXは、構造内に多数のノードを含むページを識別します。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=ja" text="主な変更点 — AEMをCloud Serviceとして"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ja" text="AEMをCloud Serviceとして — リリースノート"
+>abstract="PCX は、構造中に多数のノードを含むページを識別します。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=ja" text="主要な変更点 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ja" text="AEM as a Cloud Service - リリースノート"
 
 `PCX` は、構造中に多数のノードを含むページを識別します。
 
@@ -38,9 +38,9 @@ ht-degree: 74%
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
->title="導入ガイダンス"
->abstract="ベストプラクティスは、ページの複雑さを軽減するためのコンテンツ構造を確認することです。これにより、ページレンダリングのパフォーマンスが向上します。 ヘルプと説明を求めるAdobeサポートにご連絡ください。"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloudサポート"
+>title="実装ガイダンス"
+>abstract="ベストプラクティスとしては、コンテンツ構造を確認して、ページの複雑さを軽減することをお勧めします。これにより、ページレンダリングのパフォーマンスが向上します。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
+>additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * ページに含まれる総ノード数を減らすために次の手順を実行します。
    * 不要なコンテナがないことを確認します。

@@ -2,11 +2,11 @@
 title: UMI
 description: パターン検出コードのヘルプページ
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '234'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_umi_overview"
 >title="アップグレード設定ミスの問題"
->abstract="UMIは、アップグレードの失敗や機能の低下など、アップグレード時に問題を引き起こす特定のOSGi設定への変更を識別します。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=ja" text="主な変更点 — AEMをCloud Serviceとして"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ja" text="AEMをCloud Serviceとして — リリースノート"
+>abstract="UMI は、アップグレードに伴い、アップグレードの失敗や機能低下も含め、問題を生じる原因となる特定の OSGi 設定への変更を識別します。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=ja" text="主要な変更点 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ja" text="AEM as a Cloud Service - リリースノート"
 
 `UMI` は、アップグレードに伴い、アップグレードの失敗や機能低下も含め、問題を生じる原因となる特定の OSGi 設定への変更を識別します。
 
@@ -42,9 +42,9 @@ ht-degree: 70%
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_umi_guidance"
->title="導入ガイダンス"
->abstract="ベストプラクティスは、現在の設定を確認し、前述の設定に対して行った変更を元に戻して、将来のアップグレードの問題を回避することです。 ヘルプと説明を求めるAdobeサポートにご連絡ください。"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloudサポート"
+>title="実装ガイダンス"
+>abstract="ベストプラクティスとしては、現在の設定を確認し、前述の設定に対して行った変更を元に戻して、今後アップグレードに関する問題が発生しないようにすることをお勧めします。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
+>additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * 上記の 4 つの設定は、変更または削除しないでください。
 * 設定を変更した場合は、所定の値に戻す必要があります。これらの値は、`UMI` メッセージで指示されます。

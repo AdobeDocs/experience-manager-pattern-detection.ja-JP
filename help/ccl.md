@@ -2,11 +2,11 @@
 title: CCL
 description: パターン検出コードのヘルプページ
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccl_overview"
 >title="カスタムクライアントライブラリ"
->abstract="CCLは、AEMにインストールされているクライアントライブラリを識別します。 この情報は、ベストプラクティスの評価を目的として提供されます。"
+>abstract="CCL は、AEM にインストールされているクライアントライブラリを識別します。この情報は、ベストプラクティスの評価を目的として提供されます。"
 
 `CCL` は、AEM にインストールされているクライアントライブラリを識別します。この情報は、ベストプラクティスの評価を目的として提供されます。
 
@@ -34,8 +34,8 @@ ht-degree: 68%
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccl_guidance"
->title="導入ガイダンス"
->abstract="CCLで識別されるAEMに追加されたクライアントライブラリは、重複がなく、最新のバージョンが使用されていることを確認するために確認する必要があります。 ヘルプと説明を求めるAdobeサポートにご連絡ください。"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloudサポート"
+>title="実装ガイダンス"
+>abstract="AEM に追加されたクライアントライブラリのうち、CCL で識別されたものについて、重複がないことと、最新のバージョンが使用されていることを確認してください。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
+>additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。

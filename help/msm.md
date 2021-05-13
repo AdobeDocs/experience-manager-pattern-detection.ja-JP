@@ -2,11 +2,11 @@
 title: MSM
 description: パターン検出コードのヘルプページ
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 61%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_overview"
 >title="マルチサイトマネージャー"
->abstract="MSMは、AEM Multi Site Managerの機能に関する一般的な情報を識別します。 この情報は、システムの特徴を把握するときに役立ちます。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=ja" text="主な変更点 — AEMをCloud Serviceとして"
+>abstract="MSM は、AEM マルチサイトマネージャーの機能に関する一般的な情報を識別します。この情報は、システムの特徴を把握するときに役立ちます。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=ja" text="主要な変更点 - AEM as a Cloud Service"
 
-`MSM` は、AEM Multi Site Manager の機能に関する一般情報を識別します。この情報は、システムの特徴付けに役立ちます。
+`MSM` は、AEM Multi Site Manager の機能に関する一般情報を識別します。この情報は、システムの特徴を把握するときに役立ちます。
 
 サブタイプを使用して、各種情報を識別します。
 
@@ -35,8 +35,8 @@ ht-degree: 61%
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_guidance"
->title="導入ガイダンス"
->abstract="ベストプラクティスは、すべてのカスタムMSMロールアウト設定とカスタムロールアウトアクションを確認し、Cloud ServiceとしてAEMで動作することを確認することです。 ヘルプと説明を求めるAdobeサポートにご連絡ください。"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloudサポート"
+>title="実装ガイダンス"
+>abstract="ベストプラクティスとしては、すべてのカスタム MSM ロールアウト設定とカスタムロールアウトアクションのレビューを実施し、AEM as a Cloud Service で動作することを確認することをお勧めします。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
+>additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。

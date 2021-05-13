@@ -2,11 +2,11 @@
 title: DM
 description: パターン検出コードのヘルプページ
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ Dynamic Media
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_overview"
 >title="Dynamic Media"
->abstract="DMコードは、現在の導入でのAEM AssetsDynamic Mediaの使用状況を識別します。 Dynamic Media モードは、実行モードで検出されます。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html?lang=ja" text="AEM開発 — ガイドラインとベストプラクティス"
+>abstract="DM コードは、現在の実装における AEM Assets Dynamic Media の使用状況を識別します。Dynamic Media モードは、実行モードで検出されます。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html?lang=ja" text="AEM の開発 - ガイドラインとベストプラクティス"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=ja" text="AEM as a Cloud Service の開発ガイドライン"
 
-`DM` は、AEM Assets ダイナミックメディアが使用されている状況を識別します。Dynamic Media モードは、実行モードで検出されます。
+`DM` は、AEM Assets Dynamic Media が使用されている状況を識別します。Dynamic Media モードは、実行モードで検出されます。
 
 このコードには次のサブタイプが使用されます。
 
@@ -40,13 +40,13 @@ Dynamic Media
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_guidance"
->title="導入ガイダンス"
->abstract="AEM asCloud Serviceはdynamicmedia_scene7 runmodeのみをサポートします。 現在の設定を確認し、Adobeサポートチームに問い合わせて、ヘルプと説明が必要です。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html" text="Dynamic Media のセットアップ"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloudサポート"
+>title="実装ガイダンス"
+>abstract="AEM as a Cloud Service では dynamicmedia_scene7 実行モードのみサポートしています。ヘルプおよび詳しい説明については、現在の設定を確認したうえで、アドビサポートチームにご連絡ください。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html?lang=ja" text="Dynamic Media のセットアップ"
+>additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 
 * `dynamic.media.runmode`
-   * 詳細については、「[Dynamic Media の設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html?lang=ja)」を参照してください。
+   * 詳細については、[Dynamic Media の設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html?lang=ja)を参照してください。
 
 * 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。

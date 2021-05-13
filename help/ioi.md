@@ -2,11 +2,11 @@
 title: IOI
 description: パターン検出コードのヘルプページ
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_overview"
 >title="内部 Oak 読み込み"
->abstract="IOIコードは、OSGiを介して内部Oakパッケージをインポートし、お客様が使用している内部Oakパッケージを識別します。 Oak パッケージは通常、特別なバージョンを使用することなく書き出され、別の Oak バンドルや低レベルの AEM で使用されることを想定しています。"
+>abstract="IOI コードは、OSGi を介して読み込む内部 Oak パッケージの使用を識別します。Oak パッケージは通常、特別なバージョンを使用することなく書き出され、別の Oak バンドルや低レベルの AEM で使用されることを想定しています。"
 
 `IOI` は、OSGi を介して読み込む内部 Oak パッケージの使用を識別します。Oak パッケージは通常、特別なバージョンを使用することなく書き出され、別の Oak バンドルや低レベルの AEM で使用されることを想定しています。
 
-その一部は、起動時に AEM のリポジトリを設定する `com.adobe.granite.repository` によって使用されます。もう １ つの例は、Oak メンテナンスタスクをラップして提供する `com.adobe.granite.maintenance.oak` Adobe バンドルです。
+その一部は、起動時に AEM のリポジトリーを設定する `com.adobe.granite.repository` によって使用されます。もう １ つの例は、Oak メンテナンスタスクをラップして提供する `com.adobe.granite.maintenance.oak` Adobe バンドルです。
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 
@@ -34,9 +34,9 @@ ht-degree: 78%
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_guidance"
->title="導入ガイダンス"
->abstract="お客様は、カスタムコードを見直して、そのようなAPIの使用状況を特定し、AEMとの互換性を持つようにリファクタリングする必要があります。 ヘルプと説明を求めるAdobeサポートにご連絡ください。"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloudサポート"
+>title="実装ガイダンス"
+>abstract="カスタムコードを確認して、そのような API の使用状況を特定し、AEM as a Cloud Service に対応するようにカスタムコードをリファクタリングする必要があります。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
+>additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * 低レベルのアクセスではなく、Sling Resource API（または JCR API）を使用します。
 * 公開 API や SPI の一部ではない内部パッケージへの依存は避けてください。

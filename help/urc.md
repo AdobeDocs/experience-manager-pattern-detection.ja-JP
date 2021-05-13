@@ -2,11 +2,11 @@
 title: URC
 description: パターン検出コードのヘルプページ
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_overview"
 >title="サポートされていない実行モードの設定"
->abstract="URCは、AEMでCloud Serviceとしてサポートされていないランモード名に基づく設定の使用を識別します。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#custom-runmodes" text="サポートされる実行モード"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#runmodes" text="実行モード"
+>abstract="URC は、AEM as a Cloud Service でサポートされていない実行モード名に基づく設定の使用状況を識別します。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=ja#custom-runmodes" text="サポートされている実行モード"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=ja#runmodes" text="実行モード"
 
 `URC` は、AEM as a Cloud Service でサポートされていない実行モード名に基づく設定の使用状況を識別します。
 
@@ -29,9 +29,9 @@ ht-degree: 63%
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_guidance"
->title="導入ガイダンス"
->abstract="ベストプラクティスは、アプリケーションで使用されるすべての実行モードがサポートされているかどうかを確認し、実行モード解決のガイドラインに従うことです"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#deploying" text="Runmode解決のガイドライン"
+>title="実装ガイダンス"
+>abstract="ベストプラクティスとしては、アプリケーションで使用されているすべての実行モードがサポートされているかどうかを確認し、実行モード解決ガイドラインに確実に従うようにすることをお勧めします。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html?lang=ja#deploying" text="実行モード解決ガイドライン"
 
 * AEM as a Cloud Service では実行モードに使用できる名前は限られています。
 * サポートされていない実行モード名に基づく設定は、AEM as a Cloud Service にデプロイしても何も影響がありません。
@@ -41,9 +41,9 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"
 >title="ツールとリソース"
->abstract="WKND-legacyプロジェクトを見直し、URC違反をAEMCloud Serviceと互換性のあるものにする方法を理解します。 また、GithubでのURC違反の例を確認し、カスタム実行モードベースのOSGi設定を、AEMをCloud Serviceとして使用して更新する方法を理解してください。"
->additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="WKND — レガシープロジェクト"
->additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="URC違反の例 — Github"
+>abstract="wknd-legacy プロジェクトを確認して、URC 違反を修正して AEM as a Cloud Service に対応させる方法を把握します。また、GitHub の URC 違反例を確認して、AEM as a Cloud Service に準拠するようにカスタム実行モードベースの OSGi 設定を更新する方法も理解します。"
+>additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="wknd-legacy プロジェクト"
+>additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="URC 違反の例 - GitHub"
 
 * この設定の用途を検証し、必要かどうかを判断します。
 * 設定名をサポートされている[実行モード名](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=ja#custom-runmodes)に変更し、「[実行モード解決ガイドライン](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html?lang=ja#runmode-resolution)」に従ってください。

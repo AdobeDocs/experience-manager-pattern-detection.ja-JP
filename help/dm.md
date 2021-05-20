@@ -2,9 +2,8 @@
 title: DM
 description: パターン検出コードのヘルプページ
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-translation-type: ht
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 100%
 
@@ -42,8 +41,8 @@ Dynamic Media
 >id="aemcloud_bpa_dm_guidance"
 >title="実装ガイダンス"
 >abstract="AEM as a Cloud Service では dynamicmedia_scene7 実行モードのみサポートしています。ヘルプおよび詳しい説明については、現在の設定を確認したうえで、アドビサポートチームにご連絡ください。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html?lang=ja" text="Dynamic Media のセットアップ"
->additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html" text="Dynamic Media のセットアップ"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 
 * `dynamic.media.runmode`

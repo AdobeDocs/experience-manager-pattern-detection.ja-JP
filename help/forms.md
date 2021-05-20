@@ -2,9 +2,8 @@
 title: FORM
 description: パターン検出コードのヘルプページ
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-translation-type: ht
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1228'
 ht-degree: 100%
 
@@ -73,7 +72,7 @@ ht-degree: 100%
 >id="aemcloud_bpa_forms_guidance"
 >title="実装ガイダンス"
 >abstract="FORMS コードで公開された情報は、一部の機能および API を Cloud Service に対応させるために必要な置き換えなどの措置に関するガイダンスを提供できます。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
->additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * 移行ユーティリティを使用して、現在の環境にあるルールスクリプトをすべて再利用可能な関数に変換します。再利用可能な関数をビジュアルルールエディターで使用することにより、引き続き、ルールスクリプトで取得した結果を利用できるようになります。(CODE_EDITOR)
 
@@ -89,7 +88,7 @@ ht-degree: 100%
 
 * 「[REST エンドポイントに送信](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=ja#submit-to-rest-endpoint)」、「[電子メールを送信](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=ja#send-email)」、「[フォームデータモデルを使用して送信](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=ja#submit-using-form-data-model)」、「[AEM ワークフローを起動](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=ja#invoke-an-aem-workflow)」の各送信アクションを使用するように、既存のアダプティブフォームを変更します。フォームポータルとフォームポータル送信アクションはまだ使用できません。これらの機能の提供状況については、毎月のリリースノートを参照してください。(FORMS_PORTAL_SUBMISSION, FORMS_PORTAL)
 
-* AEM ワークフローを作成し、「**[!UICONTROL Forms Workflow に送信]**」送信アクションではなく「[AEM ワークフロー](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=ja#invoke-an-aem-workflow)」送信アクションを使用して AEM ワークフローにデータを送信するように既存のアダプティブフォームを変更することができます。「[!UICONTROL Forms Workflow に送信]」を使用する代わりに、カスタム送信アクションを作成して、データ、添付ファイル、またはレコードのドキュメント（DoR）を LiveCycle プロセスに送信することができます。(LC_WORKFLOW_SUBMISSION)
+* AEM ワークフローを作成し、「**[!UICONTROL Forms Workflow に送信]**」送信アクションではなく「[AEM ワークフロー](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow)」送信アクションを使用して AEM ワークフローにデータを送信するように既存のアダプティブフォームを変更することができます。「[!UICONTROL Forms Workflow に送信]」を使用する代わりに、カスタム送信アクションを作成して、データ、添付ファイル、またはレコードのドキュメント（DoR）を LiveCycle プロセスに送信することができます。(LC_WORKFLOW_SUBMISSION)
 
 * インタラクティブ通信機能の提供状況については、毎月のリリースノートを参照してください。この機能が利用できるようになるまでは、インタラクティブ通信、レター、関連辞書を Cloud Service 環境に移行しないでください。(FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 

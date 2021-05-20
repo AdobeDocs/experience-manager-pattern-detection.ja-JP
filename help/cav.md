@@ -2,9 +2,8 @@
 title: CAV
 description: パターン検出コードのヘルプページ
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
-translation-type: ht
 source-git-commit: 1966a3e83ab6b2247d9f1095c8965eac399e3b6e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 100%
 
@@ -39,8 +38,8 @@ Sling リクエスト処理では、リソースのコンテンツ（特にリ�
 >id="aemcloud_bpa_cav_guidance"
 >title="実装ガイダンス"
 >abstract="様々なコンテンツ領域違反が存在するパターンが CASで識別されたら、それらを確認する必要があります。最終的および内部的なコンテンツ分類領域は避けてください。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html?lang=ja" text="持続可能なアップグレード"
->additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html" text="持続可能なアップグレード"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * コンテンツオーバーレイを使用する場合は、必要最小限にとどめてください。
 * 特に、制限付きコンテンツ（分類が Final と Internal のコンテンツ）にはオーバーレイを使用しないでください。

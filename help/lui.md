@@ -2,15 +2,14 @@
 title: LUI
 description: パターン検出コードのヘルプページ
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-translation-type: ht
 source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 100%
 
 ---
 
-# LUI {#lui}
+# ルイ {#lui}
 
 レガシーユーザーインターフェイス
 
@@ -56,7 +55,7 @@ ht-degree: 100%
 >title="ツールとリソース"
 >abstract="AEM Modernization Tools スイートを使用すると、クラシック（ExtJS）ダイアログを Coral ダイアログに変換できます。サポートされていない機能や従来の機能から堅牢な最新の AEM ソリューションに移行する際の支援を目的としたツールです。これらのツールは設定可能かつ拡張可能です。また、カスタムコンポーネントの代わりに標準化されたコアコンポーネントのセットを使用して、開発時間を短縮しアプリケーションのメンテナンスコストを削減することも検討します。"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/component.html" text="コンポーネントコンバーター"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=ja" text="コアコンポーネント"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="コアコンポーネント"
 
 * [AEM Modernization Tools スイート](https://opensource.adobe.com/aem-modernize-tools/)を利用すると、AEM Sites の最新化に伴う労力を軽減することができます。これらのツールは、次の変換に対応します。
    * クラシック（ExtJS）ダイアログから Coral ダイアログへ

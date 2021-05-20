@@ -1,14 +1,13 @@
 ---
 title: ECU
 description: パターン検出コードのヘルプページ
-translation-type: ht
-source-git-commit: 2391ad7851d4e6634a7bacd684b08db44a9c78e8
-workflow-type: ht
+exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
+source-git-commit: cbd43bca20831c19eb30703cc1ec528c75f2a2ef
+workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 100%
 
 ---
-
 
 # ECU {#ecu}
 
@@ -20,7 +19,7 @@ ht-degree: 100%
 
 Sling リクエスト処理では、リソースのコンテンツ（特にリソースの `sling:resourceType` プロパティ）を使用して、コンテンツのレンダリングに用いるスクリプトを決定する方法を定義します（詳細については、「[スクリプトの検索](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/the-basics.html?lang=ja#locating-the-script)」を参照してください）。Sling では、「オーバーレイ」や「オーバーライド」を使用して、リソースにアクセスしたり、結合したりすることもできます。これらの方法は、[Sling Resource Merger](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html?lang=ja) および[オーバーレイ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html?lang=ja)で説明されています。
 
-お客様が `/libs` のどの領域を安全に使用でき、オーバーレイできるのかを容易に把握できるように、`/libs` の コンテンツは「mixin」プロパティ（Public、Abstract、Final、および Internal）で分類されています。各分類は、コンテンツがどのように使用、継承、オーバーレイされるかを規定するルールを示します。詳細については、「[持続可能なアップグレード](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html?lang=ja)」を参照してください。
+お客様が `/libs` のどの領域を安全に使用でき、オーバーレイできるのかを容易に把握できるように、`/libs` の コンテンツは「mixin」プロパティ（Public、Abstract、Final、および Internal）で分類されています。各分類は、コンテンツがどのように使用、継承、オーバーレイされるかを規定するルールを示します。詳細については、[持続可能なアップグレード](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html?lang=ja)を参照してください。
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 

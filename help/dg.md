@@ -2,9 +2,8 @@
 title: DG
 description: パターン検出コードのヘルプページ
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-translation-type: ht
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 100%
 
@@ -20,8 +19,8 @@ ht-degree: 100%
 >id="aemcloud_bpa_dg_overview"
 >title="開発者ガイドライン"
 >abstract="DG コードは、選択された開発ガイドラインの AEM 6.5 および AEM as a Cloud Service に対する逸脱を識別します。ベストプラクティスに従うと、システムの保守性とパフォーマンスが向上します。これらの逸脱は、AEM の旧バージョンを含む他のアプリケーションコンテキストでは問題にならない場合もありますが、AEM as a Cloud Service で使用した場合に問題が起きる可能性があります。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html?lang=ja" text="AEM の開発 - ガイドラインとベストプラクティス"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=ja" text="AEM as a Cloud Service の開発ガイドライン"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html" text="AEM の開発 - ガイドラインとベストプラクティス"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="AEM as a Cloud Service の開発ガイドライン"
 
 
 `DG` は、選択された開発ガイドラインの [AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html?lang=ja) および [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=ja) に対する逸脱を識別します。ベストプラクティスに従うと、システムの保守性とパフォーマンスが向上します。これらの逸脱は、AEM の旧バージョンを含む他のアプリケーションコンテキストでは問題にならない場合もありますが、AEM as a Cloud Service で使用した場合に問題が起きる可能性があります。
@@ -52,7 +51,7 @@ ht-degree: 100%
 >title="実装ガイダンス"
 >abstract="AEM の開発ガイドラインおよびベストプラクティスに従って、Sling Commons Scheduler の使用に関して実装を確認し Sling ジョブに合わせて実装を再構築し、システムメンテナンスタスクを見直し、バイナリデータのストリーミングを確認して AEM as a Cloud Service に準拠するようにコードをリファクタリングしてください。"
 >additional-url="https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing" text="Sling ジョブ"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html?lang=ja" text="AEM as a Cloud Service のメンテナンスタスク"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html" text="AEM as a Cloud Service のメンテナンスタスク"
 
 * `java.io.inputstream`
    * バイナリをデータストアに直接追加するダイレクトバイナリアップロードアプローチを使用します。

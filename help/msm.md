@@ -2,9 +2,8 @@
 title: MSM
 description: パターン検出コードのヘルプページ
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
-translation-type: ht
 source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 100%
 
@@ -37,6 +36,6 @@ ht-degree: 100%
 >id="aemcloud_bpa_msm_guidance"
 >title="実装ガイダンス"
 >abstract="ベストプラクティスとしては、すべてのカスタム MSM ロールアウト設定とカスタムロールアウトアクションのレビューを実施し、AEM as a Cloud Service で動作することを確認することをお勧めします。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
->additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。

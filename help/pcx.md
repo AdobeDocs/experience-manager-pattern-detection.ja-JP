@@ -2,9 +2,8 @@
 title: PCX
 description: パターン検出コードのヘルプページ
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-translation-type: ht
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
 
@@ -40,7 +39,7 @@ ht-degree: 100%
 >id="aemcloud_bpa_pcx_guidance"
 >title="実装ガイダンス"
 >abstract="ベストプラクティスとしては、コンテンツ構造を確認して、ページの複雑さを軽減することをお勧めします。これにより、ページレンダリングのパフォーマンスが向上します。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
->additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * ページに含まれる総ノード数を減らすために次の手順を実行します。
    * 不要なコンテナがないことを確認します。

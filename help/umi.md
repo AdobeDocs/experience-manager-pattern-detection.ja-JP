@@ -2,15 +2,14 @@
 title: UMI
 description: パターン検出コードのヘルプページ
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-translation-type: ht
 source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 100%
 
 ---
 
-# UMI {#umi}
+# 羽実 {#umi}
 
 アップグレード設定ミスの問題
 
@@ -44,7 +43,7 @@ ht-degree: 100%
 >id="aemcloud_bpa_umi_guidance"
 >title="実装ガイダンス"
 >abstract="ベストプラクティスとしては、現在の設定を確認し、前述の設定に対して行った変更を元に戻して、今後アップグレードに関する問題が発生しないようにすることをお勧めします。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
->additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * 上記の 4 つの設定は、変更または削除しないでください。
 * 設定を変更した場合は、所定の値に戻す必要があります。これらの値は、`UMI` メッセージで指示されます。

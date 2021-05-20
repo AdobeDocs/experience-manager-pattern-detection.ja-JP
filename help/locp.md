@@ -2,9 +2,8 @@
 title: LOCP
 description: パターン検出コードのヘルプページ
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-translation-type: ht
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%
 
@@ -37,7 +36,7 @@ ht-degree: 100%
 >title="実装ガイダンス"
 >abstract="カスタムコードおよびパッケージを確認して、コンテンツが /libs に配信されているかどうかを特定し、/apps 下のコンテンツを利用しオーバーレイするようにリファクタリングして、AEM as a Cloud Service に対応させてください。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html?lang=ja#platform" text="オーバーレイ"
->additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * カスタムパッケージでは、コンテンツは、`/libs` ではなく `/apps` にデプロイする必要があります。
 * 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。

@@ -2,9 +2,8 @@
 title: OCU
 description: パターン検出コードのヘルプページ
 exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
-translation-type: ht
 source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 100%
 
@@ -38,7 +37,7 @@ ht-degree: 100%
 >title="実装ガイダンス"
 >abstract="ベストプラクティスとしては、カスタムコードを確認し、最新バージョンの AEM コンポーネントまたは API を使用するように修正することをお勧めします。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"
->additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * 短期的：互換パッケージのインストールが役立つ場合があります。
 * 長期的：最新バージョンの AEM コンポーネントまたは API に合わせてカスタムコードを適合させます。

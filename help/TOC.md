@@ -6,16 +6,17 @@ user-guide-description: Adobe Experience Manager パターン検出について�
 feature-set: Experience Manager
 feature: 開発者ツール
 role: Developer
-source-git-commit: aaa66b80725dc92fc3e21c198f820f0cf6255da5
-workflow-type: ht
-source-wordcount: '46'
-ht-degree: 100%
+source-git-commit: 600ae605e2a3ce707fccca389e9474e6e74099d6
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 97%
 
 ---
 
 
 # Experience Manager パターン検出ガイド {#table-of-contents}
 
++ [ACV](acv.md)
 + [ASO](aso.md)
 + [CAV](cav.md)
 + [CCL](ccl.md)

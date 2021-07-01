@@ -2,10 +2,10 @@
 title: ACV
 description: パターン検出コードのヘルプページ
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a5
-source-git-commit: 57e33b97aba253bad62cf95dcca9ef6885d263e6
+source-git-commit: d61fbb28fdf91fd9b356654d5cd2d50b156398c4
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 7%
+source-wordcount: '219'
+ht-degree: 18%
 
 ---
 
@@ -15,12 +15,12 @@ Assetsコンテンツバリデーター
 
 ## 背景 {#background}
 
->[!INFO]
->id=&quot;aemcloud_bpa_acv_overview&quot;
->title=&quot;Assetsコンテンツバリデーター&quot;
->abstract=&quot;ACVは、アセットコンテンツ内の欠落している必須ノードを識別します。&quot;
->additional-url=&quot;https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html&quot; text=&quot;主な変更点 —Cloud ServiceとしてのExperience Manager&quot;
->additional-url=&quot;https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html&quot; text=&quot;Cloud ServiceとしてのExperience Manager — リリースノート&quot;
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_acv_overview"
+>title="Assetsコンテンツバリデーター"
+>abstract="ACVは、アセットコンテンツ内の不足している必須ノードを識別します。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=ja" text="主な変更点 —Experience Manager(Cloud Service)"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ja" text="Experience Manageras aCloud Service — リリースノート"
 
 `ACV`  アセットのコンテンツバリデーターが、アセットコンテンツ内の必須ノードが見つからないことを識別します。これにより、特定のAssets機能がCloud ServiceとしてExperience Managerされない可能性があります。
 
@@ -34,11 +34,11 @@ Assetsコンテンツバリデーター
 
 ## 可能な解決策 {#solutions}
 
->[!INFO]
->id=&quot;aemcloud_bpa_acv_guidance&quot;
->title=&quot;実装ガイダンス&quot;
->abstract=&quot;Adobeでは、継承されたプロパティに依存するワークフローが壊れないように、コンテンツ構造を確認することをお勧めします。 カスタマーケアにお問い合わせください。」
->additional-url=&quot;https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html&quot; text=&quot;Experience Cloudのサポート&quot;
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_acv_guidance"
+>title="実装ガイダンス"
+>abstract="Adobeでは、継承されたプロパティに依存するワークフローが壊れないように、コンテンツ構造を確認することをお勧めします。 カスタマーケアにお問い合わせください。」
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * フォルダーに子ノードがない場合は、そのフォルダーを分析します。 フォルダー数が管理可能な場合はノードを手動で作成し、それ以外の場合はスクリプトを使用します。
 * アドビの[Experience Managerカスタマーケアチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)に連絡して、明確な情報を入手したり、懸念事項に対処したりできます。

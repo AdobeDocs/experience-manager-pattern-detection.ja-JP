@@ -37,7 +37,7 @@ Assetsコンテンツバリデーター
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_guidance"
 >title="実装ガイダンス"
->abstract="Adobeでは、継承されたプロパティに依存するワークフローが壊れないように、コンテンツ構造を確認することをお勧めします。 カスタマーケアにお問い合わせください。」
+>abstract="Adobeでは、継承されたプロパティに依存するワークフローが壊れないように、コンテンツ構造を確認することをお勧めします。 カスタマーケアにお問い合わせください。"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * フォルダーに子ノードがない場合は、そのフォルダーを分析します。 フォルダー数が管理可能な場合はノードを手動で作成し、それ以外の場合はスクリプトを使用します。

@@ -2,10 +2,10 @@
 title: ASO
 description: パターン検出コードのヘルプページ
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 449288e567adda9998a89e0ad5198fd5a4e93f35
+source-git-commit: dc9d6c94d5a724cf24890378ba6a8af7396760c6
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 100%
+source-wordcount: '309'
+ht-degree: 91%
 
 ---
 
@@ -27,8 +27,8 @@ AEM システムの概要
 
 * `aem.version`：AEM のバージョン
 * `aem.product`：使用されているAEM 製品（Commerce、Formsなど）の検出
-* `node.count`：特定タイプ（ページ、アセットなど）のノードの概算数
-* `node.store`：ノードストアの実装タイプ（SegmentNodeStore、DocumentNodeStore）
+* `node.count`:特定のタイプ（ページ、アセットなど）の概要ノード数ノードの総計。
+* `node.store`:ノードストアの実装タイプ(SegmentNodeStore、DocumentNodeStore)とそのサイズ。
 * `data.store`：データストアの実装タイプ（FileDataStore、S3DataStore、AzureDataStore）
 * `maintenance.task`：メンテナンスタスク
 * `slow.query`：低速のクエリ

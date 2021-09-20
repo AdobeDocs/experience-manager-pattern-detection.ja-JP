@@ -2,10 +2,10 @@
 title: URS
 description: パターン検出コードのヘルプページ
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
+source-git-commit: 8539f5957d7f98af17819d3dd087272f029791aa
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '414'
+ht-degree: 98%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 100%
 * `node.location`：インストールの後で変更された `/etc` 下のノード。
 * `workflow.location`：`/etc/workflow` 下のワークフローモデル、またはランチャー。
 * `package.structure`：可変コンテンツと不変コンテンツを両方含むパッケージ
+* `node.name.length`:長さがサポートされていないノード名。
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 

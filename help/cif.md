@@ -1,9 +1,8 @@
 ---
 title: CIF
 description: パターン検出コードのヘルプページ
-exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 84aea5b24e51ce5672826bad4ec126074bf24a09
-workflow-type: ht
+source-git-commit: b611b595267e60df8a15511a8a2b4b30b601df1b
+workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 100%
 
@@ -46,7 +45,7 @@ Commerce Integration Framework Classic
 >abstract="このガイドは、Experience Manager Cloud Service の移行時に、更新が必要な領域を特定するのに役立ちます。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/migration.html?lang=ja" text="CIF の移行ガイド"
 
-* Experience Manager as a Cloud Service では、CIF アドオンが、Adobe コマースおよびサードパーティのコマースソリューションでサポートされる唯一のコマース統合ソリューションです。CIF アドオンは、Experience Manager as a Cloud Service 上で自動的にデプロイされるので、顧客が手動でデプロイする必要はありません。[AEM Commerce as a Cloud Service の概要](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/storefront/getting-started.html?lang=ja)を参照してください。
+* Experience Manager as a Cloud Service では、CIF アドオンが、Adobe コマースおよびサードパーティのコマースソリューションでサポートされる唯一のコマース統合ソリューションです。CIF アドオンは、Experience Manager as a Cloud Service を使用するお客様の場合は自動的にデプロイされるので、手動でデプロイする必要はありません。[AEM Commerce as a Cloud Service の概要](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/storefront/getting-started.html?lang=ja)を参照してください。
 * CIF をデプロイするプロジェクトをサポートするために、アドビでは、[AEM CIF コアコンポーネント](https://github.com/adobe/aem-core-cif-components)を提供しています。
-* CIF アドオンは、AEM 6.5 で利用可能で、[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からも入手できます。このアドオンはExperience Manager as a Cloud Service 向け CIF アドオンと互換性があり、同じ機能を提供します。調整は不要です。
+* CIF アドオンは、AEM 6.5 で利用可能で、[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)からも入手できます。これは互換性があり、Experience Manager as a Cloud Service 用の CIF アドオンと同じ機能を提供します。調整は不要です。
 * 依存関係を持つ従来の CIF 使用できなくなりました。com.adobe.cq.commerce.api Java API を使用するこの CIF バージョンに依存するコードは、CIF アドオンとその原則に従って調整する必要があります。

@@ -3,9 +3,9 @@ title: URS
 description: パターン検出コードのヘルプページ
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
 source-git-commit: 3e14d73acbe480dd861f492c24f67ffc37b1090d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '436'
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 0%
 >id="aemcloud_bpa_urs_overview"
 >title="サポートされていないリポジトリー構造"
 >abstract="URS はサポートされていないリポジトリー構造とノード文字のケースを特定します。これは、AEM 製品コードと顧客コードの競合、コンテンツを /etc からリポジトリー内の他のフォルダーに再構成することなどを避けるための情報を示します。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html" text="リポジトリーの再構築"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html?lang=ja" text="リポジトリーの再構築"
 
 ## 背景 {#background}
 
 `URS` はサポートされていないリポジトリー構造とノード文字のケースを特定します。AEM 6.4 以降、リポジトリーコンテンツの再構築に関するガイドラインが提供されています。AEM 製品コードとカスタムコードの階層を明確に区別して競合を避けることにより、次の高水準ルールに準拠して、コンテンツは `/etc` からリポジトリー内の別のフォルダーに再構築されます。
 
-* AEM 製品コードは必ず `/libs` 下に配置されます。このフォルダーをカスタムコードで上書きしてはなりません。。
+* AEM 製品コードは必ず `/libs` 下に配置されます。このフォルダーをカスタムコードで上書きしてはなりません。
 * カスタムコードは `/apps`、`/content` および `/conf` 下に配置する必要があります。
 * AEM as a Cloud Service は長い名前（>150 バイト）をサポートしていません。
 * AEM as a Cloud Service では、これらのガイドラインに準拠することを強くお勧めします。
@@ -35,7 +35,7 @@ ht-degree: 0%
 * `workflow.location`：`/etc/workflow` 下のワークフローモデル、またはランチャー。
 * `package.structure`：可変コンテンツと不変コンテンツを両方含むパッケージ
 * `node.name.length`：サポートされていない長さのノード名。
-* `node.size`:サポートされていないサイズのノードです。
+* `node.size`：サポートされていないサイズのノード。
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 
@@ -48,8 +48,8 @@ ht-degree: 0%
 >id="aemcloud_bpa_urs_guidance"
 >title="実装ガイダンス"
 >abstract="ベストプラクティスとしては、コードプロジェクトをレビューして、コードが AEM プロジェクト構造のガイドラインに従っていることを確認し、AEM as a Cloud Service で意図しない動作を引き起こす可能性のある古いリポジトリーパスやサポートされていないリポジトリーパスに基づいたコードを避けることをお勧めします。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html" text="AEM プロジェクト構造ガイドライン"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ja" text="AEM プロジェクト構造ガイドライン"
+>additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * AEM as a Cloud Service を準備する際のガイダンスとして、[リポジトリーの再構築](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html?lang=ja)を参照してください。
 * リポジトリーの可変領域と不変領域の詳細については、[AEM プロジェクト構造](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ja)も参照してください。

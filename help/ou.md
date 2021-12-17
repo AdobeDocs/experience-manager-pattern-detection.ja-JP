@@ -1,27 +1,26 @@
 ---
-title: OCU
+title: OU
 description: パターン検出コードのヘルプページ
-exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
 source-git-commit: fdc3e8bdef27de971743a9ecb04d3912cf8e60ad
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 96%
+source-wordcount: '290'
+ht-degree: 88%
 
 ---
 
-# OCU {#ocu}
+# OU {#ou}
 
-廃止：古いコードの使用（OU に置き換えられ、古い使用状況）
+古い使用状況
 
 ## 背景 {#background}
 
 >[!CONTEXTUALHELP]
->id="aemcloud_bpa_ocu_overview"
->title="古いコードの使用"
->abstract="OCU は、Sling や AEM のコンポーネント、または API OSGi のエクスポートなどの一部の JCR ノードが、互換性のない方法で変更または削除される状況を識別します。アップグレードの前に、お客様がこの変更について認識していないことがあります。その結果、互換性のないバージョンにアップグレードされたり、まったく使用できなくなったりする可能性があります。"
+>id="aemcloud_bpa_ou_overview"
+>title="古い使用状況"
+>abstract="OU は、Sling やAEMのコンポーネントや API OSGi の書き出しなど、一部の JCR ノードが互換性のない方法で変更または削除される状況を識別します。 アップグレードの前に、お客様がこの変更について認識していないことがあります。その結果、互換性のないバージョンにアップグレードされたり、まったく使用できなくなったりする可能性があります。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=ja" text="主要な変更点 - AEM as a Cloud Service"
 
-`OCU` は、Sling や AEM のコンポーネント、または API OSGi のエクスポートなどの一部の JCR ノードが、互換性のない方法で変更または削除される状況を識別します。アップグレードの前に、お客様がこの変更について認識していないことがあります。その結果、互換性のないバージョンにアップグレードされたり、まったく使用できなくなったりする可能性があります。
+`OU` は、Sling や AEM のコンポーネント、または API OSGi のエクスポートなどの一部の JCR ノードが、互換性のない方法で変更または削除される状況を識別します。アップグレードの前に、お客様がこの変更について認識していないことがあります。その結果、互換性のないバージョンにアップグレードされたり、まったく使用できなくなったりする可能性があります。
 
 古いバージョンはデフォルトではインストールされていないので、お客様のアプリケーションが正常に動作しない場合があります。
 
@@ -33,7 +32,7 @@ ht-degree: 96%
 ## 可能な解決策 {#solutions}
 
 >[!CONTEXTUALHELP]
->id="aemcloud_bpa_ocu_guidance"
+>id="aemcloud_bpa_ou_guidance"
 >title="実装ガイダンス"
 >abstract="ベストプラクティスとしては、カスタムコードを確認し、最新バージョンの AEM コンポーネントまたは API を使用するように修正することをお勧めします。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"

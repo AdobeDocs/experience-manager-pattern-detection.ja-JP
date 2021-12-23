@@ -1,11 +1,11 @@
 ---
 title: ACV
 description: パターン検出コードのヘルプページ
-exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a5
-source-git-commit: 66489471aef923c6ab7e02acbab5f941b6459000
-workflow-type: ht
+exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
+source-git-commit: 301aef7e53e94eb5941691450b3f1192408f2c6b
+workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -39,8 +39,8 @@ Assets コンテンツバリデーター
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_guidance"
 >title="実装ガイダンス"
->abstract="Adobe では、継承されたプロパティに依存するワークフローが壊れないように、コンテンツ構造を確認することをお勧めします。カスタマーケアにお問い合わせください。"
->additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
+>abstract="Adobe では、継承されたプロパティに依存するワークフローが壊れないように、コンテンツ構造を確認することをお勧めします。サポートが必要な場合は、カスタマーケアにお問い合わせください。"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * フォルダーに欠落している子ノードがないか分析します。フォルダー数が管理可能な場合はノードを手動で作成し、それ以外の場合はスクリプトを使用します。
 * オリジナルレンディションが欠落しているアセットの場合は、移行前にアセットを再アップロードするか削除します。

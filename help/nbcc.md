@@ -3,15 +3,15 @@ title: NBCC
 description: パターン検出コードのヘルプページ
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
 source-git-commit: fdc3e8bdef27de971743a9ecb04d3912cf8e60ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # NBCC {#nbcc}
 
-廃止：後方互換性のない変更（NCC、互換性のない変更に置き換え）
+非推奨（廃止予定）：下位互換性のない変更（NCC（互換性のない変更）に置き換え）
 
 ## 背景 {#background}
 
@@ -36,7 +36,7 @@ ht-degree: 96%
 >title="実装ガイダンス"
 >abstract="ベストプラクティスとしては、カスタムコードを確認し、下位互換性のある Sling コンポーネントのみオーバーレイまたは参照されるようにすることをお勧めします。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html?lang=ja#platform" text="オーバーレイ"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
+>additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * 後方互換性のある Sling コンポーネントだけをオーバーレイまたは参照の対象とします。
 * AEM のアップグレード後、`/libs` またはバンドルに由来するリソースを適合させること検討してください。

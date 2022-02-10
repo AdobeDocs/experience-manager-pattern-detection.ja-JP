@@ -4,8 +4,8 @@ description: パターン検出コードのヘルプページ
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: ff4f798d540d52d7875e514a2edb959e64e068fb
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 83%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,23 +25,23 @@ AEM システムの概要
 
 サブタイプを使用して、各種情報を識別します。
 
-* `aem.version`：AEM のバージョン
-* `aem.product`：使用されているAEM 製品（Commerce、Formsなど）の検出
+* `aem.version`：AEM のバージョン。
+* `aem.product`：使用されているAEM 製品（Commerce、Formsなど）の検出。
 * `node.count`：特定のタイプ（ページ、アセットなど）のノードの概算数とノードの総計。
 * `node.store`：ノードストアの実装タイプ（SegmentNodeStore、DocumentNodeStore）とそのサイズ。
-* `data.store`：データストアの実装タイプ（FileDataStore、S3DataStore、AzureDataStore）
-* `maintenance.task`：メンテナンスタスク
-* `slow.query`：低速のクエリ
+* `data.store`：データストアの実装タイプ（FileDataStore、S3DataStore、AzureDataStore）。
+* `maintenance.task`：メンテナンスタスク。
+* `slow.query`：低速のクエリ。
 * `group.membership`:グループ内のユーザーとサブグループ（ダイレクト／宣言されたメンバーのみ）の数。
-* `cqtag.count`:CQ タグ付きアセットの数。
-* `smarttag.count`:スマートタグ付きアセットの数。
-* `ccom.version`:コアコンポーネントパッケージのバージョン。
-* `instance.type`:AEMインスタンスのタイプ (author|publish)。
+* `cqtag.count`：CQ タグ付きアセットの数。
+* `smarttag.count`：スマートタグ付きアセットの数。
+* `ccom.version`：コアコンポーネントパッケージのバージョン。
+* `instance.type`：AEM インスタンスのタイプ（author|publish）。
 * `unprocessed.asset.count`:未処理のアセットの数。
 
-## 可能性のある影響およびリスク {#implications-and-risks}
+## 考えられる影響およびリスク {#implications-and-risks}
 
-* AEMのバージョン、ノード数、グループメンバーシップ、ノードストア、データストアの実装タイプ、CQ タグ数、スマートタグ数、コアコンポーネントのバージョンおよびAEMインスタンスタイプは、情報提供を目的として提供されます。
+* AEM のバージョン、ノード数、グループメンバーシップ、ノードストア、データストアの実装タイプ、CQ タグ数、スマートタグ数、コアコンポーネントのバージョンおよび AEM インスタンスタイプは、情報提供を目的として提供されます。
 * カスタムアプリケーションは、AEM as a Cloud Service で使用できない製品や機能に依存している場合があります。
 * サポートされていない機能を使用したままアップグレードすると、アップグレードが失敗し、アプリケーションが機能しなくなることがあります。
 

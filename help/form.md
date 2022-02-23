@@ -2,10 +2,10 @@
 title: FORM
 description: パターン検出コードのヘルプページ
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 75024e4af3be2d58edf8b77de9a5e6b397bbdf5c
+source-git-commit: 6b4d13ba49aba72be60f01eb040b0cb7e7741694
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1110'
+ht-degree: 97%
 
 ---
 
@@ -58,9 +58,9 @@ ht-degree: 0%
 
 * CAPTCHA コンポーネントでは、デフォルトにより Google reCAPTCHA サービスを使用して CAPTCHA を検証できるようになりました。Adobe Experience Manager を使用して CAPTCHA を検証するオプションは廃止されました。(FORMS_CAPTCHA)
 
-* [!DNL AEM Forms] アプリは [!DNL Cloud Services] には使用できません。(AEM_FORMS_APP)
-
 * [ドキュメントサービス](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=ja#deployment-topology)のステップは、AEM ワークフローでは使用できません。(WORKFLOW_DOCSERVICES)
+
+* [!DNL AEM Forms] アプリは [!DNL Cloud Services] には使用できません。(AEM_FORMS_APP)
 
 ## 可能な解決策 {#solutions}
 
@@ -92,10 +92,10 @@ ht-degree: 0%
 
 * Adobe Experience Manager で提供される CAPTCHA サービスの代わりに Google reCAPTCHA を使用してください。(FORMS_CAPTCHA)
 
-* アダプティブフォームではレスポンシブデザインが可能です。これらのフォームは、ベースとなるデバイスに基づいて外観、デザイン、インタラクティブ機能を変更します。モバイルデバイスでアダプティブフォームを引き続き使用できます。[!DNL AEM Forms] アプリの提供状況については、毎月のリリースノートを参照してください。(AEM_FORMS_APP)
-
 * ドキュメントサービスワークフローステップを使用する AEM ワークフローモデルは移行しないでください。また、ドキュメントサービスワークフローステップを使用するワークフローモデルにユーザーデータを送信するアダプティブフォームを移行または更新しないでください。または、フォームを移行する前に、送信アクションを[サポートされているもの](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=ja)に変更します。(WORKFLOW_DOCSERVICES)
 
 * XFA ベースのアダプティブフォームのサポートは、初期設定では利用できません。XFA ベースのアダプティブフォームを使用する場合は、アドビサポートに問い合わせて、使用例と具体的な要件の詳細をお伝えください。(XFA_BASED_FORM, XDP_BASED_FORM)
+
+* アダプティブフォームではレスポンシブデザインが可能です。これらのフォームは、ベースとなるデバイスに基づいて外観、デザイン、インタラクティブ機能を変更します。モバイルデバイスでアダプティブフォームを引き続き使用できます。[!DNL AEM Forms] アプリの提供状況については、毎月のリリースノートを参照してください。(AEM_FORMS_APP)
 
 詳しい説明が必要な場合や、懸念事項の対応については、[アドビサポート](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。

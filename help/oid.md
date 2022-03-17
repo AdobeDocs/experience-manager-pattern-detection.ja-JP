@@ -2,7 +2,7 @@
 title: OID
 description: パターン検出コードのヘルプページ
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
+source-git-commit: 71fd8c278f5fa2c44e489316be36d7d0376fe695
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 100%
@@ -17,7 +17,7 @@ Oak Index Definition
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_overview"
->title="Oakインデックス定義"
+>title="Oak インデックス定義"
 >abstract="OID は、Oak インデックスの定義に関連する問題を識別します。標準 Oak インデックス定義に加えられた変更を識別します。AEM as a Cloud Service と互換性のないカスタム Oak インデックス定義も識別されます。OID の各検索結果に関するメッセージには、インデックスと追加情報が記載されます。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=ja#how-to-use" text="コンテンツインデックス作成ガイドライン"
 
@@ -25,7 +25,7 @@ Oak Index Definition
 
 サブタイプを使用して、各種情報を識別します。
 
-* `custom.index.violation`：カスタム Oak インデックスと AEM as a Cloud Service との非互換性
+* `index.rule.violation`：カスタム Oak インデックスと AEM as a Cloud Service との非互換性
 * `standard.index.modification`：標準 Oak インデックスに対する変更
 
 ## 可能性のある影響およびリスク {#implications-and-risks}

@@ -3,7 +3,7 @@ title: OID
 description: パターン検出コードのヘルプページ
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
 source-git-commit: 71fd8c278f5fa2c44e489316be36d7d0376fe695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
 ht-degree: 100%
 
@@ -11,13 +11,13 @@ ht-degree: 100%
 
 # OID {#oid}
 
-Oak Index Definition
+Oak インデックス定義
 
 ## 背景 {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_overview"
->title="Oak インデックス定義"
+>title="Oak Index Definition"
 >abstract="OID は、Oak インデックスの定義に関連する問題を識別します。標準 Oak インデックス定義に加えられた変更を識別します。AEM as a Cloud Service と互換性のないカスタム Oak インデックス定義も識別されます。OID の各検索結果に関するメッセージには、インデックスと追加情報が記載されます。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=ja#how-to-use" text="コンテンツインデックス作成ガイドライン"
 
@@ -35,7 +35,7 @@ Oak Index Definition
 >title="実装ガイダンス"
 >abstract="ベストプラクティスとしては、すべてのカスタムインデックスを確認し、コンテンツインデックス作成ガイドラインに従って再構成することをお勧めします。インデックスコンバーターを使用して、既存のカスタム Oak インデックス定義を AEM as a Cloud Service と互換性のあるカスタム Oak インデックス定義に移行します。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ja#oak-indexes" text="パッケージガイドライン"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/index-converter.html#refactoring-tools" text="インデックスコンバーター"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/index-converter.html?lang=ja#refactoring-tools" text="インデックスコンバーター"
 
 * 標準 Oak インデックス定義に対する変更は、AEM のアップグレード中に失われることがあります。
 * Oak の定義は不変であるため、カスタムプロジェクトコードでパッケージ化します。またデプロイは Cloud Manager を使用してのみ行います。

@@ -2,10 +2,10 @@
 title: DG
 description: パターン検出コードのヘルプページ
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
+source-git-commit: 27820ac7a28231641c887c05aa10ff1f617bfeb5
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '613'
+ht-degree: 93%
 
 ---
 
@@ -30,8 +30,9 @@ ht-degree: 100%
 * `java.io.inputstream`：アプリケーションコード中での `java.io.InputStream` の使用
 * `maintenance.task.configuration`：特定の定期的なメンテナンスアクティビティの設定
 * `sling.commons.scheduler`：スケジュールされたタスクでの Sling Commons Scheduler の使用
+* `unsupported.asset.api`:アプリケーションコードでのサポートされていない Asset Manager API の使用。
 
-## 可能性のある影響およびリスク {#implications-and-risks}
+## 考えられる影響およびリスク {#implications-and-risks}
 
 * `java.io.inputstream`
    * `java.io.InputStream` を使用してバイナリデータのストリーミングを行うと、パフォーマンスに影響がほどメモリリソースを消費することがあります。これは、AEM as a Cloud Service で使用するコンテナで利用可能なメモリに制限があるため、特に問題になります。
@@ -43,6 +44,13 @@ ht-degree: 100%
 * `sling.commons.scheduler`
    * [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) を使用するバックグラウンドタスクに依存するアプリケーションは、AEM as a Cloud Service での実行が保証されないため、期待通り動作しないことがあります。
    * [バックグラウンドタスクと長時間を要するジョブ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=ja#background-tasks-and-long-running-jobs)に関する AEM as a Cloud Service 開発ガイドラインでは、スケジュールされたタスクとして実行されるコードは、それが実行されているインスタンスがいつでも停止できることを前提にすべきであるとしています。したがって、コードには耐障害性と再開可能性が求められます。
+
+* `unsupported.asset.api`
+   * 次の AssetManager の API は、AEM as a Cloud Serviceではサポートされていないとマークされています。
+      * createAssetForBinary
+      * getAssetForBinary
+      * removeAssetForBinary
+      * createAsset
 
 ## 可能な解決策 {#solutions}
 
@@ -65,4 +73,6 @@ ht-degree: 100%
    * [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) を、[Sling Jobs](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) に置き換えます。これにより最低 1 回の実行が保証されます。
    * 長時間続くジョブは、可能な限り使用しないようにします。
 
+* `unsupported.asset.api`
+   * サポートされていない Asset Manager の API を使用する代わりに、 [aem-upload](https://github.com/adobe/aem-upload).
 * 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。

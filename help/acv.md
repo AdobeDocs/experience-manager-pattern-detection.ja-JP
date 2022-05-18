@@ -2,9 +2,9 @@
 title: ACV
 description: パターン検出コードのヘルプページ
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 301aef7e53e94eb5941691450b3f1192408f2c6b
+source-git-commit: 09e6149b971dc975dff517d98f8b2faaa8138b51
 workflow-type: ht
-source-wordcount: '274'
+source-wordcount: '310'
 ht-degree: 100%
 
 ---
@@ -22,17 +22,19 @@ Assets コンテンツバリデーター
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html?lang=ja" text="主な変更点 - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ja" text="Experience Manager as a Cloud Service - リリースノート"
 
-`ACV` Assets のコンテンツバリデーターが、アセットコンテンツ内の欠落している必須ノードを識別します。これにより、Experience Manager as a Cloud Service で特定の Assets 機能でエラーが発生する可能性があります。
+`ACV` Assets のコンテンツバリデーターが、アセットコンテンツ内の欠落している必須ノードと違反を識別します。これにより、Experience Manager as a Cloud Service で特定の Assets 機能でエラーが発生する可能性があります。
 
 次のようなサブタイプを使用して、各種情報を識別します。
 
-* `missing.jcrcontent`：リポジトリー内の必須ノードが欠落しているフォルダーを識別します。リポジトリー内の欠落しているコンテンツを識別することで、機能やユースケースの破損を防ぐことができます。
-* `missing.original.rendition`：リポジトリー内の必須のオリジナルレンディションが欠落しているアセットを識別します。
+* `missing.jcrcontent`：リポジトリ内の必須ノードが欠落しているフォルダーを識別します。リポジトリ内の欠落しているコンテンツを識別することで、機能やユースケースの破損を防ぐことができます。
+* `missing.original.rendition`：リポジトリ内の必須のオリジナルレンディションが欠落しているアセットを識別します。
+* `metadata.descendants.violation`：リポジトリ内のアセットの metadata ノードの下に 100 を超える子孫を持つアセットを識別します。
 
-## 可能性のある影響およびリスク {#implications-and-risks}
+## 考えられる影響およびリスク {#implications-and-risks}
 
 * これにより、Experience Manager as a Cloud Service の継承されたプロパティに依存している特定の Assets 機能でエラーが発生する可能性があります。
 * AEM Assets は、オリジナルレンディションの存在に依存しています。オリジナルレンディションがない場合、Cloud Service で処理するアセットは、ループします。
+* metadata ノードの下の子孫の数が多いと、これに違反するアセットで構成されるフォルダーの読み込みに時間がかかる場合があります。
 
 ## 可能な解決策 {#solutions}
 

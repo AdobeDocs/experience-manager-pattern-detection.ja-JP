@@ -3,9 +3,9 @@ title: DG
 description: パターン検出コードのヘルプページ
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 27820ac7a28231641c887c05aa10ff1f617bfeb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '613'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 93%
 >id="aemcloud_bpa_dg_overview"
 >title="開発者ガイドライン"
 >abstract="DG コードは、選択された開発ガイドラインの AEM 6.5 および AEM as a Cloud Service に対する逸脱を識別します。ベストプラクティスに従うと、システムの保守性とパフォーマンスが向上します。これらの逸脱は、AEM の旧バージョンを含む他のアプリケーションコンテキストでは問題にならない場合もありますが、AEM as a Cloud Service で使用した場合に問題が起きる可能性があります。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html" text="AEM の開発 - ガイドラインとベストプラクティス"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="AEM as a Cloud Service の開発ガイドライン"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html?lang=ja" text="AEM の開発 - ガイドラインとベストプラクティス"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=ja" text="AEM as a Cloud Service の開発ガイドライン"
 
 
 `DG` は、選択された開発ガイドラインの [AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html?lang=ja) および [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=ja) に対する逸脱を識別します。ベストプラクティスに従うと、システムの保守性とパフォーマンスが向上します。これらの逸脱は、AEM の旧バージョンを含む他のアプリケーションコンテキストでは問題にならない場合もありますが、AEM as a Cloud Service で使用した場合に問題が起きる可能性があります。
@@ -30,7 +30,7 @@ ht-degree: 93%
 * `java.io.inputstream`：アプリケーションコード中での `java.io.InputStream` の使用
 * `maintenance.task.configuration`：特定の定期的なメンテナンスアクティビティの設定
 * `sling.commons.scheduler`：スケジュールされたタスクでの Sling Commons Scheduler の使用
-* `unsupported.asset.api`:アプリケーションコードでのサポートされていない Asset Manager API の使用。
+* `unsupported.asset.api`：アプリケーションコードでのサポートされていない Asset Manager API の使用。
 
 ## 考えられる影響およびリスク {#implications-and-risks}
 
@@ -46,7 +46,7 @@ ht-degree: 93%
    * [バックグラウンドタスクと長時間を要するジョブ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=ja#background-tasks-and-long-running-jobs)に関する AEM as a Cloud Service 開発ガイドラインでは、スケジュールされたタスクとして実行されるコードは、それが実行されているインスタンスがいつでも停止できることを前提にすべきであるとしています。したがって、コードには耐障害性と再開可能性が求められます。
 
 * `unsupported.asset.api`
-   * 次の AssetManager の API は、AEM as a Cloud Serviceではサポートされていないとマークされています。
+   * 次の Asset Manager の API は、AEM as a Cloud Service ではサポート対象外とマークされています。
       * createAssetForBinary
       * getAssetForBinary
       * removeAssetForBinary
@@ -59,7 +59,7 @@ ht-degree: 93%
 >title="実装ガイダンス"
 >abstract="AEM の開発ガイドラインおよびベストプラクティスに従って、Sling Commons Scheduler の使用に関して実装を確認し Sling ジョブに合わせて実装を再構築し、システムメンテナンスタスクを見直し、バイナリデータのストリーミングを確認して AEM as a Cloud Service に準拠するようにコードをリファクタリングしてください。"
 >additional-url="https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing" text="Sling ジョブ"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html" text="AEM as a Cloud Service のメンテナンスタスク"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html?lang=ja" text="AEM as a Cloud Service のメンテナンスタスク"
 
 * `java.io.inputstream`
    * バイナリをデータストアに直接追加するダイレクトバイナリアップロードアプローチを使用します。
@@ -74,5 +74,5 @@ ht-degree: 93%
    * 長時間続くジョブは、可能な限り使用しないようにします。
 
 * `unsupported.asset.api`
-   * サポートされていない Asset Manager の API を使用する代わりに、 [aem-upload](https://github.com/adobe/aem-upload).
+   * サポートされていない Asset Manager の API を使用する代わりに、[aem-upload](https://github.com/adobe/aem-upload) を使用してください。
 * 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。

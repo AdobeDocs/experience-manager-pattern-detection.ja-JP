@@ -2,10 +2,10 @@
 title: ASO
 description: パターン検出コードのヘルプページ
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: a3b610f2028c4923344672dd71c2bd5d252a35c4
+source-git-commit: 9b46c353b052da43eca7ed636f62e08109f74aab
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 98%
 
 ---
 
@@ -39,6 +39,7 @@ AEM システムの概要
 * `instance.type`：AEM インスタンスのタイプ（author|publish）。
 * `unprocessed.asset.count`：未処理のアセットの数。
 * `vanity.url.count`：バニティ URL の数です。
+* `index.size`:合計移行可能 Lucene インデックスサイズ。
 
 ## 考えられる影響およびリスク {#implications-and-risks}
 

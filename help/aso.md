@@ -3,13 +3,13 @@ title: ASO
 description: パターン検出コードのヘルプページ
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 9b46c353b052da43eca7ed636f62e08109f74aab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 麻生 {#aso}
+# ASO {#aso}
 
 AEM システムの概要
 
@@ -19,7 +19,7 @@ AEM システムの概要
 >id="aemcloud_bpa_aso_overview"
 >title="AEM システムの概要"
 >abstract="ASO コードは、AEM インスタンスに関する一般的な情報を識別します。各検索結果には、移行計画やリファクタリング作業に役立つ、特定タイプのシステム情報の値が 1 つ示されます。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM as a Cloud Service - リリースノート"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ja" text="AEM as a Cloud Service - リリースノート"
 
 `ASO` は、AEM インスタンスに関する一般的な情報を識別します。各検索結果に、特定タイプのシステム情報の値が 1 つ示されます。
 
@@ -39,7 +39,7 @@ AEM システムの概要
 * `instance.type`：AEM インスタンスのタイプ（author|publish）。
 * `unprocessed.asset.count`：未処理のアセットの数。
 * `vanity.url.count`：バニティ URL の数です。
-* `index.size`:合計移行可能 Lucene インデックスサイズ。
+* `index.size`：移行可能な Lucene インデックスの合計サイズ。
 
 ## 考えられる影響およびリスク {#implications-and-risks}
 
@@ -54,7 +54,7 @@ AEM システムの概要
 >id="aemcloud_bpa_aso_guidance"
 >title="実装ガイダンス"
 >abstract="ASO コードで公開された情報には、バージョン、製品アドオン、システムレベル情報など、AEM 環境の一般的な情報が含まれています。AEM as a Cloud Service でサポートされていない製品や機能については、この情報を確認してください。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
+>additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * サポートされていない製品や機能を含む AEM アップグレードは推奨されず、サポートの対象外となる場合があります。
 * 未処理のアセットを処理し、アセットの jcr:content ノードで dam:assetState プロパティを「processed」に設定するか、AEMaaCS に移行する前に移行セットからこれらのアセットを削除する必要があります。

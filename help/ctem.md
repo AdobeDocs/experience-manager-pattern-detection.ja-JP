@@ -2,10 +2,10 @@
 title: CTEM
 description: パターン検出コードのヘルプページ
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
+source-git-commit: 9a993a5cf078e5bc61cb5d314d2a15abcbd33f2a
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -43,8 +43,8 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_tools"
 >title="ツールとリソース"
->abstract="AEM Modernization Tools スイートを使用すると、ページの構造を操作して、静的な定義から編集可能なテンプレートに変更できます。従来の限られた機能から堅牢な最新の AEM ソリューションに移行する際の支援を目的としたツールです。これらのツールは設定可能かつ拡張可能です。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
->additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/page-structure.html" text="ページ構造コンバーター"
+>abstract="AEM Modernization Tools スイートを使用すると、ページの構造を操作して、静的な定義から編集可能なテンプレートに変更できます。従来の限られた機能から堅牢な最新の AEM ソリューションに移行する際の支援を目的としたツールです。これらのツールは、設定に応じた、拡張可能な設定が可能です。 ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/structure/about.html" text="ページ構造コンバーター"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * [AEM Modernization Tools](https://opensource.adobe.com/aem-modernize-tools/) を利用して、静的テンプレートを編集可能テンプレートに移行します。

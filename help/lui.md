@@ -2,10 +2,10 @@
 title: LUI
 description: パターン検出コードのヘルプページ
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 1c2d064c239ad6f5599678d8057fe2a6b7fd8d01
-workflow-type: ht
-source-wordcount: '703'
-ht-degree: 100%
+source-git-commit: 1553f13b8d6b92363a80298b4d05bd885c6f3a6a
+workflow-type: tm+mt
+source-wordcount: '783'
+ht-degree: 89%
 
 ---
 
@@ -40,6 +40,8 @@ ht-degree: 100%
    * コンテンツフラグメントテンプレートは、次の場所にあります。
       * 標準搭載のコンテンツフラグメントテンプレートは、`/libs/settings/dam/cfm/templates` に格納されています。
       * それらは、`/apps/settings/dam/cfm/templates` または `/conf/.../settings/dam/cfm/templates`（... = global または &quot;tenant&quot;）でオーバーレイできます。
+* `translation.dictionary`:I18n 辞書は/apps の下に存在します。
+   * /apps は実行時に不変で、translator.html はAEM as a cloud service では使用できなくなりました。
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 
@@ -52,6 +54,7 @@ ht-degree: 100%
 * AEM as a Cloud Service ではクラシック UI が使用できなくなりました。オーサリングの標準インターフェイスは、タッチ対応 UI です。
 * 従来のカスタムコンポーネントへの依存を続けると、時間の経過とともにメンテナンスコストが増大する可能性があります。
 * コンテンツフラグメントテンプレートは、AEM 6.3 ではコンテンツフラグメントモデルに置き換えられました。従来のテンプレートに基づくコンテンツフラグメントを AEM as a Cloud Service に移行すると、これらのフラグメントは引き続き機能しますが、従来のテンプレートに基づいて新しいフラグメントを作成することはできません。また、AEM GraphQL を使用してこれらのフラグメントを配信することもできません。この場合は、スキーマとしてコンテンツフラグメントモデルが必要になります。
+* /apps は実行時に不変で、translator.html はAEM as a cloud service では使用できなくなりました。 したがって、I18n 辞書は CI/CD パイプラインを通じて Git から取得する必要があります。
 
 ## 可能な解決策 {#solutions}
 
@@ -60,7 +63,7 @@ ht-degree: 100%
 >title="ツールとリソース"
 >abstract="AEM Modernization Tools スイートを使用すると、クラシック（ExtJS）ダイアログを Coral ダイアログに変換できます。サポートされていない機能や従来の機能から堅牢な最新の AEM ソリューションに移行する際の支援を目的としたツールです。これらのツールは設定可能、設定対応および拡張可能です。また、カスタムコンポーネントの代わりに標準化されたコアコンポーネントのセットを使用して、開発時間を短縮しアプリケーションのメンテナンスコストを削減することも検討します。"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/component/about.html" text="コンポーネントコンバーター"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=ja" text="コアコンポーネント"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="コアコンポーネント"
 
 * [AEM Modernization Tools スイート](https://opensource.adobe.com/aem-modernize-tools/)を利用すると、AEM Sites の最新化に伴う労力を軽減することができます。これらのツールは、次の変換に対応します。
    * クラシック（ExtJS）ダイアログから Coral ダイアログへ
@@ -69,4 +72,5 @@ ht-degree: 100%
    * デザインおよびデザインダイアログから編集可能テンプレートポリシーへ
 * プロジェクトのカスタムコンポーネントライブラリを見直し、可能であれば、標準化された[コアコンポーネント](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=ja)への移行を検討することにより、アプリケーションの開発時間を短縮し、メンテナンスコストを削減することができます。
 * 従来のテンプレートと同等の機能を持つコンテンツフラグメントモデルを作成し、それらのモデルを使用してコンテンツフラグメントの作成を進めることをお勧めします。詳しくは、[コンテンツフラグメントモデル](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=ja)を参照してください。
+* I18n 辞書は、CI/CD パイプラインを通じて Git から取得する必要があります。 [ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes.html?lang=en#apps-libs-immutable)
 * 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。

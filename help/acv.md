@@ -2,10 +2,10 @@
 title: ACV
 description: パターン検出コードのヘルプページ
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 09e6149b971dc975dff517d98f8b2faaa8138b51
-workflow-type: ht
-source-wordcount: '310'
-ht-degree: 100%
+source-git-commit: e7096efc1d9da7f5aad5a5b353ba622c879cc4a5
+workflow-type: tm+mt
+source-wordcount: '348'
+ht-degree: 89%
 
 ---
 
@@ -27,13 +27,13 @@ Assets コンテンツバリデーター
 次のようなサブタイプを使用して、各種情報を識別します。
 
 * `missing.jcrcontent`：リポジトリ内の必須ノードが欠落しているフォルダーを識別します。リポジトリ内の欠落しているコンテンツを識別することで、機能やユースケースの破損を防ぐことができます。
-* `missing.original.rendition`：リポジトリ内の必須のオリジナルレンディションが欠落しているアセットを識別します。
+* `missing.original.rendition`：リポジトリ内の必須のオリジナルレンディションが欠落しているアセットを識別します。AEMaaCS でPDFのページをプレビューする場合、サブアセットを生成する必要はありません。 したがって、PDFアセットの場合、元のレンディションが見つからないサブアセットのレポートは抑制されます。
 * `metadata.descendants.violation`：リポジトリ内のアセットの metadata ノードの下に 100 を超える子孫を持つアセットを識別します。
 
 ## 考えられる影響およびリスク {#implications-and-risks}
 
 * これにより、Experience Manager as a Cloud Service の継承されたプロパティに依存している特定の Assets 機能でエラーが発生する可能性があります。
-* AEM Assets は、オリジナルレンディションの存在に依存しています。オリジナルレンディションがない場合、Cloud Service で処理するアセットは、ループします。
+* AEM Assets は、オリジナルレンディションの存在に依存しています。オリジナルレンディションがない場合、Cloud Service で処理するアセットは、ループします。AEMaaCS では、サブアセットの生成はサポートされていません。
 * metadata ノードの下の子孫の数が多いと、これに違反するアセットで構成されるフォルダーの読み込みに時間がかかる場合があります。
 
 ## 可能な解決策 {#solutions}
@@ -42,8 +42,9 @@ Assets コンテンツバリデーター
 >id="aemcloud_bpa_acv_guidance"
 >title="実装ガイダンス"
 >abstract="Adobe では、継承されたプロパティに依存するワークフローが壊れないように、コンテンツ構造を確認することをお勧めします。カスタマーケアにお問い合わせください。"
->additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * フォルダーに欠落している子ノードがないか分析します。フォルダー数が管理可能な場合はノードを手動で作成し、それ以外の場合はスクリプトを使用します。
 * オリジナルレンディションが欠落しているアセットの場合は、移行前にアセットを再アップロードするか削除します。
-* 不明な点や懸念を解決するため、アドビの [Experience Manager カスタマーケアチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+* サブアセットの元のレンディションが見つからない場合にアクションは不要です。
+* 不明な点や対処すべき懸念がある場合は、アドビの [Experience Manager カスタマーケアチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

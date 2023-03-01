@@ -3,9 +3,9 @@ title: ACV
 description: パターン検出コードのヘルプページ
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 0a6b0f8f2b64bf1c966b8f282a2205f2772afe3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '401'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -29,14 +29,14 @@ Assets コンテンツバリデーター
 * `missing.jcrcontent`：リポジトリ内の必須ノードが欠落しているフォルダーを識別します。リポジトリ内の欠落しているコンテンツを識別することで、機能やユースケースの破損を防ぐことができます。
 * `missing.original.rendition`：リポジトリで、必須のオリジナルレンディションが欠落しているアセットを識別します。PDF のページをプレビューする場合、AEMaaCS でサブアセットを生成する必要はありません。したがって、PDF アセットの場合、元のレンディションが見つからないサブアセットのレポートはまったく表示されません。
 * `metadata.descendants.violation`：リポジトリ内のアセットの metadata ノードの下に 100 を超える子孫を持つアセットを識別します。
-* `conflict.node`:リポジトリ内の競合ノードが/content/dam/パスの下に存在することを識別します。
+* `conflict.node`：/content/dam/ パスの下のリポジトリで競合ノードの存在を識別します。
 
 ## 考えられる影響およびリスク {#implications-and-risks}
 
 * これにより、Experience Manager as a Cloud Service の継承されたプロパティに依存している特定の Assets 機能でエラーが発生する可能性があります。
 * AEM Assets は、オリジナルレンディションの存在に依存しています。元のレンディションがない場合、Cloud Service で処理するアセットはループします。サブアセットの生成は、AEMaaCS ではサポートされていません。
 * metadata ノードの下の子孫の数が多いと、これに違反するアセットで構成されるフォルダーの読み込みに時間がかかる場合があります。
-* 競合ノードが存在すると、AEM as a Cloud Serviceで取り込みエラーが発生する可能性があります。
+* 競合ノードが存在すると、AEM as a Cloud Service で取り込みエラーが発生する可能性があります。
 
 ## 可能な解決策 {#solutions}
 
@@ -49,5 +49,5 @@ Assets コンテンツバリデーター
 * フォルダーに欠落している子ノードがないか分析します。フォルダー数が管理可能な場合はノードを手動で作成し、それ以外の場合はスクリプトを使用します。
 * オリジナルレンディションが欠落しているアセットの場合は、移行前にアセットを再アップロードするか削除します。
 * サブアセットの元のレンディションが見つからない場合、アクションは必要ありません。
-* 競合ノードの場合は、解決する必要があるか、AEM as a Cloud Serviceに移行する前に削除する必要がある可能性があります。
+* 競合ノードが存在する場合は、解決するか、AEM as a Cloud Service に移行する前に削除する必要があります。
 * 不明な点や対処すべき懸念がある場合は、アドビの [Experience Manager カスタマーケアチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

@@ -2,10 +2,10 @@
 title: DG
 description: パターン検出コードのヘルプページ
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 27820ac7a28231641c887c05aa10ff1f617bfeb5
-workflow-type: ht
-source-wordcount: '613'
-ht-degree: 100%
+source-git-commit: 9bc04f53b6c6c91a528f3c77ea1c702127a6b7df
+workflow-type: tm+mt
+source-wordcount: '667'
+ht-degree: 92%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 100%
 * `maintenance.task.configuration`：特定の定期的なメンテナンスアクティビティの設定
 * `sling.commons.scheduler`：スケジュールされたタスクでの Sling Commons Scheduler の使用
 * `unsupported.asset.api`：アプリケーションコードでのサポートされていない Asset Manager API の使用。
+* `javax.jcr.observation.EventListener`:アプリケーションコードでのイベントリスナーの使用。
 
 ## 考えられる影響およびリスク {#implications-and-risks}
 
@@ -51,6 +52,10 @@ ht-degree: 100%
       * getAssetForBinary
       * removeAssetForBinary
       * createAsset
+
+* `javax.jcr.observation.EventListener`
+   * 実行を保証できないので、イベントリスナーに依存するアプリケーションが期待どおりに動作しない場合があります。
+
 
 ## 可能な解決策 {#solutions}
 
@@ -75,4 +80,7 @@ ht-degree: 100%
 
 * `unsupported.asset.api`
    * サポートされていない Asset Manager の API を使用する代わりに、[aem-upload](https://github.com/adobe/aem-upload) を使用してください。
+
+* `javax.jcr.observation.EventListener`
+   * イベントリスナーを使用する代わりに、イベント処理メカニズムを次のようにリファクタリングすることをお勧めします。 [Sling ジョブ](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) 処理の保証を提供するので
 * 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。

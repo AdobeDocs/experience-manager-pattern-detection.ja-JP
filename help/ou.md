@@ -1,8 +1,9 @@
 ---
 title: OU
 description: パターン検出コードのヘルプページ
-source-git-commit: fdc3e8bdef27de971743a9ecb04d3912cf8e60ad
-workflow-type: ht
+exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
+source-git-commit: 8b8d902dc5b5a8534475d256c199dc235bb35464
+workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
 

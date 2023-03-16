@@ -3,7 +3,7 @@ title: UMI
 description: パターン検出コードのヘルプページ
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
 source-git-commit: 145df7128ba80cae7416778ef373b5ed723c56fa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 100%
 

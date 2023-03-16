@@ -29,7 +29,7 @@ ht-degree: 100%
 * `page.complexity.medium`：ページに、レンダリングパフォーマンスに影響する可能性のある比較的多くのノードが含まれています。
 * `page.complexity.high`：ページに、レンダリングパフォーマンスに影響する可能性のあるきわめて多くのノードが含まれています。
 
-## 可能性のある影響およびリスク {#implications-and-risks}
+## 考えられる影響およびリスク {#implications-and-risks}
 
 * ページに含まれる多数のノードが、レンダリングパフォーマンスに影響を及ぼす可能性があります。
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 >id="aemcloud_bpa_pcx_guidance"
 >title="実装ガイダンス"
 >abstract="ベストプラクティスとしては、コンテンツ構造を確認して、ページの複雑さを軽減することをお勧めします。これにより、ページレンダリングのパフォーマンスが向上します。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
+>additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * ページに含まれる総ノード数を減らすために次の手順を実行します。
    * 不要なコンテナがないことを確認します。

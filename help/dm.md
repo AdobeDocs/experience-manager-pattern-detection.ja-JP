@@ -30,7 +30,7 @@ Dynamic Media
    * `dynamicmedia`：Dynamic Media - ハイブリッドモード
    * `dynamicmedia_scene7`：Dynamic Media - Scene7 モード
 
-## 可能性のある影響およびリスク {#implications-and-risks}
+## 考えられる影響およびリスク {#implications-and-risks}
 
 * `dynamic.media.runmode`
    * アップグレードに伴い Dynamic Media に関連する問題が生じる可能性があります。
@@ -41,8 +41,8 @@ Dynamic Media
 >id="aemcloud_bpa_dm_guidance"
 >title="実装ガイダンス"
 >abstract="AEM as a Cloud Service では dynamicmedia_scene7 実行モードのみサポートしています。ヘルプおよび詳しい説明については、現在の設定を確認したうえで、アドビサポートチームにご連絡ください。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html" text="Dynamic Media のセットアップ"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html?lang=ja" text="Dynamic Media のセットアップ"
+>additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 
 * `dynamic.media.runmode`

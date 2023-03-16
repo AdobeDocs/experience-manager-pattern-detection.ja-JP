@@ -25,7 +25,7 @@ ht-degree: 100%
 このコードで使用できるサブタイプは 1 つです。
 * `custom.client.library`
 
-## 可能性のある影響およびリスク {#implications-and-risks}
+## 考えられる影響およびリスク {#implications-and-risks}
 
 * AEM に追加されたクライアントライブラリでは、重複がないこと、最新のバージョンが使用されていることを確認する必要があります。
 
@@ -35,6 +35,6 @@ ht-degree: 100%
 >id="aemcloud_bpa_ccl_guidance"
 >title="実装ガイダンス"
 >abstract="AEM に追加されたクライアントライブラリのうち、CCL で識別されたものについて、重複がないことと、最新のバージョンが使用されていることを確認してください。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
+>additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。

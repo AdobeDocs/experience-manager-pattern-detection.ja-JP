@@ -27,7 +27,7 @@ OAuth は、`oauth` というサブノードが、`rep:AuthorizableId` ノード
 
 例：`/home/users/ims/0001/R80w6XaUCBq3jHE47xDN/oauth`
 
-## 可能性のある影響およびリスク {#implications-and-risks}
+## 考えられる影響およびリスク {#implications-and-risks}
 
 * OAuth で設定された外部ユーザーは、下記の手順で再設定しない限り、オーサーインスタンスまたはパブリッシュインスタンスにはログインできません。
 

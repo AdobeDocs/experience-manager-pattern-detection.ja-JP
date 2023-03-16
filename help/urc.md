@@ -19,7 +19,7 @@ ht-degree: 100%
 >id="aemcloud_bpa_urc_overview"
 >title="サポートされていない実行モードの設定"
 >abstract="URC は、AEM as a Cloud Service でサポートされていない実行モード名に基づく設定の使用状況を識別します。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#custom-runmodes" text="サポートされている実行モード"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=ja#custom-runmodes" text="サポートされている実行モード"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=ja#runmodes" text="実行モード"
 
 `URC` は、AEM as a Cloud Service でサポートされていない実行モード名に基づく設定の使用状況を識別します。

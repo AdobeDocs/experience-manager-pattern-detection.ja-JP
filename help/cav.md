@@ -27,7 +27,7 @@ Sling リクエスト処理では、リソースのコンテンツ（特にリ�
 
 お客様が `/libs` のどの領域を安全に使用でき、オーバーレイできるのかを容易に把握できるように、`/libs` の コンテンツは「mixin」プロパティ（Public、Abstract、Final、および Internal）で分類されています。各分類は、コンテンツがどのように使用、継承、オーバーレイされるかを規定するルールを示します。詳細については、[持続可能なアップグレード](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html?lang=ja)を参照してください。
 
-## 可能性のある影響およびリスク {#implications-and-risks}
+## 考えられる影響およびリスク {#implications-and-risks}
 
 * AEM をアップグレードすると、ページレンダリングの問題が発生したりその他の意図しない動作をする可能性があります。
 * セキュリティの更新が有効ではありません。
@@ -38,8 +38,8 @@ Sling リクエスト処理では、リソースのコンテンツ（特にリ�
 >id="aemcloud_bpa_cav_guidance"
 >title="実装ガイダンス"
 >abstract="様々なコンテンツ領域違反が存在するパターンが CASで識別されたら、それらを確認する必要があります。最終的および内部的なコンテンツ分類領域は避けてください。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html" text="持続可能なアップグレード"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html?lang=ja" text="持続可能なアップグレード"
+>additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * コンテンツオーバーレイを使用する場合は、必要最小限にとどめてください。
 * 特に、制限付きコンテンツ（分類が Final と Internal のコンテンツ）にはオーバーレイを使用しないでください。

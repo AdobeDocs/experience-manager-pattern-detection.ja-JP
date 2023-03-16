@@ -27,7 +27,7 @@ ht-degree: 100%
 
 * `cq.livesyncconfig.found`：AEM に追加されたコンテンツで `/jcr:content/cq:LiveSyncConfig` ノードが検出され、Multi Site Manager が使用されていることを示します。
 
-## 可能性のある影響およびリスク {#implications-and-risks}
+## 考えられる影響およびリスク {#implications-and-risks}
 
 
 ## 可能な解決策 {#solutions}
@@ -36,6 +36,6 @@ ht-degree: 100%
 >id="aemcloud_bpa_msm_guidance"
 >title="実装ガイダンス"
 >abstract="ベストプラクティスとしては、すべてのカスタム MSM ロールアウト設定とカスタムロールアウトアクションのレビューを実施し、AEM as a Cloud Service で動作することを確認することをお勧めします。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
+>additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。

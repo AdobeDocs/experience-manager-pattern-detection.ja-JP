@@ -3,7 +3,7 @@ title: FORM
 description: パターン検出コードのヘルプページ
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 5ba6a9a4b6da17bd78acdd82c955e296d8bbc994
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 100%
 
@@ -38,9 +38,9 @@ ht-degree: 100%
 
 * ルールエディター機能のうちのコードエディターの部分は使用できません。(CODE_EDITOR)
 
-* 電子メールのサポート（SMTPポート）は、デフォルトで無効になっています。(EMAIL_SERVICE_CONFIGURATION)
+* メールのサポート（SMTPポート）は、デフォルトで無効になっています。(EMAIL_SERVICE_CONFIGURATION)
 
-* 「**[!UICONTROL PDF の電子メール]**」送信アクションは使用できません。(EMAIL_PDF_SUBMIT_ACTION)
+* 「**[!UICONTROL PDF のメール]**」送信アクションは使用できません。(EMAIL_PDF_SUBMIT_ACTION)
 
 * XFA ベースのアダプティブフォームは、まだサポートされていません。(XFA_BASED_FORM, XDP_BASED_FORM)
 
@@ -72,9 +72,9 @@ ht-degree: 100%
 
 * 移行ユーティリティを使用して、現在の環境にあるルールスクリプトをすべて再利用可能な関数に変換します。再利用可能な関数をビジュアルルールエディターで使用することにより、引き続き、ルールスクリプトで取得した結果を利用できるようになります。(CODE_EDITOR)
 
-* ご使用の環境で電子メール（オープン SMTP ポート）機能を有効にする方法については、サポートチームにお問い合わせください。デフォルトでは、送信 HTTP と HTTPS 接続が有効になります。(EMAIL_SERVICE_CONFIGURATION, 電子メールステップ)
+* ご使用の環境でメール（オープン SMTP ポート）機能を有効にする方法については、サポートチームにお問い合わせください。デフォルトでは、送信 HTTP と HTTPS 接続が有効になります。(EMAIL_SERVICE_CONFIGURATION, メールステップ)
 
-* 「**[!UICONTROL PDF の電子メール]**」ではなく、「**[!UICONTROL 電子メール]**」送信アクションを使用します。「**[!UICONTROL 電子メール]**」送信アクションでは、添付ファイルを送信し、電子メールにレコードのドキュメント（DoR）を添付するオプションが提供されます。(EMAIL_PDF_SUBMIT_ACTION)
+* 「**[!UICONTROL PDF のメール]**」ではなく、「**[!UICONTROL メール]**」送信アクションを使用します。「**[!UICONTROL メール]**」送信アクションでは、添付ファイルを送信し、メールにレコードのドキュメント（DoR）を添付するオプションが提供されます。(EMAIL_PDF_SUBMIT_ACTION)
 
 * 送信されたデータには、Adobe Sign 契約書 ID が含まれています。Sign Agreement ID により、必要に応じて Sign Agreement PDF を検索できます。(FORM_SIGN_INTEGRATION)
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 * このようなフォームを [!DNL Cloud Service] 環境に移行する前に、既存のアダプティブフォームから検証ステップを削除します。(VERIFY_STEP)
 
-* [REST エンドポイントに送信](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=ja#submit-to-rest-endpoint)、[電子メールを送信](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=ja#send-email)、[フォームデータモデルを使用して送信](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=ja#submit-using-form-data-model)、[AEM ワークフローを起動](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=ja#invoke-an-aem-workflow)の各送信アクションを使用するように、既存のアダプティブフォームを変更します。
+* [REST エンドポイントに送信](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=ja#submit-to-rest-endpoint)、[メールを送信](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=ja#send-email)、[フォームデータモデルを使用して送信](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=ja#submit-using-form-data-model)、[AEM ワークフローを起動](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=ja#invoke-an-aem-workflow)の各送信アクションを使用するように、既存のアダプティブフォームを変更します。
 
 * AEM ワークフローを作成し、「**[!UICONTROL Forms Workflow に送信]**」送信アクションではなく「[AEM ワークフロー](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=ja#invoke-an-aem-workflow)」送信アクションを使用して AEM ワークフローにデータを送信するように既存のアダプティブフォームを変更することができます。「[!UICONTROL Forms Workflow に送信]」を使用する代わりに、カスタム送信アクションを作成して、データ、添付ファイル、またはレコードのドキュメント（DoR）を LiveCycle プロセスに送信することができます。(LC_WORKFLOW_SUBMISSION)
 

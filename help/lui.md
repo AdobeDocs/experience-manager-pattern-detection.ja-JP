@@ -3,7 +3,7 @@ title: LUI
 description: パターン検出コードのヘルプページ
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 source-git-commit: 1553f13b8d6b92363a80298b4d05bd885c6f3a6a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 100%
 

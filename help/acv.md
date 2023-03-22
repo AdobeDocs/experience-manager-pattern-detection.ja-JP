@@ -2,7 +2,7 @@
 title: ACV
 description: パターン検出コードのヘルプページ
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: bbeb7193e198a32a9bc966e1821b1058dbbc8c02
+source-git-commit: 1aa0169c5ea5180500fd41c8074a9bf561151b62
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%
@@ -52,5 +52,5 @@ Assets コンテンツバリデーター
 * オリジナルレンディションが欠落しているアセットの場合は、移行前にアセットを再アップロードするか削除します。
 * サブアセットの元のレンディションが見つからない場合、アクションは必要ありません。
 * 競合ノードが存在する場合は、解決するか、AEM as a Cloud Service に移行する前に削除する必要があります。
-* 大きな PSD ファイルまたは PSB ファイルを大量に処理する予定がある場合は、アドビサポートにお問い合わせください。Experience Manager では、30000 x 23000 ピクセルを超える非常に高い解像度の PSB ファイルを処理できない場合があります。詳しくは、[ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-64/assets/extending/best-practices-for-imagemagick.html?lang=ja)を参照してください。
+* 大きな PSD ファイルまたは PSB ファイルを大量に処理する予定がある場合は、アドビサポートにお問い合わせください。Experience Manager では、30000 x 23000 ピクセルを超える非常に高い解像度の PSB ファイルを処理できない場合があります。詳しくは、[ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/assets/extending/best-practices-for-imagemagick.html?lang=ja)を参照してください。
 * 不明な点や対処すべき懸念がある場合は、アドビの [Experience Manager カスタマーケアチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

@@ -3,9 +3,9 @@ title: DG
 description: パターン検出コードのヘルプページ
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 9bc04f53b6c6c91a528f3c77ea1c702127a6b7df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '667'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 92%
 
 * `java.io.inputstream`：アプリケーションコード中での `java.io.InputStream` の使用
 * `maintenance.task.configuration`：特定の定期的なメンテナンスアクティビティの設定
-* `sling.commons.scheduler`：スケジュールされたタスクでの Sling Commons Scheduler の使用
+* `sling.commons.scheduler`：スケジュールされたタスクでの Sling Commons Scheduler API の使用
 * `unsupported.asset.api`：アプリケーションコードでのサポートされていない Asset Manager API の使用。
-* `javax.jcr.observation.EventListener`:アプリケーションコードでのイベントリスナーの使用。
+* `javax.jcr.observation.EventListener`：アプリケーションコードでのイベントリスナーの使用。
 
 ## 考えられる影響およびリスク {#implications-and-risks}
 
@@ -54,7 +54,7 @@ ht-degree: 92%
       * createAsset
 
 * `javax.jcr.observation.EventListener`
-   * 実行を保証できないので、イベントリスナーに依存するアプリケーションが期待どおりに動作しない場合があります。
+   * イベントリスナーに依存するアプリケーションは、実行が保証されないので、期待どおりに動作しない可能性があります。
 
 
 ## 可能な解決策 {#solutions}
@@ -75,12 +75,12 @@ ht-degree: 92%
    * [メンテナンスタスク設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=ja#maintenance-tasks-configuration-in-source-control) がソースコントロールされていることを確認します。
 
 * `sling.commons.scheduler`
-   * [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) を、[Sling Jobs](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) に置き換えます。これにより最低 1 回の実行が保証されます。
+   * [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) を、[Sling ジョブ](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) に置き換えます。これにより最低 1 回の実行が保証されます。
    * 長時間続くジョブは、可能な限り使用しないようにします。
 
 * `unsupported.asset.api`
    * サポートされていない Asset Manager の API を使用する代わりに、[aem-upload](https://github.com/adobe/aem-upload) を使用してください。
 
 * `javax.jcr.observation.EventListener`
-   * イベントリスナーを使用する代わりに、イベント処理メカニズムを次のようにリファクタリングすることをお勧めします。 [Sling ジョブ](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) 処理の保証を提供するので
+   * イベントリスナーを使用する代わりに、確実に処理を行うために、イベント処理メカニズムを [Sling ジョブ](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)にリファクタリングすることをお勧めします。
 * 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。

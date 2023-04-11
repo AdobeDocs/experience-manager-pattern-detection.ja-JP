@@ -2,10 +2,10 @@
 title: ASO
 description: パターン検出コードのヘルプページ
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 9b46c353b052da43eca7ed636f62e08109f74aab
+source-git-commit: 725a04c2d0c7f14673ac8cef9b62239ae3a5166c
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,6 +40,7 @@ AEM システムの概要
 * `unprocessed.asset.count`：未処理のアセットの数。
 * `vanity.url.count`：バニティ URL の数です。
 * `index.size`：移行可能な Lucene インデックスの合計サイズ。
+* `workflow.count`:実行中で古い状態のオーサーワークフローの数。
 
 ## 考えられる影響およびリスク {#implications-and-risks}
 
@@ -47,6 +48,7 @@ AEM システムの概要
 * バニティー URL の数が多い（1000 を超える）と、高コストなクエリにより、Dispatcher とパブリッシュサーバーに負荷がかかる場合があります。
 * カスタムアプリケーションは、AEM as a Cloud Service で使用できない製品や機能に依存している場合があります。
 * サポートされていない機能を使用したままアップグレードすると、アップグレードが失敗し、アプリケーションが機能しなくなることがあります。
+* 実行中または古い状態のオーサーワークフローが多数あると、パフォーマンスが低下する可能性があります。
 
 ## 可能な解決策 {#solutions}
 

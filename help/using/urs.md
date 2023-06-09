@@ -3,7 +3,7 @@ title: URS
 description: パターン検出コードのヘルプページ
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 100%
 

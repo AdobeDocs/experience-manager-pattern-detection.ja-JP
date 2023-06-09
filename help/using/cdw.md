@@ -3,7 +3,7 @@ title: CDW
 description: パターン検出コードのヘルプページ
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 

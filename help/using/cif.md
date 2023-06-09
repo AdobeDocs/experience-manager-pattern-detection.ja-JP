@@ -3,7 +3,7 @@ title: CIF
 description: パターン検出コードのヘルプページ
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 100%
 

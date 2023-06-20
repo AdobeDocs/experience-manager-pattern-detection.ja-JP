@@ -27,7 +27,7 @@ ht-degree: 100%
 
 * `cq.livesyncconfig.found`：AEM に追加されたコンテンツで `/jcr:content/cq:LiveSyncConfig` ノードが検出され、Multi Site Manager が使用されていることを示します。
 
-## 考えられる影響およびリスク {#implications-and-risks}
+## 可能性のある影響およびリスク {#implications-and-risks}
 
 
 ## 可能な解決策 {#solutions}

@@ -24,7 +24,7 @@ ht-degree: 100%
 
 その一部は、起動時に AEM のリポジトリーを設定する `com.adobe.granite.repository` によって使用されます。もう １ つの例は、Oak メンテナンスタスクをラップして提供する `com.adobe.granite.maintenance.oak` Adobe バンドルです。
 
-## 考えられる影響およびリスク {#implications-and-risks}
+## 可能性のある影響およびリスク {#implications-and-risks}
 
 * 今後の AEM バージョンでは、内部書き出しが削除されて、Oak に直接依存する依存関係が壊れたり、非アクティブなバンドルが発生したりする可能性があります。
 * 内部書き出しの API は変更されることがあります。

@@ -25,7 +25,7 @@ ht-degree: 100%
 このコードで使用できるサブタイプは 1 つです。
 * `custom.client.library`
 
-## 考えられる影響およびリスク {#implications-and-risks}
+## 可能性のある影響およびリスク {#implications-and-risks}
 
 * AEM に追加されたクライアントライブラリでは、重複がないこと、最新のバージョンが使用されていることを確認する必要があります。
 

@@ -2,10 +2,10 @@
 title: ASO
 description: パターン検出コードのヘルプページ
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 4f5ac6b496ca1fb67ced52b4ec105034a869a2d0
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 100%
+source-wordcount: '488'
+ht-degree: 95%
 
 ---
 
@@ -49,6 +49,7 @@ AEM システムの概要
 * カスタムアプリケーションは、AEM as a Cloud Service で使用できない製品や機能に依存している場合があります。
 * サポートされていない機能を使用したままアップグレードすると、アップグレードが失敗し、アプリケーションが機能しなくなることがあります。
 * 実行中または古い状態のオーサーワークフローが多数あると、パフォーマンスが低下する可能性があります。
+* クエリが遅いと、システムのパフォーマンスが低下する場合があります。
 
 ## 可能な解決策 {#solutions}
 
@@ -61,5 +62,6 @@ AEM システムの概要
 * サポートされていない製品や機能を含む AEM アップグレードは推奨されず、サポートの対象外となる場合があります。
 * 未処理のアセットを処理し、アセットの jcr:content ノードで dam:assetState プロパティを「processed」に設定するか、AEMaaCS に移行する前に移行セットからこれらのアセットを削除する必要があります。
 * バニティー URL は Apache Rewrites に置き換えることができます。
+* 詳しくは、 [ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html) を参照してください。
 * AEM as a Cloud Service における最新の変更事項については、[リリースノート](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ja)を参照してください。
 * 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。

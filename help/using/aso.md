@@ -2,10 +2,10 @@
 title: ASO
 description: パターン検出コードのヘルプページ
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 4f5ac6b496ca1fb67ced52b4ec105034a869a2d0
+source-git-commit: a899311c975efee180bc1d3bc3c7bca30d429a22
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 95%
+source-wordcount: '498'
+ht-degree: 93%
 
 ---
 
@@ -41,6 +41,7 @@ AEM システムの概要
 * `vanity.url.count`：バニティ URL の数です。
 * `index.size`：移行可能な Lucene インデックスの合計サイズ。
 * `workflow.count`：実行中で古い状態のオーサーワークフローの数。
+* `jvm.arguments`:AEMの起動時にコマンドラインに追加された JVM 引数。
 
 ## 考えられる影響およびリスク {#implications-and-risks}
 

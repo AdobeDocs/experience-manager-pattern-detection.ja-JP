@@ -6,10 +6,10 @@ user-guide-description: Adobe Experience Manager パターン検出について�
 feature-set: Experience Manager
 feature: Developer Tools
 role: Developer
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 6fe0d0abfbef3690a641c63f3b560efbd8df9ce1
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 100%
+source-wordcount: '49'
+ht-degree: 97%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 100%
 + [IOI](ioi.md)
 + [LOCP](locp.md)
 + [LUI](lui.md)
++ [MI](mi.md)
 + [MSM](msm.md)
 + [NBCC](nbcc.md)
 + [NCC](ncc.md)

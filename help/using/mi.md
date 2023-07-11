@@ -4,7 +4,7 @@ description: パターン検出コードのヘルプページ
 source-git-commit: aa05ebcb54c6945a903c76add4f31e3279cd05b5
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 34%
+ht-degree: 38%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_mi_overview"
 >title="設定ミスの問題"
->abstract="MI は、AEMインスタンスの設定の問題を識別します"
+>abstract="MI が、AEM インスタンスの設定の問題を識別する"
 
 `MI`  設定ミスの問題は、AEMインスタンスの設定の問題を特定します。
 

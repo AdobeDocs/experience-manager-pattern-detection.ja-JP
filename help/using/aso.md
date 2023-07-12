@@ -3,9 +3,9 @@ title: ASO
 description: パターン検出コードのヘルプページ
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: a899311c975efee180bc1d3bc3c7bca30d429a22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '498'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ AEM システムの概要
 * `vanity.url.count`：バニティ URL の数です。
 * `index.size`：移行可能な Lucene インデックスの合計サイズ。
 * `workflow.count`：実行中で古い状態のオーサーワークフローの数。
-* `jvm.arguments`:AEMの起動時にコマンドラインに追加された JVM 引数。
+* `jvm.arguments`：AEM の起動時にコマンドラインに追加された JVM 引数。
 
 ## 考えられる影響およびリスク {#implications-and-risks}
 
@@ -50,7 +50,7 @@ AEM システムの概要
 * カスタムアプリケーションは、AEM as a Cloud Service で使用できない製品や機能に依存している場合があります。
 * サポートされていない機能を使用したままアップグレードすると、アップグレードが失敗し、アプリケーションが機能しなくなることがあります。
 * 実行中または古い状態のオーサーワークフローが多数あると、パフォーマンスが低下する可能性があります。
-* クエリが遅いと、システムのパフォーマンスが低下する場合があります。
+* クエリの処理に時間がかかり、システムのパフォーマンスが低下する場合があります。
 
 ## 可能な解決策 {#solutions}
 
@@ -63,6 +63,6 @@ AEM システムの概要
 * サポートされていない製品や機能を含む AEM アップグレードは推奨されず、サポートの対象外となる場合があります。
 * 未処理のアセットを処理し、アセットの jcr:content ノードで dam:assetState プロパティを「processed」に設定するか、AEMaaCS に移行する前に移行セットからこれらのアセットを削除する必要があります。
 * バニティー URL は Apache Rewrites に置き換えることができます。
-* 詳しくは、 [ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html) を参照してください。
+* 処理に時間のかかるクエリのトラブルシューティングについては、[ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html?lang=ja)を参照してください。
 * AEM as a Cloud Service における最新の変更事項については、[リリースノート](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ja)を参照してください。
 * 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。

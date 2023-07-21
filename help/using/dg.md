@@ -3,9 +3,9 @@ title: DG
 description: パターン検出コードのヘルプページ
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '699'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 95%
 * `sling.commons.scheduler`：スケジュールされたタスクでの Sling Commons Scheduler API の使用
 * `unsupported.asset.api`：アプリケーションコードでのサポートされていない Asset Manager API の使用。
 * `javax.jcr.observation.EventListener`：アプリケーションコードでのイベントリスナーの使用。
-* `custom.guava.cache`:アプリケーションコードでの Guava Cache の使用。
+* `custom.guava.cache`：アプリケーションコードでの Guava キャッシュの使用。
 
 ## 考えられる影響およびリスク {#implications-and-risks}
 
@@ -58,7 +58,7 @@ ht-degree: 95%
    * イベントリスナーに依存するアプリケーションは、実行が保証されないので、期待どおりに動作しない可能性があります。
 
 * `custom.guava.cache`
-   * Guava Cache を使用すると、AEMでパフォーマンスの問題が発生する場合があります。
+   * Guava キャッシュを使用すると、AEM でパフォーマンスの問題が発生する可能性があります。
 
 
 ## 可能な解決策 {#solutions}
@@ -89,5 +89,5 @@ ht-degree: 95%
    * イベントリスナーを使用する代わりに、確実に処理を行うために、イベント処理メカニズムを [Sling ジョブ](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)にリファクタリングすることをお勧めします。
 
 * `custom.guava.cache`
-   * 必要に応じて、キャッシュはAEMの外部で作成する必要があります。 外部キャッシュソリューションを検討する必要があります。
+   * キャッシュは、必要に応じて AEM の外部で作成する必要があります。外部キャッシュソリューションを検討することをお勧めします。
 * 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。

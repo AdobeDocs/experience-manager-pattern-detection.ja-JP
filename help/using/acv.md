@@ -3,9 +3,9 @@ title: ACV
 description: パターン検出コードのヘルプページ
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 1558502da1a63663ba239157bc1296e0a64e9616
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Assets コンテンツバリデーター
 * `metadata.descendants.violation`：リポジトリ内のアセットの metadata ノードの下に 100 を超える子孫を持つアセットを識別します。
 * `conflict.node`：/content/dam/ パスの下のリポジトリで競合ノードの存在を識別します。
 * `psb.file.large`：2 GB を超える大きなサイズの PSB ファイル（dc:format：application/vnd.3gpp.pic-bw-small）を識別します。
-* `invalid.asset.name`:無効な文字を含むアセットを識別します [* / : [\] | # % { } ? &amp;] を入力します。
+* `invalid.asset.name`：名前に無効な文字 [* / : [\] | # % { } ? &amp;] を含むアセットを識別します。
 
 ## 考えられる影響およびリスク {#implications-and-risks}
 
@@ -40,7 +40,7 @@ Assets コンテンツバリデーター
 * metadata ノードの下の子孫の数が多いと、これに違反するアセットで構成されるフォルダーの読み込みに時間がかかる場合があります。
 * 競合ノードが存在すると、AEM as a Cloud Service で取り込みエラーが発生する可能性があります。
 * Experience Manager では、非常に高い解像度の PSB ファイルを処理できない場合があります。大きなファイルの処理に ImageMagick を使用する場合は、Experience Manager サーバーの適切なベンチマークが行われていなければ、パフォーマンスに影響する可能性があります。
-* アセット名に無効な文字が含まれていると、AEM as a Cloud Serviceへの移行中にエラーが発生する可能性があります。
+* アセット名に無効な文字が含まれていると、AEM as a Cloud Service への移行中にエラーが発生する可能性があります。
 
 ## 可能な解決策 {#solutions}
 

@@ -7,9 +7,9 @@ feature-set: Experience Manager
 feature: Developer Tools
 role: Developer
 source-git-commit: 6fe0d0abfbef3690a641c63f3b560efbd8df9ce1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '49'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

@@ -1,8 +1,9 @@
 ---
 title: MI
 description: パターン検出コードのヘルプページ
-source-git-commit: aa05ebcb54c6945a903c76add4f31e3279cd05b5
-workflow-type: ht
+exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
+source-git-commit: efb06dc7e00f91d4c080553df3153deb90b093f2
+workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
 

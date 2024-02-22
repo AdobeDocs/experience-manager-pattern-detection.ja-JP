@@ -3,8 +3,8 @@ title: DOPI
 description: パターン検出コードのヘルプページ
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: tm+mt
-source-wordcount: '305'
+workflow-type: ht
+source-wordcount: '255'
 ht-degree: 100%
 
 ---

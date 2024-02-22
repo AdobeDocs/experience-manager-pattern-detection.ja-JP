@@ -4,7 +4,7 @@ description: パターン検出コードのヘルプページ
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
 workflow-type: ht
-source-wordcount: '264'
+source-wordcount: '235'
 ht-degree: 100%
 
 ---

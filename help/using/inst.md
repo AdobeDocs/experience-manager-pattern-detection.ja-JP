@@ -3,8 +3,8 @@ title: INST
 description: パターン検出コードのヘルプページ
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: tm+mt
-source-wordcount: '523'
+workflow-type: ht
+source-wordcount: '449'
 ht-degree: 100%
 
 ---

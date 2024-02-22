@@ -3,8 +3,8 @@ title: LOCP
 description: パターン検出コードのヘルプページ
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: tm+mt
-source-wordcount: '203'
+workflow-type: ht
+source-wordcount: '175'
 ht-degree: 100%
 
 ---

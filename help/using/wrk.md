@@ -3,8 +3,8 @@ title: WRK
 description: パターン検出コードのヘルプページ
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: tm+mt
-source-wordcount: '372'
+workflow-type: ht
+source-wordcount: '330'
 ht-degree: 100%
 
 ---

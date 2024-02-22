@@ -3,8 +3,8 @@ title: PCX
 description: パターン検出コードのヘルプページ
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: tm+mt
-source-wordcount: '227'
+workflow-type: ht
+source-wordcount: '208'
 ht-degree: 100%
 
 ---

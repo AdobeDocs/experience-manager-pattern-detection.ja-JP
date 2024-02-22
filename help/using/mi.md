@@ -3,8 +3,8 @@ title: MI
 description: パターン検出コードのヘルプページ
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
 source-git-commit: efb06dc7e00f91d4c080553df3153deb90b093f2
-workflow-type: tm+mt
-source-wordcount: '255'
+workflow-type: ht
+source-wordcount: '210'
 ht-degree: 100%
 
 ---
@@ -48,6 +48,6 @@ ht-degree: 100%
    * リビジョンクリーンアップ：[リビジョンクリーンアップ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=ja)を参照してください。設定に関する重要な部分については、[リビジョンクリーンアップ - テールコンパクションおよびフルコンパクションの設定](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=ja#how-to-configure-full-and-tail-compaction)を参照してください。
    * Lucene バイナリクリーンアップ：[操作ダッシュボード - Lucene バイナリクリーンアップ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-dashboard.html?lang=ja#lucene-binaries-cleanup)を参照してください。
    * データストアのガベージコレクション：[データストアのガベージコレクション](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/data-store-garbage-collection.html?lang=ja)を参照してください。
-   * ワークフローのパージ：[ワークフローインスタンスの定期的なパージ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/workflows-administering.html?lang=ja#regular-purging-of-workflow-instances)を参照してください。
+   * ワークフローのパージ：[ワークフローインスタンスの定期的なパージ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/workflows-administering.html#regular-purging-of-workflow-instances?lang=ja)を参照してください。
    * 監査ログのメンテナンスタスク：[監査ログのメンテナンス](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-audit-log.html?lang=ja)を参照してください。
 * 不明な点や対処すべき懸念がある場合は、アドビの [Experience Manager カスタマーケアチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

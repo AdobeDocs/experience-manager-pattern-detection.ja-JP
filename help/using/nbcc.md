@@ -3,8 +3,8 @@ title: NBCC
 description: パターン検出コードのヘルプページ
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: tm+mt
-source-wordcount: '233'
+workflow-type: ht
+source-wordcount: '207'
 ht-degree: 100%
 
 ---

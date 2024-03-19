@@ -1,8 +1,9 @@
 ---
 title: INS
 description: パターン検出コードのヘルプページ
-source-git-commit: e469b546a75a77e538a54de3ffc1ca385c8cf21d
-workflow-type: ht
+exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
+source-git-commit: 07af2303583072effbaaf23de1878e4d0dcfd2bd
+workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
 

@@ -1,11 +1,11 @@
 ---
 title: OAUI
-description: パターン検出コードのヘルプページ
+description: パターン検出コードのヘルプページ…
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '231'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 47%
 
 ---
 
@@ -19,9 +19,9 @@ OAuth ユーザーインスタンス
 >id="aemcloud_bpa_oaui_overview"
 >title="OAuth ユーザーインスタンス"
 >abstract="OAUI コードは、適切な移行を必要とする OAuth 関連の設定済みユーザーが 1 人以上存在するパターンを識別します。OAuth は、/home/user-path/user-node/oauth の形式で rep:AuthorizableId ノードの直下に oauth という名前のサブノードがある場合にユーザーに設定されます。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ja" text="AEM as a Cloud Service - リリースノート"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - リリースノート"
 
-`OAUI` は、適切な移行が要求される OAuth 関連の設定済みユーザーが 1 人以上存在するパターンを識別します。
+OAUI は、適切な移行を必要とする OAuth 関連の設定済みユーザーが 1 人以上存在するパターンを識別します。
 
 OAuth は、`oauth` というサブノードが、`rep:AuthorizableId` ノードの直下に `/home/user-path/user-node/oauth` の形式で存在する場合に、ユーザーに対して設定されます。
 
@@ -29,16 +29,16 @@ OAuth は、`oauth` というサブノードが、`rep:AuthorizableId` ノード
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 
-* OAuth で設定された外部ユーザーは、下記の手順で再設定しない限り、オーサーインスタンスまたはパブリッシュインスタンスにはログインできません。
+* OAuth で設定された外部ユーザーは、以下の手順で再設定しない限り、オーサーインスタンスまたはパブリッシュインスタンスにログインできません。
 
 ## 可能な解決策 {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_guidance"
 >title="実装ガイダンス"
->abstract="OAuth で設定された外部ユーザーは、AEM as a Cloud Service に対応するように再設定されるまでは、オーサーインスタンスまたはパブリッシュインスタンスにログインできません。AEM as a Cloud Service では、作成者、管理者、開発者の各ユーザーおよびパブリッシュ環境向けの SAML ベース統合に対してのみ IMS 認証をサポートしています。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=ja" text="IMS のサポート - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/personalization/user-and-group-sync-for-publish-tier.html?lang=ja#integration-with-an-idp" text="SAML 統合 - パブリッシュ"
+>abstract="OAuth で設定された外部ユーザーは、AEMas a Cloud Service環境に対応するように再設定されるまでは、オーサーインスタンスまたはパブリッシュインスタンスにログインできません。 AEMas a Cloud Serviceでは、作成者、管理者、開発者の各ユーザーに対してのみ IMS 認証をサポートしており、公開環境向けには SAML ベースの統合を提供しています。 ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support" text="IMS のサポート - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier#integration-with-an-idp" text="SAML 統合 - パブリッシュ"
 
-* ユーザーの移行に関するオプションについては、Adobe 担当者にお問合せください。
-* 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。
+* ユーザー移行のオプションについて話し合う必要がある場合は、Adobe担当者にお問い合わせください。
+* に連絡してください [AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 説明するため、または懸念に対処するため。

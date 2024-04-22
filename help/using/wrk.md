@@ -2,10 +2,10 @@
 title: WRK
 description: パターン検出コードのヘルプページ
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '330'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '326'
+ht-degree: 92%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 >abstract="標準のアセットワークフローはアセットマイクロサービスで自動的にサポートされるので、ベストプラクティスとしては、すべてのカスタムアセットワークフローモデルまたはランチャーを調べて、AEM as a Cloud Service に移行した後もそれらが必要かどうかを確認することをお勧めします。アセットワークフローをカスタマイズする場合は、AEM as a Cloud Service と連携できるように、アセットワークフロー移行ツールを使用して移行する必要があります。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html?lang=ja" text="はじめに - アセットマイクロサービス"
 
-* アセットの処理はこれまで、AEM オーサーインスタンス上で実行するアセットワークフローで実行されていました。現在、AEM as a Cloud Service でのアセット処理は、アセットマイクロサービスによって実行されています（詳細については、「[アセットマイクロサービスの概要](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=ja)」を参照してください）。
+* アセットの処理はこれまで、AEM オーサーインスタンス上で実行するアセットワークフローで実行されていました。現在、AEM as a Cloud Service でのアセット処理は、アセットマイクロサービスによって実行されていますを参照してください。 [アセットマイクロサービスの概要](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=ja) を参照してください。
 * 標準のアセットワークフローは、アセットマイクロサービスで自動的にサポートされます。
 * アセットワークフローをカスタマイズする場合は、AEM as a Cloud Service に対応させるために移行が必要です。
 
@@ -50,4 +50,4 @@ ht-degree: 100%
 
 * カスタムアセットワークフローモデル、またはランチャーが識別された場合は、[アセットワークフロー移行ツール](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/asset-workflow-migration-tool.html?lang=ja)の実行を検討します。
 * 詳細については、「[アセットマイクロサービスの概要](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html?lang=ja)」を参照してください。
-* 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。
+* に連絡してください [AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 説明するため、または懸念に対処するため。

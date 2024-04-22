@@ -1,10 +1,10 @@
 ---
 title: SBCE
 description: パターン検出コードのヘルプページ
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
 source-wordcount: '9'
-ht-degree: 100%
+ht-degree: 44%
 
 ---
 

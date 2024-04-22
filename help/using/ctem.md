@@ -2,10 +2,10 @@
 title: CTEM
 description: パターン検出コードのヘルプページ
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '253'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 93%
 
 ---
 
@@ -49,4 +49,4 @@ ht-degree: 100%
 
 * [AEM Modernization Tools](https://opensource.adobe.com/aem-modernize-tools/) を利用して、静的テンプレートを編集可能テンプレートに移行します。
 * 編集可能テンプレートの詳細については、「[テンプレート](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html?lang=ja)」を参照してください。
-* 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。
+* に連絡してください [AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 説明するため、または懸念に対処するため。

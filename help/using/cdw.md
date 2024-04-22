@@ -2,10 +2,10 @@
 title: CDW
 description: パターン検出コードのヘルプページ
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
-source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
-workflow-type: ht
-source-wordcount: '145'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 87%
 
 ---
 
@@ -39,4 +39,4 @@ ht-degree: 100%
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * カスタムクラシックダイアログウィジェットは、ExtJS から [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html) に変換する必要があります。
-* 不明な点や対処すべき懸念がある場合は、アドビの [Experience Manager カスタマーケアチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+* に連絡してください [Experience Managerカスタマーケアチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 説明するため、または懸念に対処するため。

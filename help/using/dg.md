@@ -2,10 +2,10 @@
 title: DG
 description: パターン検出コードのヘルプページ
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
-workflow-type: ht
-source-wordcount: '620'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 94%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 * `java.io.inputstream`
    * バイナリをデータストアに直接追加するダイレクトバイナリアップロードアプローチを使用します。
-   * アセットのユースケースには、[aem-upload](https://github.com/adobe/aem-upload) を使用してください。これ以外のバイナリタイプについても、同じパターンをモデルとしたカスタムアップロードロジックを作成できます。
+   * アセットのユースケースについては、を参照してください。 [aem-upload](https://github.com/adobe/aem-upload). これ以外のバイナリタイプについても、同じパターンをモデルとしたカスタムアップロードロジックを作成できます。
 
 * `maintenance.task.configuration`
    * AEM as a Cloud Service の[メンテナンスタスク](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html?lang=ja)に関するドキュメントを参照してください。
@@ -83,11 +83,11 @@ ht-degree: 100%
    * 長時間続くジョブは、可能な限り使用しないようにします。
 
 * `unsupported.asset.api`
-   * サポートされていない Asset Manager の API を使用する代わりに、[aem-upload](https://github.com/adobe/aem-upload) を使用してください。
+   * サポートされていない Asset Manager の API を使用する代わりに、を参照してください [aem-upload](https://github.com/adobe/aem-upload).
 
 * `javax.jcr.observation.EventListener`
    * イベントリスナーを使用する代わりに、確実に処理を行うために、イベント処理メカニズムを [Sling ジョブ](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)にリファクタリングすることをお勧めします。
 
 * `custom.guava.cache`
    * キャッシュは、必要に応じて AEM の外部で作成する必要があります。外部キャッシュソリューションを検討することをお勧めします。
-* 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。
+* に連絡してください [AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 説明するため、または懸念に対処するため。

@@ -1,10 +1,10 @@
 ---
 title: NONE
 description: パターン検出コードのヘルプページ
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '30'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '27'
+ht-degree: 48%
 
 ---
 
@@ -19,4 +19,4 @@ ht-degree: 100%
 
 ## 可能な解決策 {#solutions}
 
-* [AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)に連絡して、エラーを報告してください。
+* に連絡してください [AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) エラーを報告する必要があります。

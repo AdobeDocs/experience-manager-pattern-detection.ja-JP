@@ -1,17 +1,17 @@
 ---
 title: TEMPLATE
-description: パターン検出コードヘルプページのテンプレート
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
-workflow-type: ht
-source-wordcount: '121'
-ht-degree: 100%
+description: パターン検出コードのヘルプページのテンプレート。
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 83%
 
 ---
 
 
 # [!DNL TEMPLATE] {#template}
 
-テンプレート
+Template
 
 ## 背景 {#background}
 
@@ -33,4 +33,4 @@ ht-degree: 100%
 
 * 可能な解決策 1
 * 可能な解決策 2
-* 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。
+* に連絡してください [AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 説明するため、または懸念に対処するため。

@@ -2,10 +2,10 @@
 title: OID
 description: パターン検出コードのヘルプページ
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: d3e518cf8ad53a2cd28d4eea7f9b75c672881507
-workflow-type: ht
-source-wordcount: '418'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '415'
+ht-degree: 95%
 
 ---
 
@@ -54,5 +54,5 @@ Oak インデックス定義
 * Oak インデックスの新しい定義やカスタム定義をデプロイする場合は、AEM as a Cloud Service の[パッケージガイドライン](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ja)に従ってください。
 * カスタマイズした AEM 標準インデックス、および新規のカスタム Oak インデックスの定義は、AEM as Cloud Service の「[コンテンツインデックス作成ガイドライン](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=ja#preparing-the-new-index-definition)」に従う必要があります。
 * [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid) プロジェクトを検証し、AEM as a Cloud Service との互換性を維持するために [OID 違反](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid)を修正および変更する方法を確認します。
-* 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。
+* に連絡してください [AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 説明するため、または懸念に対処するため。
 * [インデックスコンバーター](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/index-converter.html?lang=ja#refactoring-tools)を使用して、既存のカスタム Oak インデックス定義を AEM as a Cloud Service と互換性のあるカスタム Oak インデックス定義に移行します。

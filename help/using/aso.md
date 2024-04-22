@@ -2,10 +2,10 @@
 title: ASO
 description: パターン検出コードのヘルプページ
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: a899311c975efee180bc1d3bc3c7bca30d429a22
-workflow-type: ht
-source-wordcount: '472'
-ht-degree: 100%
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 95%
 
 ---
 
@@ -63,6 +63,6 @@ AEM システムの概要
 * サポートされていない製品や機能を含む AEM アップグレードは推奨されず、サポートの対象外となる場合があります。
 * 未処理のアセットを処理し、アセットの jcr:content ノードで dam:assetState プロパティを「processed」に設定するか、AEMaaCS に移行する前に移行セットからこれらのアセットを削除する必要があります。
 * バニティー URL は Apache Rewrites に置き換えることができます。
-* 処理に時間のかかるクエリのトラブルシューティングについては、[ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html?lang=ja)を参照してください。
+* 参照： [詳細を見る](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html?lang=ja) 低速のクエリのトラブルシューティング用。
 * AEM as a Cloud Service における最新の変更事項については、[リリースノート](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ja)を参照してください。
-* 詳しい説明が必要な場合や、懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)までお問い合わせください。
+* に連絡してください [AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 説明するため、または懸念に対処するため。

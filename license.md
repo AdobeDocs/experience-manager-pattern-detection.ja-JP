@@ -1,28 +1,19 @@
 ---
-source-git-commit: 9b7a2e726786ad4a1caad1c541f0c1aeed0477f1
-workflow-type: ht
-source-wordcount: '170'
-ht-degree: 100%
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+workflow-type: tm+mt
+source-wordcount: '172'
+ht-degree: 34%
 
 ---
 # MIT ライセンス
 
-© Copyright 2021 Adobe. All rights reserved.
+© Copyright 2021 Adobe.All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the &quot;Software&quot;), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+本ソフトウェアおよび関連するドキュメントファイル（以下「本ソフトウェア」）の複製物を取得した者に対し、本ソフトウェアを自由に取り扱うことを許諾します。 これには、本ソフトウェアの複製を使用、複製、変更、結合、公開、配布、サブライセンス、および/または販売する権利が含まれますが、これらに限定されるものではありません。 また、本ソフトウェアの提供を受ける者に対し、次の条件に従うことを許可すること。
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.著作者又は著作権者は、いかなる場合においても、一切の請求、損害その他の責任を負わないものとする。 契約行為、不法行為、その他の行為のいずれであっても、ソフトウェアから、ソフトウェアに起因する、またはソフトウェアに関連する。 または、ソフトウェアの使用またはその他の取引。

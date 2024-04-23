@@ -2,10 +2,10 @@
 title: LOCP
 description: パターン検出コードのヘルプページ…
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 61%
+source-wordcount: '170'
+ht-degree: 57%
 
 ---
 
@@ -34,7 +34,7 @@ LOCP は、コンテンツを配信するカスタムパッケージの検出を
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_guidance"
 >title="実装ガイダンス"
->abstract="カスタムコードおよびパッケージを確認して、コンテンツが /libs に配信されているかどうかを特定し、/apps 下のコンテンツを利用しオーバーレイするようにリファクタリングして、AEM as a Cloud Service に対応させてください。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
+>abstract="カスタムコードおよびパッケージを確認して、コンテンツが /libs に配信されているかどうかを特定し、/apps 下のコンテンツを利用しオーバーレイするようにリファクタリングして、AEM as a Cloud Service に対応させてください。ヘルプまたは詳しい説明については、Adobeサポートにお問い合わせください。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="オーバーレイ"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 

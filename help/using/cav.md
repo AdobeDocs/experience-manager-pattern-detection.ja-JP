@@ -2,10 +2,10 @@
 title: CAV
 description: パターン検出コードのヘルプページ
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 47%
+source-wordcount: '318'
+ht-degree: 45%
 
 ---
 
@@ -37,7 +37,7 @@ Sling のリクエスト処理では、リソースのコンテンツとその�
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_guidance"
 >title="実装ガイダンス"
->abstract="様々なコンテンツ領域違反が存在するパターンが CAS で特定された場合、そのパターンを確認する必要があります。 最終的および内部的なコンテンツ分類領域は避ける必要があります。 ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
+>abstract="様々なコンテンツ領域違反が存在するパターンが CAS で特定された場合、そのパターンを確認する必要があります。 最終的および内部的なコンテンツ分類領域は避ける必要があります。 ヘルプまたは詳しい説明については、Adobeサポートにお問い合わせください。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="持続可能なアップグレード"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 

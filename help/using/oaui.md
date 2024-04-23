@@ -2,10 +2,10 @@
 title: OAUI
 description: パターン検出コードのヘルプページ…
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 47%
+source-wordcount: '229'
+ht-degree: 44%
 
 ---
 
@@ -36,7 +36,7 @@ OAuth は、`oauth` というサブノードが、`rep:AuthorizableId` ノード
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_guidance"
 >title="実装ガイダンス"
->abstract="OAuth で設定された外部ユーザーは、AEMas a Cloud Service環境に対応するように再設定されるまでは、オーサーインスタンスまたはパブリッシュインスタンスにログインできません。 AEMas a Cloud Serviceでは、作成者、管理者、開発者の各ユーザーに対してのみ IMS 認証をサポートしており、公開環境向けには SAML ベースの統合を提供しています。 ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
+>abstract="OAuth で設定された外部ユーザーは、AEMas a Cloud Service環境に対応するように再設定されるまでは、オーサーインスタンスまたはパブリッシュインスタンスにログインできません。 AEMas a Cloud Serviceでは、作成者、管理者、開発者の各ユーザーに対してのみ IMS 認証をサポートしており、公開環境向けには SAML ベースの統合を提供しています。 ヘルプまたは詳しい説明については、Adobeサポートにお問い合わせください。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support" text="IMS のサポート - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier#integration-with-an-idp" text="SAML 統合 - パブリッシュ"
 

@@ -2,10 +2,10 @@
 title: FORM
 description: パターン検出コードのヘルプページ
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 99%
+source-wordcount: '981'
+ht-degree: 98%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_guidance"
 >title="実装ガイダンス"
->abstract="FORMS コードで公開された情報は、一部の機能および API を Cloud Service に対応させるために必要な置き換えなどの措置に関するガイダンスを提供できます。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
+>abstract="FORMS コードで公開された情報は、一部の機能および API を Cloud Service に対応させるために必要な置き換えなどの措置に関するガイダンスを提供できます。ヘルプまたは詳しい説明については、Adobeサポートにお問い合わせください。"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * 移行ユーティリティを使用して、現在の環境にあるルールスクリプトをすべて再利用可能な関数に変換します。再利用可能な関数をビジュアルルールエディターで使用することにより、引き続き、ルールスクリプトで取得した結果を利用できるようになります。(CODE_EDITOR)

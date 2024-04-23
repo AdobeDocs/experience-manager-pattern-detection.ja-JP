@@ -2,10 +2,10 @@
 title: NBCC
 description: パターン検出コードのヘルプページ
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 91%
+ht-degree: 63%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 91%
 >id="aemcloud_bpa_nbcc_overview"
 >title="後方互換性のない変更"
 >abstract="NBCC は、一部の JCR ノードやバンドルが、互換性のない方法で変更されている状況を識別します。アップグレードの前に、お客様がこの変更について認識していないことがあります。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html?lang=ja" text="主要な変更点 - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=ja" text="リリースノート - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主要な変更点 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="リリースノート - AEM as a Cloud Service"
 
-`NBCC` は、一部の JCR ノードやバンドルが、互換性のない方法で変更される状況を識別します。アップグレードの前に、お客様がこの変更について認識していないことがあります。
+NBCC は、一部の JCR ノードやバンドルが、互換性のない方法で変更されている状況を識別します。アップグレードの前に、お客様がこの変更について認識していないことがあります。
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 
@@ -34,10 +34,10 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_nbcc_guidance"
 >title="実装ガイダンス"
->abstract="ベストプラクティスとしては、カスタムコードを確認し、下位互換性のある Sling コンポーネントのみオーバーレイまたは参照されるようにすることをお勧めします。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html?lang=ja#platform" text="オーバーレイ"
+>abstract="ベストプラクティスは、カスタムコードを確認し、下位互換性のある Sling コンポーネントのみをオーバーレイまたは参照することです。 ヘルプまたは詳しい説明については、Adobeサポートにお問い合わせください。"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="オーバーレイ"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
-* 後方互換性のある Sling コンポーネントだけをオーバーレイまたは参照の対象とします。
+* 下位互換性のある Sling コンポーネントのみをオーバーレイまたは参照します。
 * AEM のアップグレード後、`/libs` またはバンドルに由来するリソースを適合させること検討してください。
 * に連絡してください [AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 説明するため、または懸念に対処するため。

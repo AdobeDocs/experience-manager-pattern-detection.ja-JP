@@ -2,10 +2,10 @@
 title: IOI
 description: パターン検出コードのヘルプページ
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 92%
+source-wordcount: '221'
+ht-degree: 89%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_guidance"
 >title="実装ガイダンス"
->abstract="カスタムコードを確認して、そのような API の使用状況を特定し、AEM as a Cloud Service に対応するようにカスタムコードをリファクタリングする必要があります。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
+>abstract="カスタムコードを確認して、そのような API の使用状況を特定し、AEM as a Cloud Service に対応するようにカスタムコードをリファクタリングする必要があります。ヘルプまたは詳しい説明については、Adobeサポートにお問い合わせください。"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * 低レベルのアクセスではなく、Sling Resource API（または JCR API）を使用します。

@@ -2,10 +2,10 @@
 title: INST
 description: パターン検出コードのヘルプページ
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 96%
+source-wordcount: '447'
+ht-degree: 77%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 96%
 >id="aemcloud_bpa_inst_overview"
 >title="インストール済みアーティファクト"
 >abstract="INST は、ユーザーによって AEM にインストールされたカスタムおよびサードパーティ製のパッケージおよびバンドルを識別します。こうした情報は、システムの状態やアップグレード作業の全般的な範囲を把握するために報告されます。サードパーティ製パッケージは、AEM as a Cloud Service の開発およびパッケージガイドラインに準拠する必要があります。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=ja" text="開発ガイドライン - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html?lang=ja" text="パッケージガイドライン - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="開発ガイドライン - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="パッケージガイドライン - AEM as a Cloud Service"
 
-`INST` は、お客様によって AEM にインストールされたカスタムパッケージおよびサードパーティ製パッケージのバンドルを識別します。こうした情報は、システムの状態やアップグレード作業の全般的な範囲を把握するために報告されます。
+INST は、ユーザーによって AEM にインストールされたカスタムおよびサードパーティ製のパッケージおよびバンドルを識別します。こうした情報は、システムの状態やアップグレード作業の全般的な範囲を把握するために報告されます。
 
 1 つのパッケージについて複数のバージョンがインストールされている場合は、最新バージョンだけが報告されます。
 
@@ -38,8 +38,8 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_guidance"
 >title="実装ガイダンス"
->abstract="CRX パッケージマネージャーを使用してサードパーティ製パッケージをインストールすることはできなくなりました。これらのインストール済みアーティファクトを確認し、AEM as a Cloud Service と連携できるように再構成および最適化する必要があります。サードパーティ製パッケージと AEM as a Cloud Service の互換性については、パッケージの作成者またはアドビに確認してください。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ja#embeddeds" text="コンテナパッケージへのサブパッケージの埋め込み"
+>abstract="CRX パッケージマネージャーを使用してサードパーティパッケージをインストールすることはできなくなりました。 構造化が必要なこれらのインストール済みアーティファクトを確認し、AEM as a Cloud Serviceと連携するように最適化する必要があります。 AEM as a Cloud Serviceと互換性を持たせるために、サードパーティ製パッケージの作成者またはAdobeを確認します。"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embeddeds" text="コンテナパッケージへのサブパッケージの埋め込み"
 
 
 * CRX パッケージマネージャーを使用してサードパーティ製パッケージを AEM as a Cloud Service にインストールすることはできません。
@@ -51,12 +51,12 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="ツールとリソース"
->abstract="wknd-legacy プロジェクトを確認し、INST 違反を修正して AEM as a Cloud Service に対応させる方法を把握します。また、GitHub の INST 違反例を確認し、問題を修正してアーティファクトを AEM as a Cloud Service にデプロイする方法も理解します。"
+>abstract="wknd-legacy プロジェクトを確認し、INST 違反を修正して AEM as a Cloud Service に対応させる方法を把握します。また、GitHub の INST 違反例を確認し、問題を修正してAEMas a Cloud Service環境にデプロイする方法も理解します。"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="wknd-legacy プロジェクト"
->additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="INST 違反の例 - GitHub"
+>additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="INST 違反の例 – GitHub"
 
-* サードパーティ製パッケージは、Cloud Manager の[デプロイメントプロセス](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/deploy-code.html?lang=ja#deployment-process)を使用して、プロジェクトの一部として AEM にデプロイする必要があります。
-* AEM as a Cloud Service のプロジェクトに[サードパーティ製パッケージを組み込む](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ja#embedding-3rd-party-packages)方法を確認します。
-* サードパーティ製パッケージは、AEM as a Cloud Service の[開発](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=ja)および[パッケージ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html?lang=ja)ガイドラインに準拠する必要があります。
+* サードパーティ製パッケージは、Cloud Manager の[デプロイメントプロセス](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deployment-process)を使用して、プロジェクトの一部として AEM にデプロイする必要があります。
+* AEM as a Cloud Service のプロジェクトに[サードパーティ製パッケージを組み込む](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embedding-3rd-party-packages)方法を確認します。
+* サードパーティ製パッケージは、AEM as a Cloud Service の[開発](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines)および[パッケージ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package)ガイドラインに準拠する必要があります。
 * [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) プロジェクトを検証し、AEM as a Cloud Service との互換性を維持するために [INST 違反](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst)を修正および変更する方法を確認します。
 * に連絡してください [AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 説明するため、または懸念に対処するため。

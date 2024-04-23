@@ -2,10 +2,10 @@
 title: CCOM
 description: パターン検出コードのヘルプページ
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 92%
+source-wordcount: '240'
+ht-degree: 70%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 >title="カスタムコンポーネント"
 >abstract="CCOM は、AEM にインストールされているカスタムコンポーネントを識別します。この情報は、ベストプラクティスの評価を目的として提供されます。"
 
-`CCOM` は、AEM にインストールされているカスタムコンポーネントを識別します。この情報は、ベストプラクティスの評価を目的として提供されます。
+CCOM は、AEM にインストールされているカスタムコンポーネントを識別します。この情報は、ベストプラクティスの評価を目的として提供されます。
 
 このコードのサブタイプは、コンポーネントのカテゴリの識別に使用されます。
 
@@ -31,17 +31,17 @@ ht-degree: 92%
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 
-* ベストプラクティスとしては、カスタムコンポーネントの数を最小限に抑え、コアコンポーネントを活用し、スタイルシステムでコアコンポーネントを使用することにより、技術的負担を軽減することをお勧めします。
+* ベストプラクティスは、カスタムコンポーネントの数を最小限に抑え、コアコンポーネントを使用し、スタイルシステムでコアコンポーネントを使用することにより、技術的負担を軽減することです。
 
 ## 可能な解決策 {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccom_guidance"
 >title="実装ガイダンス"
->abstract="ベストプラクティスとしては、カスタムコンポーネントの数を最小限に抑え、コアコンポーネントを活用し、スタイルシステムでコアコンポーネントを使用することにより、技術的負担を軽減することをお勧めします。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=ja" text="コアコンポーネント"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=ja#page-authoring" text="スタイルシステム"
+>abstract="ベストプラクティスは、カスタムコンポーネントの数を最小限に抑え、コアコンポーネントを使用し、スタイルシステムでコアコンポーネントを使用することにより、技術的負担を軽減することです。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-core-components/using/introduction" text="コアコンポーネント"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="スタイルシステム"
 
-* コアコンポーネントの詳細については、「[コアコンポーネントの概要](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=ja)」を参照してください。
-* スタイルシステムの詳細については、「[スタイルシステムの使用](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html?lang=ja#page-authoring)」を参照してください。
+* コアコンポーネントの詳細については、「[コアコンポーネントの概要](https://experienceleague.adobe.com/ja/docs/experience-manager-core-components/using/introduction)」を参照してください。
+* スタイルシステムの詳細については、「[スタイルシステムの使用](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring)」を参照してください。
 * に連絡してください [AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 説明するため、または懸念に対処するため。

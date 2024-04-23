@@ -2,10 +2,10 @@
 title: PCX
 description: パターン検出コードのヘルプページ
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 58%
+source-wordcount: '199'
+ht-degree: 54%
 
 ---
 
@@ -38,7 +38,7 @@ PCX は、構造内に多数のノードを含むページを識別します。
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="実装ガイダンス"
->abstract="ベストプラクティスは、コンテンツ構造を確認して、ページの複雑さを軽減することです。これにより、ページレンダリングのパフォーマンスが向上します。 ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
+>abstract="ベストプラクティスは、コンテンツ構造を確認して、ページの複雑さを軽減することです。これにより、ページレンダリングのパフォーマンスが向上します。 ヘルプまたは詳しい説明については、Adobeサポートにお問い合わせください。"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * 次のアクションを実行して、ページ内のノードの合計数を減らします。

@@ -2,10 +2,10 @@
 title: URS
 description: パターン検出コードのヘルプページ
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 87%
+source-wordcount: '378'
+ht-degree: 55%
 
 ---
 
@@ -17,17 +17,18 @@ ht-degree: 87%
 >id="aemcloud_bpa_urs_overview"
 >title="サポートされていないリポジトリー構造"
 >abstract="URS はサポートされていないリポジトリー構造とノード文字のケースを特定します。これは、AEM 製品コードと顧客コードの競合、コンテンツを /etc からリポジトリー内の他のフォルダーに再構成することなどを避けるための情報を示します。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html?lang=ja" text="リポジトリーの再構築"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="リポジトリーの再構築"
 
 ## 背景 {#background}
 
-`URS` はサポートされていないリポジトリー構造とノード文字のケースを特定します。AEM 6.4 以降、リポジトリーコンテンツの再構築に関するガイドラインが提供されています。AEM 製品コードとカスタムコードの階層を明確に区別して競合を避けることにより、次の高水準ルールに準拠して、コンテンツは `/etc` からリポジトリー内の別のフォルダーに再構築されます。
+URS はサポートされていないリポジトリー構造とノード文字のケースを特定します。AEM 6.4 以降、リポジトリーコンテンツの再構築に関するガイドラインが提供されています。AEM 製品コードとカスタムコードの階層を明確に区別して競合を避けることにより、次の高水準ルールに準拠して、コンテンツは `/etc` からリポジトリー内の別のフォルダーに再構築されます。
 
-* AEM 製品コードは必ず `/libs` 下に配置されます。このフォルダーをカスタムコードで上書きしてはなりません。
-* カスタムコードは `/apps`、`/content` および `/conf` 下に配置する必要があります。
+* AEM製品コードは常に次の場所に配置されます。 `/libs`（カスタムコードで上書きしないでください）。
+* カスタムコードは次の場所に配置してください： `/apps`, `/content`、および `/conf`.
 * AEM as a Cloud Service では、これらのガイドラインに準拠することを強くお勧めします。
 
 サブタイプを使用して、対処が必要なリポジトリーの問題を識別します。
+
 * `clientlibs.location`：パスで `/etc` を参照するクライアントライブラリ。
 * `file.location`：インストールの後で変更された `/etc` 下のファイル。
 * `node.location`：インストールの後で変更された `/etc` 下のノード。
@@ -38,18 +39,18 @@ ht-degree: 87%
 ## 可能性のある影響およびリスク {#implications-and-risks}
 
 * 古いパスに依存するカスタムコードは、意図しない動作をして製品の機能に影響を与えることがあります。
-* パッケージ中に可変コンテンツと不変コンテンツの両方が含まれていると、デプロイメント中に問題が起こることがあります。
+* 可変コンテンツと不変コンテンツの両方を含むパッケージは、デプロイメント中に問題を引き起こす可能性があります。
 
 ## 可能な解決策 {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_guidance"
 >title="実装ガイダンス"
->abstract="ベストプラクティスとしては、コードプロジェクトをレビューして、コードが AEM プロジェクト構造のガイドラインに従っていることを確認し、AEM as a Cloud Service で意図しない動作を引き起こす可能性のある古いリポジトリーパスやサポートされていないリポジトリーパスに基づいたコードを避けることをお勧めします。ヘルプおよび詳しい説明については、アドビサポートにご連絡ください。"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ja" text="AEM プロジェクト構造ガイドライン"
+>abstract="ベストプラクティスは、コードプロジェクトを確認することです。 これがAEM プロジェクト構造のガイドラインに従っていることを確認し、AEMのas a Cloud Serviceで意図しない動作を引き起こす可能性のある古いリポジトリパスやサポートされていないリポジトリパスに基づいたコードを避けます。 ヘルプまたは詳しい説明については、Adobeサポートにお問い合わせください。"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="AEM プロジェクト構造ガイドライン"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
-* 参照： [リポジトリの再構築](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html?lang=ja) AEMas a Cloud Service版に備えるためのガイダンス。
-* 関連トピック [AEM プロジェクトの構造](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=ja) リポジトリの可変領域と不変領域の詳細を説明します。
+* 参照： [リポジトリの再構築](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring) AEMas a Cloud Service版に備えるためのガイダンス。
+* 関連トピック [AEM プロジェクトの構造](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) リポジトリーの可変領域と不変領域について詳しくは、こちらを参照してください。
 * に連絡してください [AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 説明するため、または懸念に対処するため。
-* [Repository Modernizer](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/repo-modernizer.html?lang=ja#refactoring-tools) を利用して、コンテンツとコードを個別のパッケージに分離して既存のプロジェクトパッケージを再構築することで、Adobe Experience Manager as a Cloud Service で定義されたプロジェクト構造と互換性を持たせることが出来ます。
+* の使用 [Repository Modernizer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/repo-modernizer#refactoring-tools) Adobe Experience Manager as a Cloud Service用に定義されたプロジェクト構造と互換性を持たせるために、コンテンツとコードを個別のパッケージに分離して、既存のプロジェクトパッケージを再構築する。

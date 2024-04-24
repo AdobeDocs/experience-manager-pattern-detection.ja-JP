@@ -2,10 +2,10 @@
 title: ASO
 description: パターン検出コードのヘルプページ
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 52%
+source-wordcount: '473'
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ AEM システムの概要
 >abstract="ASO コードは、AEM インスタンスに関する一般的な情報を識別します。各検索結果には、移行計画やリファクタリング作業に役立つ、特定タイプのシステム情報の値が 1 つ示されます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - リリースノート"
 
-ASO は、AEMインスタンスに関する一般的な情報を識別します。 各検索結果に、特定タイプのシステム情報の値が 1 つ示されます。
+`ASO` AEM インスタンスに関する一般情報を識別します。 各検索結果に、特定タイプのシステム情報の値が 1 つ示されます。
 
 サブタイプを使用して、各種情報を識別します。
 

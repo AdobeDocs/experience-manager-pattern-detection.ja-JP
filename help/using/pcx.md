@@ -2,9 +2,9 @@
 title: PCX
 description: パターン検出コードのヘルプページ
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '198'
 ht-degree: 54%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 54%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主要な変更点 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - リリースノート"
 
-PCX は、構造内に多数のノードを含むページを識別します。
+`PCX`  構造内に多数のノードを含むページを識別します。
 
 サブタイプを使用して、各種情報を識別します。
 

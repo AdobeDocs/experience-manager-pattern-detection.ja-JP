@@ -2,9 +2,9 @@
 title: CAV
 description: パターン検出コードのヘルプページ
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '317'
 ht-degree: 45%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 45%
 >abstract="CAV コードは、コンテンツ分類ルールに違反する形でコンテンツ領域が使用されているパターンを識別します。この違反では、AEM as a Cloud Service環境への移行後に変更が必要になる可能性のあるオーバーレイや制限付きコンテンツの概要が示されます。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling Resource Merger"
 
-CAV は、コンテンツ領域がコンテンツ分類ルールに違反する形で使用されているパターンを識別します。
+`CAV` コンテンツ領域がコンテンツ分類ルールに違反する形で使用されているパターンを識別します。
 
 Sling のリクエスト処理では、リソースのコンテンツとそのプロパティを定義します `sling:resourceType` プロパティは、特に、コンテンツのレンダリングに使用するスクリプトを決定するために使用されます。 （詳しくは、[スクリプトの検索](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script)を参照してください）。Sling では、「オーバーレイ」や「オーバーライド」を使用して、リソースにアクセスしたり、結合したりすることもできます。これらの方法は、[Sling Resource Merger](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) および[オーバーレイ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays)で説明されています。
 

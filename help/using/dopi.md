@@ -2,9 +2,9 @@
 title: DOPI
 description: パターン検出コードのヘルプページ
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '251'
 ht-degree: 44%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 44%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="順序付きインデックス - 非推奨"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/operations/indexing" text="インデックス作成 - AEM as a Cloud Service"
 
-DOPI は、順序付きプロパティインデックス定義（`primaryType=oak:QueryIndexDefinition` および `type="ordered"`）は 6.1 以降で非推奨となり、6.2 で削除されました。
+`DOPI`  順序付きプロパティインデックス定義（`primaryType=oak:QueryIndexDefinition` および `type="ordered"`）。AEM 6.1 以降で非推奨となり、AEM 6.2 で削除されました。
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 
@@ -45,6 +45,6 @@ DOPI は、順序付きプロパティインデックス定義（`primaryType=oa
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="wknd-legacy プロジェクト"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="DOPI 違反の例 – GitHub"
 
-* インデックス定義を変更して、サポートされているインデックス定義になるようにします（または、インデックスをに置き換えます）。 （[Oak クエリとインデックス作成](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing)を参照）。
+* インデックス定義を編集して、サポートされているインデックス定義になるようにします（または、インデックスをに置き換えます）。 （[Oak クエリとインデックス作成](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing)を参照）。
 * [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi) プロジェクトを検証し、AEM as a Cloud Service との互換性を維持するために [DOPI 違反](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi)を修正および変更する方法を確認します。
 * に連絡してください [AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 説明するため、または懸念に対処するため。

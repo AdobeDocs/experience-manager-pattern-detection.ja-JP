@@ -2,9 +2,9 @@
 title: WRK
 description: パターン検出コードのヘルプページ
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '321'
 ht-degree: 62%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 62%
 >abstract="WRK コードは、ワークフローモデルまたはランチャーに関連する情報を識別します。これらの情報は、AEM as a Cloud Service へのアップグレード時にはカスタムアセットワークフローモデルの移行が必須になるため、報告されます。現在、AEM as a Cloud Service でのアセット処理は、アセットマイクロサービスによって実行されています"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview" text="アセットマイクロサービス"
 
-WRK は、ワークフローモデルまたはランチャーに関連する情報を特定します。 これらの情報は、AEM as a Cloud Service へのアップグレード時にはカスタムアセットワークフローモデルの移行が必須になるため、報告されます。
+`WRK`  ワークフローモデルまたはランチャーに関連する情報を特定します。 これらの情報は、AEM as a Cloud Service へのアップグレード時にはカスタムアセットワークフローモデルの移行が必須になるため、報告されます。
 
 サブタイプを使用して、現在検出されているワークフローの問題の種類を識別します。
 

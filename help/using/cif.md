@@ -2,10 +2,10 @@
 title: CIF
 description: パターン検出コードのヘルプページ
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 55%
+source-wordcount: '307'
+ht-degree: 56%
 
 ---
 
@@ -21,7 +21,7 @@ Commerce Integration Framework Classic
 >abstract="CIFは、AEM as a Cloud Serviceと互換性のない、Commerce integration frameworkの従来のバージョンを識別します。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/introduction" text=" コンテンツとコマース"
 
-CIF CIFは、AEM as a Cloud Serviceと互換性のない、Commerce integration frameworkの従来のバージョンを識別します。 それぞれのメッセージ `CIF` を検索すると、使用状況が特定され、追加情報が提供されます。
+`CIF`  AEM as a Cloud Serviceと互換性のない、Commerce integration framework使用のクラシックバージョンを識別します。 それぞれのメッセージ `CIF` を検索すると、使用状況が特定され、追加情報が提供されます。
 
 サブタイプを使用して、各種情報を識別します。
 

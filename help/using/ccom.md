@@ -2,10 +2,10 @@
 title: CCOM
 description: パターン検出コードのヘルプページ
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 70%
+source-wordcount: '239'
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 70%
 >title="カスタムコンポーネント"
 >abstract="CCOM は、AEM にインストールされているカスタムコンポーネントを識別します。この情報は、ベストプラクティスの評価を目的として提供されます。"
 
-CCOM は、AEM にインストールされているカスタムコンポーネントを識別します。この情報は、ベストプラクティスの評価を目的として提供されます。
+`CCOM` AEMにインストールされているカスタムコンポーネントを特定します。 この情報は、ベストプラクティスの評価を目的として提供されます。
 
 このコードのサブタイプは、コンポーネントのカテゴリの識別に使用されます。
 

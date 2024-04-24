@@ -2,10 +2,10 @@
 title: LUI
 description: パターン検出コードのヘルプページ
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 58%
+source-wordcount: '703'
+ht-degree: 54%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 58%
 >abstract="LUI は、非推奨（廃止予定）のユーザーインターフェイス要素を識別します。これらの要素は、AEM の後続バージョンや AEM as a Cloud Service ではサポートされなくなるため推奨されません。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主要な変更点 - AEM as a Cloud Service"
 
-LUI は、非推奨（廃止予定）のユーザーインターフェイス要素を識別します。これらの要素は、AEM の後続バージョンや AEM as a Cloud Service ではサポートされなくなるため推奨されません。
+`LUI`  非推奨（廃止予定）のユーザーインターフェイス要素を使用している状況を表します。これらの要素は、AEMの後続バージョンやAEM as a Cloud Serviceではサポートされなくなるため推奨されません。
 
 サブタイプを使用して、アップグレードの必要な各種のユーザーインターフェイス要素を識別します。
 

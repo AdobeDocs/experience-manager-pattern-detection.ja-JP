@@ -2,10 +2,10 @@
 title: NCC
 description: パターン検出コードのヘルプページ
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 65%
+source-wordcount: '193'
+ht-degree: 56%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 65%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主要な変更点 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="リリースノート - AEM as a Cloud Service"
 
-NCC は、一部の JCR ノードやバンドルが、互換性のない形で変更される状況を表します。アップグレードの前に、お客様がこの変更について認識していないことがあります。
+`NCC`  一部の JCR ノードやバンドルが、互換性のない方法で変更される状況を表します。 アップグレードの前に、お客様がこの変更について認識していないことがあります。
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 

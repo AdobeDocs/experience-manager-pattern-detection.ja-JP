@@ -2,10 +2,10 @@
 title: CDW
 description: パターン検出コードのヘルプページ
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 87%
+ht-degree: 80%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 >title="カスタムダイアログウィジェット"
 >abstract="CDW は、AEM as a Cloud Service との互換性を持つために更新が必要なカスタムダイアログウィジェットを特定します。"
 
-`CDW` カスタムダイアログウィジェットは、カスタムクラシックダイアログウィジェットを識別します。これらは、AEM as a Cloud Service との互換性を持つために更新する必要があります。
+`CDW`  （カスタムダイアログウィジェット）は、カスタム Classic ダイアログウィジェットを特定します。 これらは、AEM as a Cloud Service との互換性を持つために更新する必要があります。
 
 次のようなサブタイプを使用して、情報を識別します。
 

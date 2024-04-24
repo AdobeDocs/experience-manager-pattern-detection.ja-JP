@@ -2,9 +2,9 @@
 title: URC
 description: パターン検出コードのヘルプページ
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '261'
 ht-degree: 24%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 24%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes" text="サポートされている実行モード"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#runmodes" text="実行モード"
 
-URC は、AEM as a Cloud Serviceでサポートされていない実行モード名に基づく設定の使用状況を特定します。
+`URC`  AEM as a Cloud Serviceでサポートされていない実行モード名に基づく設定の使用状況を特定します。
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 

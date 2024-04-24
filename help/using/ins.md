@@ -2,10 +2,10 @@
 title: INS
 description: パターン検出コードのヘルプページ
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 83%
+source-wordcount: '107'
+ht-degree: 60%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 83%
 >title="無効な名前空間"
 >abstract="INS が AEM インスタンスの名前空間の問題を特定"
 
-`INS` 無効な名前空間により、AEM インスタンスの名前空間の問題が特定されます。
+`INS`  （無効な名前空間）AEM インスタンスの名前空間の問題を識別します。
 
 次のようなサブタイプを使用して、各種情報を識別します。
 
@@ -28,7 +28,7 @@ ht-degree: 83%
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 
-* コンテンツを（階層全体）レプリケートしたり、コンテンツを（環境全体 - `/crx/packMgr` またはコンテンツコピーを介して）コピーしたりできません。
+* コンテンツのレプリケーション（階層をまたぐ）またはコンテンツのコピー（階層をまたぐ）ができない `env`経由 `/crx/packMgr`、またはコンテンツのコピー）を作成できます。
 
 ## 可能な解決策 {#solutions}
 

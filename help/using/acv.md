@@ -2,10 +2,10 @@
 title: ACV
 description: パターン検出コードのヘルプページ
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 71%
+source-wordcount: '478'
+ht-degree: 68%
 
 ---
 
@@ -22,7 +22,7 @@ Assets コンテンツバリデーター
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview" text="主な変更点 - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - リリースノート"
 
-ACV Assets のコンテンツバリデーターが、アセットコンテンツ内の欠落している必須ノードと違反を識別します。 これにより、Experience Manager as a Cloud Service で特定の Assets 機能でエラーが発生する可能性があります。
+`ACV` （Assets のコンテンツバリデーター）アセットコンテンツ内の欠落している必須ノードと違反を識別します。 これにより、Experience Manager as a Cloud Service で特定の Assets 機能でエラーが発生する可能性があります。
 
 次のようなサブタイプを使用して、各種情報を識別します。
 
@@ -54,5 +54,5 @@ ACV Assets のコンテンツバリデーターが、アセットコンテンツ
 * オリジナルレンディションが欠落しているアセットの場合は、移行前にアセットを再アップロードするか削除します。
 * サブアセットの元のレンディションが見つからない場合、アクションは必要ありません。
 * 競合ノードがある場合は、AEM as a Cloud Serviceに移行する前に解決または削除する必要があります。
-* 大きな PSD ファイルまたは PSB ファイルを大量に処理する予定がある場合は、アドビサポートにお問い合わせください。Experience Managerでは、30000 x 23000 ピクセルを超える高解像度の PSB ファイルを処理できない場合があります。 [ドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick)を参照してください。
+* 大きなPSDファイルまたは PSB ファイルを大量に処理する予定がある場合は、Adobeカスタマーサポートにお問い合わせください。 Experience Managerでは、30000 x 23000 ピクセルを超える高解像度の PSB ファイルを処理できない場合があります。 [ドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick)を参照してください。
 * に連絡してください [Experience Managerカスタマーケアチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 説明するため、または懸念に対処するため。

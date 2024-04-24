@@ -1,5 +1,5 @@
 ---
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 34%
@@ -9,7 +9,7 @@ ht-degree: 34%
 
 © Copyright 2021 Adobe.All rights reserved.
 
-本ソフトウェアおよび関連するドキュメントファイル（以下「本ソフトウェア」）の複製物を取得した者に対し、本ソフトウェアを自由に取り扱うことを許諾します。 これには、本ソフトウェアの複製を使用、複製、変更、結合、公開、配布、サブライセンス、および/または販売する権利が含まれますが、これらに限定されるものではありません。 また、本ソフトウェアの提供を受ける者に対し、次の条件に従うことを許可すること。
+本ソフトウェアおよび関連するドキュメントファイル（以下「本ソフトウェア」）の複製物を取得した者に対し、本ソフトウェアを自由に取り扱うことを許諾します。 これには、本ソフトウェアのコピーを使用、コピー、編集、結合、公開、配布、サブライセンス、および/または販売する権利が含まれますが、これらに限定されるものではありません。 また、本ソフトウェアの提供を受ける者に対し、次の条件に従うことを許可すること。
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.

@@ -2,10 +2,10 @@
 title: NBCC
 description: パターン検出コードのヘルプページ
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 63%
+source-wordcount: '203'
+ht-degree: 54%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 63%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主要な変更点 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="リリースノート - AEM as a Cloud Service"
 
-NBCC は、一部の JCR ノードやバンドルが、互換性のない方法で変更されている状況を識別します。アップグレードの前に、お客様がこの変更について認識していないことがあります。
+`NBCC`  一部の JCR ノードやバンドルが、互換性のない方法で変更される状況を表します。 アップグレードの前に、お客様がこの変更について認識していないことがあります。
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 

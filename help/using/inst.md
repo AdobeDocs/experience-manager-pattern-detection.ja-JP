@@ -2,10 +2,10 @@
 title: INST
 description: パターン検出コードのヘルプページ
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 77%
+source-wordcount: '446'
+ht-degree: 73%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 77%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="開発ガイドライン - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="パッケージガイドライン - AEM as a Cloud Service"
 
-INST は、ユーザーによって AEM にインストールされたカスタムおよびサードパーティ製のパッケージおよびバンドルを識別します。こうした情報は、システムの状態やアップグレード作業の全般的な範囲を把握するために報告されます。
+`INST`  は、ユーザーによってAEMにインストールされたカスタムおよびサードパーティ製のパッケージおよびバンドルを識別します。 こうした情報は、システムの状態やアップグレード作業の全般的な範囲を把握するために報告されます。
 
 1 つのパッケージについて複数のバージョンがインストールされている場合は、最新バージョンだけが報告されます。
 

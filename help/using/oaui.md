@@ -1,10 +1,10 @@
 ---
 title: OAUI
-description: パターン検出コードのヘルプページ…
+description: パターン検出コードのヘルプページ
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '228'
 ht-degree: 44%
 
 ---
@@ -21,7 +21,7 @@ OAuth ユーザーインスタンス
 >abstract="OAUI コードは、適切な移行を必要とする OAuth 関連の設定済みユーザーが 1 人以上存在するパターンを識別します。OAuth は、/home/user-path/user-node/oauth の形式で rep:AuthorizableId ノードの直下に oauth という名前のサブノードがある場合にユーザーに設定されます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - リリースノート"
 
-OAUI は、適切な移行を必要とする OAuth 関連の設定済みユーザーが 1 人以上存在するパターンを識別します。
+`OAUI`  は、正しい移行を必要とする OAuth 関連の設定済みユーザーが 1 人以上存在するパターンを識別します。
 
 OAuth は、`oauth` というサブノードが、`rep:AuthorizableId` ノードの直下に `/home/user-path/user-node/oauth` の形式で存在する場合に、ユーザーに対して設定されます。
 

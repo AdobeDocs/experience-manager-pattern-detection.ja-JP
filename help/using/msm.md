@@ -2,9 +2,9 @@
 title: MSM
 description: パターン検出コードのヘルプページ
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '145'
 ht-degree: 51%
 
 ---
@@ -21,7 +21,7 @@ Multi-site Manager
 >abstract="MSM は、AEM Multi-site Manager の機能に関する一般的な情報を特定します。 この情報は、システムの特徴を把握するときに役立ちます。"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主要な変更点 - AEM as a Cloud Service"
 
-MSM は、AEM Multi-site Manager の機能に関する一般的な情報を特定します。 この情報は、システムの特徴を把握するときに役立ちます。
+`MSM`  AEM Multi-site Manager の機能に関する一般情報を識別します。 この情報は、システムの特徴を把握するときに役立ちます。
 
 サブタイプを使用して、各種情報を識別します。
 

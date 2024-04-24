@@ -2,10 +2,10 @@
 title: REP
 description: パターン検出コードのヘルプページ
 exl-id: e788deba-a301-404f-8e90-51f721409e69
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 74%
+source-wordcount: '414'
+ht-degree: 73%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 74%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="主要な変更点 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="開発のガイドライン"
 
-REP は有効なレプリケーションエージェントを識別します。ここでは、AEM as a Cloud Service へのアップグレード時に対応しなければならない可能性がある問題について報告されています。
+`REP`  有効なレプリケーションエージェントを識別します。 ここでは、AEM as a Cloud Service へのアップグレード時に対応しなければならない可能性がある問題について報告されています。
 
 サブタイプを使用して、各種情報を識別します。
 

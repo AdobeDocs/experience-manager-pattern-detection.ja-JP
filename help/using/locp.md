@@ -1,10 +1,10 @@
 ---
 title: LOCP
-description: パターン検出コードのヘルプページ…
+description: パターン検出コードのヘルプページ
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '169'
 ht-degree: 57%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 57%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="持続可能なアップグレード"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Sling Resource Merger"
 
-LOCP は、コンテンツを配信するカスタムパッケージの検出を識別します `/libs`：アンチパターンです（ACL の場合を除く）。
+`LOCP`  にコンテンツを配信するカスタムパッケージを検出するかどうかを識別します `/libs`：アンチパターンです（ACL の場合を除く）。
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 

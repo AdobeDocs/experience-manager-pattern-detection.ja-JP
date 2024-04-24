@@ -2,9 +2,9 @@
 title: CTEM
 description: パターン検出コードのヘルプページ
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '247'
 ht-degree: 68%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 68%
 >title="カスタムテンプレート"
 >abstract="CTEM は、AEM にインストールされているカスタムコンポーネントを識別します。この情報は、ベストプラクティスの評価を目的として提供されます。"
 
-CTEM は、AEMにインストールされているカスタムテンプレートを特定します。 この情報は、ベストプラクティスの評価を目的として提供されます。
+`CTEM`  AEMにインストールされているカスタムテンプレートを特定します。 この情報は、ベストプラクティスの評価を目的として提供されます。
 
 テンプレートは、のプライマリタイプ値によって識別されます。 `cq:Template`. このコードに次のいずれかのサブタイプを指定して、テンプレートのカテゴリを識別します。
 

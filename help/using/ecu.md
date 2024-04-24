@@ -2,10 +2,10 @@
 title: ECU
 description: パターン検出コードのヘルプページ
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 49%
+source-wordcount: '232'
+ht-degree: 50%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 49%
 
 ## 背景 {#background}
 
-ECU は、コンテンツ分類ルールに違反する形でコンテンツ領域が使用されているパターンを特定します。
+`ECU`  コンテンツ領域がコンテンツ分類ルールに違反する形で使用されているパターンを識別します。
 
 Sling のリクエスト処理では、リソースのコンテンツとそのプロパティを定義します `sling:resourceType` プロパティは、特に、コンテンツのレンダリングに使用するスクリプトを決定するために使用されます。 （詳細については、「[スクリプトの検索](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script)」を参照してください）。Sling では、「オーバーレイ」や「オーバーライド」を使用して、リソースにアクセスしたり、結合したりすることもできます。これらの方法は、[Sling Resource Merger](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) および[オーバーレイ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays)で説明されています。
 

@@ -1,11 +1,11 @@
 ---
 title: CIF
-description: パターン検出コードのヘルプページ
+description: パターン検出コードのヘルプページ。
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 56%
+ht-degree: 70%
 
 ---
 
@@ -18,8 +18,8 @@ Commerce Integration Framework Classic
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cif_overview"
 >title="Commerce Integration Framework Classic"
->abstract="CIFは、AEM as a Cloud Serviceと互換性のない、Commerce integration frameworkの従来のバージョンを識別します。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/introduction" text=" コンテンツとコマース"
+>abstract="CIF は、AEM as a Cloud Service と互換性のない、クラシックバージョンの Commerce Integration Framework の使用状況を特定します。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/content-and-commerce/introduction" text=" コンテンツとコマース"
 
 `CIF`  AEM as a Cloud Serviceと互換性のない、Commerce integration framework使用のクラシックバージョンを識別します。 それぞれのメッセージ `CIF` を検索すると、使用状況が特定され、追加情報が提供されます。
 
@@ -34,7 +34,7 @@ Commerce Integration Framework Classic
 >id="aemcloud_bpa_cif_guidance"
 >title="実装ガイダンス"
 >abstract="ベストプラクティスは、従来のバージョンの Commerce Integration Framework の使用状況をすべて確認することです。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/changes" text="CIF の主な変更点"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/content-and-commerce/change" text="CIF の主な変更点"
 
 * AEM as a Cloud Service では、Commerce Integration Framework の従来のバージョンはサポートされなくなりました。これにより、AEM as a Cloud Service へのアップグレードがブロックされます。
 
@@ -43,8 +43,8 @@ Commerce Integration Framework Classic
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cif_tools"
 >title="ツールとリソース"
->abstract="このガイドは、Experience Manager Cloud Serviceの移行に向けて更新が必要な領域を特定するのに役立ちます。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/migration" text="CIF の移行ガイド"
+>abstract="このガイドは、Experience Manager Cloud Service の移行のために更新する必要がある領域を識別するのに役立ちます。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/content-and-commerce/migration" text="CIF の移行ガイド"
 
 * Experience Managerのas a Cloud Serviceのために、CIF アドオンは、Adobe Commerceおよびサードパーティのコマースソリューションでサポートされる唯一のコマース統合ソリューションです。 CIF アドオンは、Experience Manager as a Cloud Service を使用するお客様の場合は自動的にデプロイされるので、手動でデプロイする必要はありません。[AEM Commerce as a Cloud Service - はじめに](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/storefront/getting-started)を参照してください。
 * CIF をデプロイするプロジェクトをサポートするために、アドビでは [AEM CIF コアコンポーネント](https://github.com/adobe/aem-core-cif-components)を提供しています。

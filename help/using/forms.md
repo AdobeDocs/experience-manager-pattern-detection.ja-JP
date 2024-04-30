@@ -1,11 +1,11 @@
 ---
 title: FORM
-description: パターン検出コードのヘルプページ
+description: パターン検出コードのヘルプページ。
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '981'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 72%
 
 一部の機能や API を Cloud Service と互換性のあるものにするために必要な置き換えやその他の処置については、[考えられる影響およびリスク](#implications-and-risks)や[考えられる解決策](#solutions)の節を参照してください。
 
-## 考えられる影響およびリスク {#implications-and-risks}
+## 可能性のある影響およびリスク {#implications-and-risks}
 
 [!DNL Adobe Experience Manager Forms as a Cloud Service] への移行を開始する前に、次の問題に対処します。下記の影響とリスクに対応しておかないと、機能によっては Cloud Service 環境で期待通り動作しないものもあります。
 
@@ -67,7 +67,7 @@ ht-degree: 72%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_guidance"
 >title="実装ガイダンス"
->abstract="FORMS コードで公開された情報は、一部の機能および API を Cloud Service に対応させるために必要な置き換えなどの措置に関するガイダンスを提供できます。ヘルプまたは詳しい説明については、Adobeサポートにお問い合わせください。"
+>abstract="FORMS コードで公開された情報は、一部の機能および API を Cloud Service に対応させるために必要な置き換えなどの措置に関するガイダンスを提供できます。ヘルプまたは詳しい説明については、アドビサポートにお問い合わせください。"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * 移行ユーティリティを使用して、現在の環境にあるルールスクリプトをすべて再利用可能な関数に変換します。再利用可能な関数をビジュアルルールエディターで使用することにより、引き続き、ルールスクリプトで取得した結果を利用できるようになります。(CODE_EDITOR)

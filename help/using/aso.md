@@ -1,11 +1,11 @@
 ---
 title: ASO
-description: パターン検出コードのヘルプページ
+description: パターン検出コードのヘルプページ。
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 53%
+ht-degree: 67%
 
 ---
 
@@ -23,7 +23,7 @@ AEM システムの概要
 
 `ASO` AEM インスタンスに関する一般情報を識別します。 各検索結果に、特定タイプのシステム情報の値が 1 つ示されます。
 
-サブタイプを使用して、各種情報を識別します。
+次のサブタイプを使用して、各種情報を識別します。
 
 * `aem.version`：AEM のバージョン。
 * `aem.product`：使用されているAEM製品（Commerce、Formsなど）の検出。
@@ -57,12 +57,12 @@ AEM システムの概要
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_guidance"
 >title="実装ガイダンス"
->abstract="ASO コードで公開される情報は、バージョン、製品アドオン、システム・レベル情報など、AEM環境の一般的な情報を提供します。 AEM as a Cloud Serviceでサポートされていない製品や機能について確認してください。 ヘルプまたは詳しい説明については、Adobeサポートにお問い合わせください。"
+>abstract="ASO コードによって公開される情報では、バージョン、製品アドオン、システムレベルの情報など、AEM 環境の一般的な情報を提供します。AEM as a Cloud Service でサポートされていない製品や機能について確認します。ヘルプまたは詳しい説明については、アドビサポートにお問い合わせください。"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * サポートされていない製品や機能を含むAEM アップグレードは推奨されず、サポートの対象外となる場合があります。
 * 未処理のアセットを処理し、 `dam:assetState` のプロパティ `jcr:content` アセットのノードは、「処理済み」に設定する必要があります。 または、AEMaaCS に移行する前に、移行セットからこれらのアセットを削除する必要があります。
 * バニティー URL は Apache Rewrites に置き換えることができます。
-* 参照： [詳細を見る](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries) 低速のクエリのトラブルシューティング用。
+* 時間がかかるクエリの処理に関するトラブルシューティングについては、[ドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries)を参照してください。
 * を参照してください。 [リリースノート](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current) AEM as a Cloud Serviceの最新の変更点について詳しくは、こちらを参照してください。
-* に連絡してください [AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 説明するため、または懸念に対処するため。
+* 詳しい説明や懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

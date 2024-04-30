@@ -1,11 +1,11 @@
 ---
 title: OAUI
-description: パターン検出コードのヘルプページ
+description: パターン検出コードのヘルプページ。
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 44%
+ht-degree: 92%
 
 ---
 
@@ -29,16 +29,16 @@ OAuth は、`oauth` というサブノードが、`rep:AuthorizableId` ノード
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 
-* OAuth で設定された外部ユーザーは、以下の手順で再設定しない限り、オーサーインスタンスまたはパブリッシュインスタンスにログインできません。
+* OAuth で設定された外部ユーザーは、下記の手順で再設定しない限り、オーサーインスタンスまたはパブリッシュインスタンスにはログインできません。
 
 ## 可能な解決策 {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_guidance"
 >title="実装ガイダンス"
->abstract="OAuth で設定された外部ユーザーは、AEMas a Cloud Service環境に対応するように再設定されるまでは、オーサーインスタンスまたはパブリッシュインスタンスにログインできません。 AEMas a Cloud Serviceでは、作成者、管理者、開発者の各ユーザーに対してのみ IMS 認証をサポートしており、公開環境向けには SAML ベースの統合を提供しています。 ヘルプまたは詳しい説明については、Adobeサポートにお問い合わせください。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support" text="IMS のサポート - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier#integration-with-an-idp" text="SAML 統合 - パブリッシュ"
+>abstract="OAuth で設定された外部ユーザーは、AEM as a Cloud Service と互換性があるように再設定しない限り、オーサーインスタンスまたはパブリッシュインスタンスにはログインできません。AEM as a Cloud Service では、作成者、管理者、開発者の各ユーザーにのみ IMS 認証サポートを提供し、パブリッシュ環境には SAML ベースの統合を提供します。ヘルプまたは詳しい説明については、アドビサポートにお問い合わせください。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/security/ims-support" text="IMS のサポート - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier#integration-with-an-idp" text="SAML 統合 - パブリッシュ"
 
-* ユーザー移行のオプションについて話し合う必要がある場合は、Adobe担当者にお問い合わせください。
-* に連絡してください [AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 説明するため、または懸念に対処するため。
+* ユーザーの移行に関するオプションについては、アドビ担当者にお問い合わせください。
+* 詳しい説明や懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

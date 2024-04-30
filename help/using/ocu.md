@@ -1,11 +1,11 @@
 ---
 title: OCU
-description: パターン検出コードのヘルプページ
+description: パターン検出コードのヘルプページ。
 exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 64%
+ht-degree: 73%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 64%
 >id="aemcloud_bpa_ocu_overview"
 >title="古いコードの使用"
 >abstract="OCU は、Sling や AEM のコンポーネント、または API OSGi のエクスポートなどの一部の JCR ノードが、互換性のない方法で変更または削除される状況を識別します。アップグレードの前に、お客様がこの変更について認識していないことがあります。 その結果、互換性のないバージョンにアップグレードされたり、まったく使用できなくなったりする可能性があります。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主要な変更点 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com//docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主な変更点 - AEM as a Cloud Service"
 
 `OCU`  Sling やAEMのコンポーネント、または API OSGi のエクスポートなどの一部の JCR ノードが、互換性のない形で変更または削除される状況を特定します。 アップグレードの前に、お客様がこの変更について認識していないことがあります。 その結果、互換性のないバージョンにアップグレードされたり、まったく使用できなくなったりする可能性があります。
 
@@ -35,10 +35,10 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ocu_guidance"
 >title="実装ガイダンス"
->abstract="ベストプラクティスとしては、カスタムコードを確認し、最新バージョンの AEM コンポーネントまたは API を使用するように修正することをお勧めします。ヘルプまたは詳しい説明については、Adobeサポートにお問い合わせください。"
+>abstract="ベストプラクティスとしては、カスタムコードを確認し、最新バージョンの AEM コンポーネントまたは API を使用するように修正することをお勧めします。ヘルプまたは詳しい説明については、アドビサポートにお問い合わせください。"
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * 短期的：互換性パッケージをインストールすると役立つ場合があります。
 * 長期的：最新バージョンのAEM コンポーネントまたは API を使用するようにカスタムコードを適応させます。
-* に連絡してください [AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 説明するため、または懸念に対処するため。
+* 詳しい説明や懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

@@ -1,11 +1,11 @@
 ---
 title: PCX
-description: パターン検出コードのヘルプページ
+description: パターン検出コードのヘルプページ。
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 54%
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 54%
 >id="aemcloud_bpa_pcx_overview"
 >title="ページの複雑さ"
 >abstract="PCX は、構造中に多数のノードを含むページを識別します。"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主要な変更点 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com//docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主な変更点 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - リリースノート"
 
 `PCX`  構造内に多数のノードを含むページを識別します。
@@ -27,18 +27,18 @@ ht-degree: 54%
 サブタイプを使用して、各種情報を識別します。
 
 * `page.complexity.medium`：ページに、レンダリングパフォーマンスに影響する可能性のある比較的多くのノードが含まれています。
-* `page.complexity.high`：ページには、レンダリングのパフォーマンスに影響を与える可能性が高いノードが多数含まれています。
+* `page.complexity.high`：ページに、レンダリングパフォーマンスに影響する可能性のあるきわめて多くのノードが含まれています。
 
 ## 可能性のある影響およびリスク {#implications-and-risks}
 
-* ページ内の多くのノードが、レンダリングパフォーマンスに影響を与える可能性があります。
+* ページに含まれる多数のノードが、レンダリングパフォーマンスに影響を及ぼす可能性があります。
 
 ## 可能な解決策 {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="実装ガイダンス"
->abstract="ベストプラクティスは、コンテンツ構造を確認して、ページの複雑さを軽減することです。これにより、ページレンダリングのパフォーマンスが向上します。 ヘルプまたは詳しい説明については、Adobeサポートにお問い合わせください。"
+>abstract="ベストプラクティスとしては、コンテンツ構造を確認して、ページの複雑さを軽減することをお勧めします。これにより、ページレンダリングのパフォーマンスが向上します。ヘルプまたは詳しい説明については、アドビサポートにお問い合わせください。"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * 次のアクションを実行して、ページ内のノードの合計数を減らします。
@@ -47,4 +47,4 @@ ht-degree: 54%
    * ページのコンテンツを簡素化します。
    * ノード構造の深さを減らします。
    * 簡素化のために、内部のエクスペリエンスフラグメントをリファクタリングします。
-* に連絡してください [AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 説明するため、または懸念に対処するため。
+* 詳しい説明や懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

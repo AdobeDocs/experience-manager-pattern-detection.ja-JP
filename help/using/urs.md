@@ -17,7 +17,7 @@ ht-degree: 74%
 >id="aemcloud_bpa_urs_overview"
 >title="サポートされていないリポジトリー構造"
 >abstract="URS はサポートされていないリポジトリー構造とノード文字のケースを特定します。これは、AEM 製品コードと顧客コードの競合、コンテンツを /etc からリポジトリー内の他のフォルダーに再構成することなどを避けるための情報を示します。"
->additional-url="https://experienceleague.adobe.com//docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="リポジトリーの再構築"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="リポジトリーの再構築"
 
 ## 背景 {#background}
 

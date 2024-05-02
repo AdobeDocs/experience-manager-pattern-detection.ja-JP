@@ -1,11 +1,11 @@
 ---
 title: INS
-description: パターン検出コードのヘルプページ
+description: パターン検出コードのヘルプページ。
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 60%
+ht-degree: 77%
 
 ---
 
@@ -39,4 +39,4 @@ ht-degree: 60%
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * [JCR 仕様](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/1.0/4.5_Namespaces.html)に従って、名前空間の定義を修正します。[こちら](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/how-can-i-delete-a-namespace-created-in-crx/td-p/225163)に記載されている手順に従ってください。
-* に連絡してください [Experience Managerカスタマーケアチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 説明するため、または懸念に対処するため。
+* 詳しい説明や懸念事項の対応については、[Experience Manager カスタマーケアチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

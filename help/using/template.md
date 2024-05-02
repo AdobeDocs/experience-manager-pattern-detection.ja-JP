@@ -4,14 +4,14 @@ description: パターン検出コードのヘルプページのテンプレー�
 source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 38%
+ht-degree: 54%
 
 ---
 
 
 # [!DNL TEMPLATE] {#template}
 
-Template
+テンプレート
 
 ## 背景 {#background}
 
@@ -33,4 +33,4 @@ Template
 
 * 可能な解決策 1
 * 可能な解決策 2
-* に連絡してください [AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 説明するため、または懸念に対処するため。
+* 詳しい説明や懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

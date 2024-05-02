@@ -1,11 +1,11 @@
 ---
 title: MI
-description: パターン検出コードのヘルプページ
+description: パターン検出コードのヘルプページ。
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 55%
+ht-degree: 95%
 
 ---
 
@@ -43,11 +43,11 @@ ht-degree: 55%
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * `sling.job.max.parallel`
-   * Adobeでは、使用可能なプロセッサーの半分を活用するために、値を 0.5 に設定することをお勧めします。
+   * アドビでは、使用可能なプロセッサーの半分を活用するために、値を 0.5 に設定することをお勧めします。
 * `missing.maintenance.configuration`
-   * リビジョンのクリーンアップ： [リビジョンのクリーンアップ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup). 設定に関する重要な部分については、[リビジョンクリーンアップ - テールコンパクションおよびフルコンパクションの設定](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)を参照してください。
-   * Lucene バイナリクリーンアップ：を参照してください [操作ダッシュボード - Lucene バイナリクリーンアップ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup).
-   * データストアのガベージコレクション：を参照してください [データストアのガベージコレクション](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection).
-   * ワークフローパージ：を参照してください [ワークフローインスタンスの定期的なパージ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances).
-   * 監査ログのメンテナンスタスク：を参照 [監査ログのメンテナンス](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log).
-* に連絡してください [Experience Managerカスタマーケアチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 説明するため、または懸念に対処するため。
+   * リビジョンのクリーンアップ：詳しくは、[リビジョンのクリーンアップ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)を参照してください。設定に関する重要な部分について詳しくは、[リビジョンクリーンアップ - テールコンパクションおよびフルコンパクションの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)を参照してください。
+   * Lucene バイナリクリーンアップ：詳しくは、[操作ダッシュボード - Lucene バイナリクリーンアップ](ttps://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup)を参照してください。
+   * データストアのガベージコレクション：詳しくは、[データストアのガベージコレクション](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection)を参照してください。
+   * ワークフローのパージ：詳しくは、[ワークフローインスタンスの定期的なパージ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances)を参照してください。
+   * 監査ログのメンテナンスタスク：詳しくは、[監査ログのメンテナンス](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log)を参照してください。
+* 詳しい説明や懸念事項の対応については、[Experience Manager カスタマーケアチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

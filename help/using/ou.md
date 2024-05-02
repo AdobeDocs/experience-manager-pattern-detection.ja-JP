@@ -19,7 +19,7 @@ ht-degree: 72%
 >id="aemcloud_bpa_ou_overview"
 >title="古い使用"
 >abstract="OU は、Sling や AEM のコンポーネントまたは API OSGi のエクスポートなどの一部の JCR ノードが、互換性のない形で変更または削除される状況を表しています。アップグレードの前に、お客様がこの変更について認識していないことがあります。 その結果、互換性のないバージョンにアップグレードされたり、まったく使用できなくなったりする可能性があります。"
->additional-url="https://experienceleague.adobe.com//docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主な変更点 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主な変更点 - AEM as a Cloud Service"
 
 `OU`  Sling やAEMのコンポーネント、または API OSGi のエクスポートなどの一部の JCR ノードが、互換性のない形で変更または削除される状況を特定します。 アップグレードの前に、お客様がこの変更について認識していないことがあります。 その結果、互換性のないバージョンにアップグレードされたり、まったく使用できなくなったりする可能性があります。
 

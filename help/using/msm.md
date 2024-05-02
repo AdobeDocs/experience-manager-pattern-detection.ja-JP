@@ -19,7 +19,7 @@ ht-degree: 93%
 >id="aemcloud_bpa_msm_overview"
 >title="マルチサイトマネージャー"
 >abstract="MSM は、AEM マルチサイトマネージャーの機能に関する一般的な情報を識別します。この情報は、システムの特徴を把握するときに役立ちます。"
->additional-url="https://experienceleague.adobe.com//docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主な変更点 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主な変更点 - AEM as a Cloud Service"
 
 `MSM`  AEM Multi-site Manager の機能に関する一般情報を識別します。 この情報は、システムの特徴を把握するときに役立ちます。
 

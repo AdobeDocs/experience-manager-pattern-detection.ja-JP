@@ -19,7 +19,7 @@ ht-degree: 95%
 >id="aemcloud_bpa_pcx_overview"
 >title="ページの複雑さ"
 >abstract="PCX は、構造中に多数のノードを含むページを識別します。"
->additional-url="https://experienceleague.adobe.com//docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主な変更点 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主な変更点 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - リリースノート"
 
 `PCX`  構造内に多数のノードを含むページを識別します。

@@ -34,7 +34,7 @@ Commerce Integration Framework Classic
 >id="aemcloud_bpa_cif_guidance"
 >title="実装ガイダンス"
 >abstract="ベストプラクティスは、従来のバージョンの Commerce Integration Framework の使用状況をすべて確認することです。"
->additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/content-and-commerce/change" text="CIF の主な変更点"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/content-and-commerce/changes" text="CIF の主な変更点"
 
 * AEM as a Cloud Service では、Commerce Integration Framework の従来のバージョンはサポートされなくなりました。これにより、AEM as a Cloud Service へのアップグレードがブロックされます。
 

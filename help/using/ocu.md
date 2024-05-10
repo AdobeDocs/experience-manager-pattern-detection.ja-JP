@@ -19,7 +19,7 @@ ht-degree: 100%
 >id="aemcloud_bpa_ocu_overview"
 >title="古いコードの使用"
 >abstract="OCU は、Sling や AEM のコンポーネント、または API OSGi のエクスポートなどの一部の JCR ノードが、互換性のない方法で変更または削除される状況を識別します。顧客はアップグレード前に、この変更について認識していないことがあります。その結果、互換性のないバージョンにアップグレードされたり、まったく使用できなくなったりする可能性があります。"
->additional-url="https://experienceleague.adobe.com//docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主な変更点 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主な変更点 - AEM as a Cloud Service"
 
 `OCU` は、Sling や AEM のコンポーネントまたは API OSGi の書き出しなどの一部の JCR ノードが、互換性のない形で変更または削除される状況を表しています。顧客はアップグレード前に、この変更について認識していないことがあります。その結果、互換性のないバージョンにアップグレードされたり、まったく使用できなくなったりする可能性があります。
 

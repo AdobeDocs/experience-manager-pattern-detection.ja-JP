@@ -3,9 +3,9 @@ title: LUI
 description: パターン検出コードのヘルプページ。
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '703'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 96%
 >id="aemcloud_bpa_lui_overview"
 >title="レガシーユーザーインターフェイス"
 >abstract="LUI は、AEM の後続バージョンや AEM as a Cloud Service では推奨またはサポートされていない、非推奨（廃止予定）のユーザーインターフェイス要素の使用を識別します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主な変更点 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com//docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主な変更点 - AEM as a Cloud Service"
 
-`LUI`  非推奨（廃止予定）のユーザーインターフェイス要素を使用している状況を表します。これらの要素は、AEMの後続バージョンやAEM as a Cloud Serviceではサポートされなくなるため推奨されません。
+`LUI` は、AEM の後続バージョンや AEM as a Cloud Service では推奨またはサポートされていない、非推奨（廃止予定）のユーザーインターフェイス要素の使用を識別します。
 
 サブタイプを使用して、アップグレードが必要な、各種のユーザーインターフェイス要素を識別します。
 
@@ -47,7 +47,7 @@ ht-degree: 96%
 * `translation.dictionary`：/apps の下にある `I18n` 辞書。
    * /apps は実行時に不変で、translator.html は AEM as a Cloud Service では使用できなくなりました。
 
-## 可能性のある影響およびリスク {#implications-and-risks}
+## 考えられる影響およびリスク {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_guidance"

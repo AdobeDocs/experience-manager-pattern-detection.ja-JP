@@ -3,9 +3,9 @@ title: DG
 description: パターン検出コードのヘルプページ。
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 89%
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service の開発ガイドライン"
 
 
-`DG`  選択した開発ガイドラインの逸脱を識別します [AEM 6.5](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) および [AEMas a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). ベストプラクティスに従うと、システムの保守性とパフォーマンスが向上します。これらの逸脱は、AEM の旧バージョンを含む他のアプリケーションコンテキストでは問題にならない場合もありますが、AEM as a Cloud Service で使用した場合に問題が起きる可能性があります。
+`DG` は、[AEM 6.5](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) および [AEM as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines) に関して選択された開発ガイドラインの逸脱を識別します。ベストプラクティスに従うと、システムの保守性とパフォーマンスが向上します。これらの逸脱は、AEM の旧バージョンを含む他のアプリケーションコンテキストでは問題にならない場合もありますが、AEM as a Cloud Service で使用した場合に問題が起きる可能性があります。
 
 サブタイプを使用して、検出された各種の違反を識別します。
 
@@ -34,7 +34,7 @@ ht-degree: 89%
 * `javax.jcr.observation.EventListener`：アプリケーションコードでのイベントリスナーの使用。
 * `custom.guava.cache`：アプリケーションコードでの Guava キャッシュの使用。
 
-## 可能性のある影響およびリスク {#implications-and-risks}
+## 考えられる影響およびリスク {#implications-and-risks}
 
 * `java.io.inputstream`
    * `java.io.InputStream` を使用してバイナリデータのストリーミングを行うと、パフォーマンスに影響がほどメモリリソースを消費することがあります。これは、AEM as a Cloud Service で使用するコンテナで利用可能なメモリに制限があるため、特に問題になります。
@@ -45,7 +45,7 @@ ht-degree: 89%
 
 * `sling.commons.scheduler`
    * [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) を使用するバックグラウンドタスクに依存するアプリケーションは、AEM as a Cloud Service での実行が保証されないため、期待通り動作しないことがあります。
-   * ガイドライン： [バックグラウンドタスクと長時間実行ジョブ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs) また、スケジュールされたタスクとして実行するコードでは、コードを実行しているインスタンスがいつでも停止する可能性があることを前提にする必要があることを示します。 したがって、コードには耐障害性と再開可能性が求められます。
+   * [バックグラウンドタスクと長時間実行されているジョブ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs)に関するガイドラインでは、スケジュールされたタスクとして実行されるコードは、実行されているインスタンスがいつでも停止される可能性があることも前提にする必要があることを示しています。したがって、コードには耐障害性と再開可能性が求められます。
 
 * `unsupported.asset.api`
    * 次の Asset Manager の API は、AEM as a Cloud Service ではサポート対象外とマークされています。
@@ -76,11 +76,11 @@ ht-degree: 89%
 
 * `maintenance.task.configuration`
    * AEM as a Cloud Service の[メンテナンスタスク](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/operations/maintenance)に関するドキュメントを参照してください。
-   * [メンテナンスタスク設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control) がソースコントロールされていることを確認します。
+   * [メンテナンスタスク設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control) がソースコントロールされていることを確認します。
 
 * `sling.commons.scheduler`
    * [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) を、[Sling ジョブ](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) に置き換えます。これにより最低 1 回の実行が保証されます。
-   * 長時間実行されているジョブは避ける必要があります。
+   * 長時間実行されているジョブは、回避する必要があります。
 
 * `unsupported.asset.api`
    * Asset Manager のサポートされていない API を使用する代わりに、[aem-upload](https://github.com/adobe/aem-upload) を参照してください。
@@ -89,5 +89,5 @@ ht-degree: 89%
    * イベントリスナーを使用する代わりに、確実に処理を行うために、イベント処理メカニズムを [Sling ジョブ](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing)にリファクタリングすることをお勧めします。
 
 * `custom.guava.cache`
-   * 必要に応じて、AEMの外部でキャッシュを作成してください。 外部キャッシュソリューションを検討することをお勧めします。
+   * キャッシュは、必要に応じて AEM の外部で作成する必要があります。外部キャッシュソリューションを検討することをお勧めします。
 * 詳しい説明や懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

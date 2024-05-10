@@ -3,9 +3,9 @@ title: REP
 description: パターン検出コードのヘルプページ。
 exl-id: e788deba-a301-404f-8e90-51f721409e69
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '414'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 96%
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="主な変更点 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="開発のガイドライン"
 
-`REP`  有効なレプリケーションエージェントを識別します。 ここでは、AEM as a Cloud Service へのアップグレード時に対応しなければならない可能性がある問題について報告されています。
+`REP` は有効なレプリケーションエージェントを識別します。ここでは、AEM as a Cloud Service へのアップグレード時に対応しなければならない可能性がある問題について報告されています。
 
 次のサブタイプを使用して、各種情報を識別します。
 
@@ -33,19 +33,19 @@ ht-degree: 96%
 
 AEM as Cloud Service では、[Sling Content Distribution](https://sling.apache.org/documentation/bundles/content-distribution.html) を使用して、作成者の設定したコンテンツを公開環境に配布します。この処理は、Adobe Developer 上の Adobe I/O Runtime のパイプラインサービスを使用して、AEM ランタイムの外部で行われ、。プロビジョニングされた AEM as a Cloud Service 環境で自動的に設定されます。
 
-## 可能性のある影響およびリスク {#implications-and-risks}
+## 考えられる影響およびリスク {#implications-and-risks}
 
 * AEM as a Cloud Service ではレプリケーションの設定が変更されました。現在のレプリケーションエージェントをすべてレビューして、どの機能が標準機能に置き換えられているのか、どの設定をコードに移行する必要があるのか、またどの機能がサポートされていないのかを確認する必要があります。
 * AEM as a Cloud Service へのアップグレード時に、カスタムコードまたはワークフローの中で何らかのレプリケーションエージェントが使用されていないかを確認する必要があります。
 * AEM as a Cloud Service では初期段階で、リバースレプリケーションはサポートされていません。
-* 別の Dispatcher フラッシュエージェントを設定する必要はありません。 Dispatcher Flush エージェントは、AEM as a Cloud Service 環境で自動的に設定されます。
+* 個別の Dispatcher フラッシュエージェントを設定する必要はありません。Dispatcher Flush エージェントは、AEM as a Cloud Service 環境で自動的に設定されます。
 
 ## 可能な解決策 {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_rep_guidance"
 >title="実装ガイダンス"
->abstract="ベストプラクティスとしては、レプリケーションエージェントに直接依存しているカスタム機能を確認、リファクタリングおよび最適化し、AEM as a Cloud Service に対応させることをお勧めします。ヘルプまたは詳しい説明については、アドビサポートにお問い合わせください。"
+>abstract="ベストプラクティスとしては、レプリケーションエージェントに直接依存しているカスタム機能を確認、リファクタリングおよび最適化し、AEM as a Cloud Service に対応させることをお勧めします。ヘルプおよび詳しい説明については、アドビサポートにお問い合わせください。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/deploying/overview#replication" text="レプリケーション - AEM as a Cloud Service"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 

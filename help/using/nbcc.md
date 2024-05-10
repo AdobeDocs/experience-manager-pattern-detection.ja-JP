@@ -3,9 +3,9 @@ title: NBCC
 description: パターン検出コードのヘルプページ。
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 88%
 >id="aemcloud_bpa_nbcc_overview"
 >title="後方互換性のない変更"
 >abstract="NBCC は、一部の JCR ノードやバンドルが、互換性のない方法で変更されている状況を識別します。顧客はアップグレード前に、この変更について認識していないことがあります。"
->additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主な変更点 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com//docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主な変更点 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="リリースノート - AEM as a Cloud Service"
 
-`NBCC`  一部の JCR ノードやバンドルが、互換性のない方法で変更される状況を表します。 顧客はアップグレード前に、この変更について認識していないことがあります。
+`NBCC` は、一部の JCR ノードやバンドルが、互換性のない方法で変更される状況を識別します。顧客はアップグレード前に、この変更について認識していないことがあります。
 
-## 可能性のある影響およびリスク {#implications-and-risks}
+## 考えられる影響およびリスク {#implications-and-risks}
 
 * 後方互換性のない変更を使用したいずれかのコンポーネントに依存する機能は、破損したり、正しく解決されない可能性があります。
 * アップグレード後に、お客様のアプリケーションの機能や AEM 機能の一部が正しく動作しなくなる場合があります。
@@ -34,10 +34,10 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_nbcc_guidance"
 >title="実装ガイダンス"
->abstract="ベストプラクティスとしては、カスタムコードを確認し、後方互換性のある Sling コンポーネントのみオーバーレイまたは参照されるようにすることをお勧めします。ヘルプまたは詳しい説明については、アドビサポートにお問い合わせください。"
+>abstract="ベストプラクティスとしては、カスタムコードを確認し、後方互換性のある Sling コンポーネントのみオーバーレイまたは参照されるようにすることをお勧めします。ヘルプおよび詳しい説明については、アドビサポートにお問い合わせください。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="オーバーレイ"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
-* 下位互換性のある Sling コンポーネントのみをオーバーレイまたは参照します。
+* 後方互換性のある Sling コンポーネントだけをオーバーレイまたは参照の対象とします。
 * AEM のアップグレード後に、`/libs` またはバンドルからのリソースを適応することを検討してください。
 * 詳しい説明や懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

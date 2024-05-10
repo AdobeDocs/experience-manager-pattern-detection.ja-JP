@@ -3,9 +3,9 @@ title: ACV
 description: パターン検出コードのヘルプページ。
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Assets コンテンツバリデーター
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/overview" text="主な変更点 - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - リリースノート"
 
-`ACV` （Assets のコンテンツバリデーター）アセットコンテンツ内の欠落している必須ノードと違反を識別します。 これにより、Experience Manager as a Cloud Service で特定の Assets 機能でエラーが発生する可能性があります。
+`ACV`（Assets のコンテンツバリデーター）は、アセットコンテンツ内の欠落している必須ノードと違反を識別します。これにより、Experience Manager as a Cloud Service で特定の Assets 機能でエラーが発生する可能性があります。
 
 次のようなサブタイプを使用して、各種情報を識別します。
 
@@ -30,16 +30,16 @@ Assets コンテンツバリデーター
 * `missing.original.rendition`：リポジトリで、必須のオリジナルレンディションが欠落しているアセットを識別します。PDF のページをプレビューする場合、AEMaaCS でサブアセットを生成する必要はありません。したがって、PDF アセットの場合、元のレンディションが見つからないサブアセットのレポートはまったく表示されません。
 * `metadata.descendants.violation`：リポジトリ内のアセットの metadata ノードの下に 100 を超える子孫を持つアセットを識別します。
 * `conflict.node`：/content/dam/ パスの下のリポジトリで競合ノードの存在を識別します。
-* `psb.file.large`:2 GB を超える大きなサイズの PSB ファイル（dc:format:application/vnd.3gpp.pic-bw-small）を識別します。
+* `psb.file.large`：2 GB を超える大きなサイズの PSB ファイル（dc:format：application/vnd.3gpp.pic-bw-small）を識別します。
 * `invalid.asset.name`：名前に無効な文字 [* / : [\] | # % { } ? &amp;] を含むアセットを識別します。
 
-## 可能性のある影響およびリスク {#implications-and-risks}
+## 考えられる影響およびリスク {#implications-and-risks}
 
 * これにより、Experience Manager as a Cloud Service の継承されたプロパティに依存している特定の Assets 機能でエラーが発生する可能性があります。
-* AEM Assets は、オリジナルレンディションの存在に依存しています。元のレンディションがない場合、Cloud Serviceーで処理するアセットは、ループします。 サブアセットの生成は、AEMaaCS ではサポートされていません。
+* AEM Assets は、オリジナルレンディションの存在に依存しています。元のレンディションがない場合、Cloud Service で処理するアセットはループします。サブアセットの生成は、AEMaaCS ではサポートされていません。
 * metadata ノードの下の子孫の数が多いと、これに違反するアセットで構成されるフォルダーのダウンロードが遅くなる場合があります。
 * 競合ノードが存在すると、AEM as a Cloud Service で取り込みエラーが発生する可能性があります。
-* Experience Managerでは、高解像度の PSB ファイルを処理できない場合があります。 大きなファイルの処理に ImageMagick を使用する場合は、Experience Manager サーバーの適切なベンチマークが行われていなければ、パフォーマンスに影響する可能性があります。
+* Experience Manager では、高い解像度の PSB ファイルを処理できない場合があります。大きなファイルの処理に ImageMagick を使用する場合は、Experience Manager サーバーの適切なベンチマークが行われていなければ、パフォーマンスに影響する可能性があります。
 * アセット名に無効な文字が含まれていると、AEM as a Cloud Service への移行中にエラーが発生する可能性があります。
 
 ## 可能な解決策 {#solutions}
@@ -53,6 +53,6 @@ Assets コンテンツバリデーター
 * フォルダーに欠落している子ノードがないか分析します。フォルダー数が管理可能な場合はノードを手動で作成し、それ以外の場合はスクリプトを使用します。
 * オリジナルレンディションが欠落しているアセットの場合は、移行前にアセットを再アップロードするか削除します。
 * サブアセットの元のレンディションが見つからない場合、アクションは必要ありません。
-* 競合ノードがある場合は、AEM as a Cloud Serviceに移行する前に解決または削除する必要があります。
-* 大きなPSDファイルまたは PSB ファイルを大量に処理する予定がある場合は、Adobeカスタマーサポートにお問い合わせください。 Experience Managerでは、30000 x 23000 ピクセルを超える高解像度の PSB ファイルを処理できない場合があります。 [ドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick)を参照してください。
+* 競合ノードが存在する場合は、AEM as a Cloud Service に移行する前に解決または削除する必要があります。
+* 大きな PSD ファイルまたは PSB ファイルを大量に処理する予定がある場合は、アドビカスタマーサポートにお問い合わせください。Experience Manager では、30000 x 23000 ピクセルを超える高い解像度の PSB ファイルを処理できない場合があります。[ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick)を参照してください。
 * 詳しい説明や懸念事項の対応については、[Experience Manager カスタマーケアチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

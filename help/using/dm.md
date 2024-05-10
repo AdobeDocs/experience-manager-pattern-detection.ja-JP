@@ -3,9 +3,9 @@ title: DM
 description: パターン検出コードで AEM Assets - Dynamic Media の使用状況を識別する方法について説明します。
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Dynamic Media
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM の開発 - ガイドラインとベストプラクティス"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service の開発ガイドライン"
 
-`DM` （Dynamic Media）AEM Assets Dynamic Mediaが使用されている状況を識別します。 Dynamic Media モードは、実行モードで検出されます。
+`DM`（Dynamic Media）は、使用されている AEM Assets Dynamic Media を識別します。Dynamic Media モードは、実行モードで検出されます。
 
 このコードには次のサブタイプが使用されます。
 
@@ -30,7 +30,7 @@ Dynamic Media
    * `dynamicmedia`：Dynamic Media - ハイブリッドモード
    * `dynamicmedia_scene7`：Dynamic Media - Scene7 モード
 
-## 可能性のある影響およびリスク {#implications-and-risks}
+## 考えられる影響およびリスク {#implications-and-risks}
 
 * `dynamic.media.runmode`
    * アップグレードに伴い Dynamic Media に関連する問題が生じる可能性があります。

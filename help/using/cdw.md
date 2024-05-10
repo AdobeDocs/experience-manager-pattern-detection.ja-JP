@@ -26,7 +26,7 @@ ht-degree: 61%
 
 * `custom.classic.widget`：ExtJS に基づくカスタムダイアログウィジェットを識別します。
 
-## 可能性のある影響およびリスク {#implications-and-risks}
+## 考えられる影響およびリスク {#implications-and-risks}
 
 * AEM as a Cloud Service ではクラシック UI が使用できなくなりました。オーサリングの標準インターフェイスは、タッチ対応 UI です。
 

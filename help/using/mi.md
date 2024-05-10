@@ -46,7 +46,7 @@ ht-degree: 100%
    * アドビでは、使用可能なプロセッサーの半分を活用するために、値を 0.5 に設定することをお勧めします。
 * `missing.maintenance.configuration`
    * リビジョンのクリーンアップ：詳しくは、[リビジョンのクリーンアップ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)を参照してください。設定に関する重要な部分について詳しくは、[リビジョンクリーンアップ - テールコンパクションおよびフルコンパクションの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)を参照してください。
-   * Lucene バイナリクリーンアップ：詳しくは、[操作ダッシュボード - Lucene バイナリクリーンアップ](ttps://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup)を参照してください。
+   * Lucene バイナリクリーンアップ：詳しくは、[操作ダッシュボード - Lucene バイナリクリーンアップ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup)を参照してください。
    * データストアのガベージコレクション：詳しくは、[データストアのガベージコレクション](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection)を参照してください。
    * ワークフローのパージ：詳しくは、[ワークフローインスタンスの定期的なパージ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances)を参照してください。
    * 監査ログのメンテナンスタスク：詳しくは、[監査ログのメンテナンス](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log)を参照してください。

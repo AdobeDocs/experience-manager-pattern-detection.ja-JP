@@ -19,7 +19,7 @@ ht-degree: 100%
 >id="aemcloud_bpa_lui_overview"
 >title="レガシーユーザーインターフェイス"
 >abstract="LUI は、AEM の後続バージョンや AEM as a Cloud Service では推奨またはサポートされていない、非推奨（廃止予定）のユーザーインターフェイス要素の使用を識別します。"
->additional-url="https://experienceleague.adobe.com/ja-jp/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主な変更点 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主な変更点 - AEM as a Cloud Service"
 
 `LUI` は、AEM の後続バージョンや AEM as a Cloud Service では推奨またはサポートされていない、非推奨（廃止予定）のユーザーインターフェイス要素の使用を識別します。
 

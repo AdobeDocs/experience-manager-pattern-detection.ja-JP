@@ -19,7 +19,7 @@ ht-degree: 100%
 >id="aemcloud_bpa_nbcc_overview"
 >title="後方互換性のない変更"
 >abstract="NBCC は、一部の JCR ノードやバンドルが、互換性のない方法で変更されている状況を識別します。顧客はアップグレード前に、この変更について認識していないことがあります。"
->additional-url="https://experienceleague.adobe.com//docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主な変更点 - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主な変更点 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="リリースノート - AEM as a Cloud Service"
 
 `NBCC` は、一部の JCR ノードやバンドルが、互換性のない方法で変更される状況を識別します。顧客はアップグレード前に、この変更について認識していないことがあります。

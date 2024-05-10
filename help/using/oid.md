@@ -34,7 +34,7 @@ Oak インデックス定義
 >id="aemcloud_bpa_oid_guidance"
 >title="実装ガイダンス"
 >abstract="ベストプラクティスとしては、すべてのカスタムインデックスを確認し、コンテンツインデックス作成ガイドラインに従って再構築することをお勧めします。インデックスコンバーターを使用して、既存のカスタム Oak インデックス定義を AEM as a Cloud Service と互換性のあるカスタム Oak インデックス定義に移行します"
->additional-url="https://experienceleague.adobe.com/jp/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#oak-indexes" text="パッケージガイドライン"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#oak-indexes" text="パッケージガイドライン"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter#refactoring-tools" text="インデックスコンバーター"
 
 * 標準 Oak インデックス定義に対する変更は、AEM のアップグレード中に失われることがあります。

@@ -3,9 +3,9 @@ title: CDW
 description: パターン検出コードのヘルプページ。
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
 source-git-commit: d1c652a8a45a081661ffe4443f85fcc932947541
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '139'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 61%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cdw_overview"
 >title="カスタムダイアログウィジェット"
->abstract="CDW は、AEMとの互換性を持つために更新が必要なカスタムダイアログウィジェットをas a Cloud Serviceします。"
+>abstract="CDW は、AEM as a Cloud Service との互換性を確保するために更新が必要なカスタムダイアログウィジェットを識別します。"
 
-`CDW`  （`Custom Dialog Widgets`）を指定すると、カスタムのクラシックダイアログウィジェットを識別します。 これらのウィジェットにAEMas a Cloud Serviceとの互換性を持たせるには、更新が必要です。
+`CDW`（`Custom Dialog Widgets`）は、カスタムクラシックダイアログウィジェットを識別します。これらのウィジェットは、AEM as a Cloud Service との互換性を持つために更新する必要があります。
 
 次のようなサブタイプを使用して、情報を識別します。
 
@@ -38,5 +38,5 @@ ht-degree: 61%
 >abstract="カスタマーケアにお問い合わせください。"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
-* カスタムクラシックダイアログウィジェットは、ExtJS からに変換する必要があります。 [CoralUi](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html).
+* カスタムクラシックダイアログウィジェットは、ExtJS から [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html) に変換する必要があります。
 * 詳しい説明や懸念事項の対応については、[Experience Manager カスタマーケアチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

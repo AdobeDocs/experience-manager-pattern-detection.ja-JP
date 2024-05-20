@@ -3,7 +3,7 @@ title: CTEM
 description: パターン検出コードのヘルプページ。
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 100%
 

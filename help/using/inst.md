@@ -3,7 +3,7 @@ title: INST
 description: パターン検出コードのヘルプページ。
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 >id="aemcloud_bpa_inst_guidance"
 >title="実装ガイダンス"
 >abstract="お客様は CRX パッケージマネージャーを使用してサードパーティ製パッケージをインストールできなくなりました。これらのインストール済みアーティファクトを確認し、AEM as a Cloud Service と連携できるように再構成および最適化する必要があります。サードパーティパッケージの作成者またはアドビに、AEM as a Cloud Service との互換性を確認します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embeddeds" text="コンテナパッケージへのサブパッケージの埋め込み"
+>additional-url="https://experienceleague.adobe.com//docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embeddeds" text="コンテナパッケージへのサブパッケージの埋め込み"
 
 
 * CRX パッケージマネージャーを使用してサードパーティ製パッケージを AEM as a Cloud Service にインストールすることはできません。

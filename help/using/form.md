@@ -3,7 +3,7 @@ title: FORM
 description: パターン検出コードのヘルプページ。
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 100%
 

@@ -2,10 +2,10 @@
 title: URC
 description: パターン検出コードのヘルプページ。
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 100%
+source-wordcount: '262'
+ht-degree: 98%
 
 ---
 

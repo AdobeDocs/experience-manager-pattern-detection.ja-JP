@@ -2,10 +2,10 @@
 title: ACV
 description: パターン検出コードのヘルプページ。
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '478'
-ht-degree: 100%
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 72%
 
 ---
 
@@ -22,23 +22,23 @@ Assets コンテンツバリデーター
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/overview" text="主な変更点 - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - リリースノート"
 
-`ACV`（Assets のコンテンツバリデーター）は、アセットコンテンツ内の欠落している必須ノードと違反を識別します。これにより、Experience Manager as a Cloud Service で特定の Assets 機能でエラーが発生する可能性があります。
+`ACV` （Assets のコンテンツバリデーター）アセットコンテンツ内の欠落している必須ノードと違反を識別します。 そのようなことがあると、Experience Managerのas a Cloud Serviceで特定の Assets 機能でエラーが発生する可能性があります。
 
 次のようなサブタイプを使用して、各種情報を識別します。
 
 * `missing.jcrcontent`：リポジトリ内の必須ノードが欠落しているフォルダーを識別します。リポジトリ内の欠落しているコンテンツを識別することで、機能やユースケースの破損を防ぐことができます。
-* `missing.original.rendition`：リポジトリで、必須のオリジナルレンディションが欠落しているアセットを識別します。PDF のページをプレビューする場合、AEMaaCS でサブアセットを生成する必要はありません。したがって、PDF アセットの場合、元のレンディションが見つからないサブアセットのレポートはまったく表示されません。
+* `missing.original.rendition`：リポジトリで、必須のオリジナルレンディションが欠落しているアセットを識別します。PDFのページをプレビューする場合は、AEMaaCS でサブアセットを生成する必要はありません。 したがって、PDFアセットの場合、元のレンディションが見つからないサブアセットのレポートはまったく表示されません。
 * `metadata.descendants.violation`：リポジトリ内のアセットの metadata ノードの下に 100 を超える子孫を持つアセットを識別します。
 * `conflict.node`：/content/dam/ パスの下のリポジトリで競合ノードの存在を識別します。
-* `psb.file.large`：2 GB を超える大きなサイズの PSB ファイル（dc:format：application/vnd.3gpp.pic-bw-small）を識別します。
-* `invalid.asset.name`：名前に無効な文字 [* / : [\] | # % { } ? &amp;] を含むアセットを識別します。
+* `psb.file.large`：大きな PSB ファイルを識別します（`dc:format : application/vnd.3gpp.pic-bw-small`）のサイズが 2 GB を超えています。
+* `invalid.asset.name`：無効な文字を含むアセットの識別[`* / : [ \ ] | # % { } ? &`] という名前で。
 
 ## 考えられる影響およびリスク {#implications-and-risks}
 
-* これにより、Experience Manager as a Cloud Service の継承されたプロパティに依存している特定の Assets 機能でエラーが発生する可能性があります。
+* 継承されたプロパティに依存する特定の Assets 機能がas a Cloud ServiceExperience Managerで失敗する可能性があります。
 * AEM Assets は、オリジナルレンディションの存在に依存しています。元のレンディションがない場合、Cloud Service で処理するアセットはループします。サブアセットの生成は、AEMaaCS ではサポートされていません。
-* metadata ノードの下の子孫の数が多いと、これに違反するアセットで構成されるフォルダーのダウンロードが遅くなる場合があります。
-* 競合ノードが存在すると、AEM as a Cloud Service で取り込みエラーが発生する可能性があります。
+* metadata ノードの下の子孫の数が多いと、違反するアセットを含んだフォルダーのダウンロードが遅くなる場合があります。
+* 競合ノードが存在すると、AEMas a Cloud Service環境で取り込みエラーが発生する可能性があります。
 * Experience Manager では、高い解像度の PSB ファイルを処理できない場合があります。大きなファイルの処理に ImageMagick を使用する場合は、Experience Manager サーバーの適切なベンチマークが行われていなければ、パフォーマンスに影響する可能性があります。
 * アセット名に無効な文字が含まれていると、AEM as a Cloud Service への移行中にエラーが発生する可能性があります。
 

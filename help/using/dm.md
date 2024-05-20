@@ -2,10 +2,10 @@
 title: DM
 description: パターン検出コードで AEM Assets - Dynamic Media の使用状況を識別する方法について説明します。
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '173'
-ht-degree: 100%
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 91%
 
 ---
 
@@ -40,7 +40,7 @@ Dynamic Media
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_guidance"
 >title="実装ガイダンス"
->abstract="AEM as a Cloud Service は dynamicmedia_scene7 実行モードのみサポートしています。ヘルプおよび詳しい説明については、現在の設定を確認したうえで、アドビサポートチームにお問い合わせください。"
+>abstract="AEM as a Cloud Service は dynamicmedia_scene7 実行モードのみサポートしています。ヘルプおよび詳しい説明については、現在の設定を確認したうえで、Adobeサポートチームにご連絡ください。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media" text="Dynamic Media のセットアップ"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 

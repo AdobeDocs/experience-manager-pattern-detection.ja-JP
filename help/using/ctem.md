@@ -3,9 +3,9 @@ title: CTEM
 description: パターン検出コードのヘルプページ。
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -18,25 +18,25 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_overview"
 >title="カスタムテンプレート"
->abstract="CTEM は、AEMにインストールされているカスタムコンポーネントを特定します。 この情報は、ベストプラクティスの評価を目的として提供されます。"
+>abstract="CTEM は、AEM にインストールされているカスタムコンポーネントを識別します。この情報は、ベストプラクティスの評価を目的として提供されます。"
 
-`CTEM`  AEMにインストールされているカスタムテンプレートを識別します。 この情報は、ベストプラクティスの評価を目的として提供されます。
+`CTEM` は、AEM にインストールされているカスタムテンプレートを識別します。この情報は、ベストプラクティスの評価を目的として提供されます。
 
-テンプレートのプライマリタイプの値はです `cq:Template`。これは、識別に役立ちます。 このコードに次のいずれかのサブタイプを指定して、テンプレートのカテゴリを識別します。
+テンプレートのプライマリタイプの値は `cq:Template` です。これは、識別に役立ちます。このコードに次のいずれかのサブタイプを指定して、テンプレートのカテゴリを識別します。
 
-* `custom.editable.template`：テンプレートのパスがで始まらない `/apps`.
-* `custom.static.template`：テンプレートのパスはで始まります `/apps`.
+* `custom.editable.template`：テンプレートパスは `/apps` で始まりません。
+* `custom.static.template`：テンプレートパスは `/apps` で始まります。
 
-## 考えられる影響およびリスク {#implications-and-risks}
+## 考えられる影響とリスク {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_guidance"
 >title="実装ガイダンス"
->abstract="ベストプラクティスは、静的テンプレートをすべて、編集可能なテンプレートに変更することです。 お客様は、既存の AEM Modernization Tools を使用して、静的テンプレートを編集可能なテンプレートに移行できます。"
+>abstract="ベストプラクティスとしては、静的テンプレートをすべて、編集可能なテンプレートに移行することをお勧めします。お客様は、既存の AEM Modernization Tools を使用して、静的テンプレートを編集可能なテンプレートに移行できます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/platform/templates/templates" text="編集可能なテンプレート"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="AEM Modernization Tools"
 
-* ベストプラクティスは、静的テンプレートをすべて、編集可能なテンプレートに変更することです。
+* ベストプラクティスとしては、静的テンプレートをすべて、編集可能なテンプレートに移行することをお勧めします。
 
 ## 可能な解決策 {#solutions}
 

@@ -34,7 +34,7 @@ ht-degree: 91%
 * `javax.jcr.observation.EventListener`：アプリケーションコードでのイベントリスナーの使用。
 * `custom.guava.cache`：アプリケーションコードでの Guava キャッシュの使用。
 
-## 考えられる影響およびリスク {#implications-and-risks}
+## 考えられる影響とリスク {#implications-and-risks}
 
 * `java.io.inputstream`
    * `java.io.InputStream` を使用してバイナリデータのストリーミングを行うと、パフォーマンスに影響がほどメモリリソースを消費することがあります。この問題は、AEM as a Cloud Serviceで使用されるコンテナで使用できるメモリが制限されているためです。

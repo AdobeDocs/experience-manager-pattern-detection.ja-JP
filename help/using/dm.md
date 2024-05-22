@@ -30,7 +30,7 @@ Dynamic Media
    * `dynamicmedia`：Dynamic Media - ハイブリッドモード
    * `dynamicmedia_scene7`：Dynamic Media - Scene7 モード
 
-## 考えられる影響およびリスク {#implications-and-risks}
+## 考えられる影響とリスク {#implications-and-risks}
 
 * `dynamic.media.runmode`
    * アップグレードに伴い Dynamic Media に関連する問題が生じる可能性があります。

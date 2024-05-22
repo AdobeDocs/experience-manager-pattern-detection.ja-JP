@@ -33,7 +33,7 @@ ht-degree: 78%
 * `custom.bundle`：AEM にインストールされたバンドル
 * `custom.package`：AEM にインストールされたパッケージ
 
-## 考えられる影響およびリスク {#implications-and-risks}
+## 考えられる影響とリスク {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_guidance"
@@ -51,7 +51,7 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="ツールとリソース"
->abstract="wknd-legacy プロジェクトを確認し、INST 違反を修正して AEM as a Cloud Service に対応させる方法を把握します。また、GitHub の INST 違反例を確認し、この問題を修正してAEMas a Cloud Service環境にデプロイする方法も理解します。"
+>abstract="WKND-legacy プロジェクトを確認し、INST 違反を修正して AEM as a Cloud Service と互換性を持たせる方法を把握します。また、GitHub の INST 違反例を確認し、この問題を修正してAEMas a Cloud Service環境にデプロイする方法も理解します。"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="wknd-legacy プロジェクト"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="INST 違反の例 - GitHub"
 

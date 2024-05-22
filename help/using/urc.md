@@ -5,7 +5,7 @@ exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 76%
 
 `URC` は、AEM as a Cloud Service でサポートされていない実行モード名に基づく設定の使用状況を識別します。
 
-## 考えられる影響およびリスク {#implications-and-risks}
+## 考えられる影響とリスク {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_guidance"
@@ -40,7 +40,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"
 >title="ツールとリソース"
->abstract="wknd-legacy プロジェクトを確認して、URC 違反を修正して AEM as a Cloud Service に対応させる方法を把握します。また、GitHub の URC 違反例を確認して、AEM as a Cloud Serviceに準拠するようにカスタム実行モードベースの OSGi 設定を更新する方法も理解します。"
+>abstract="wknd-legacy プロジェクトを確認し、URC 違反を修正して AEM as a Cloud Service と互換性を持たせる方法を把握します。また、GitHub の URC 違反例を確認して、AEM as a Cloud Serviceに準拠するようにカスタム実行モードベースの OSGi 設定を更新する方法も理解します。"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="wknd-legacy プロジェクト"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="URC 違反の例 - GitHub"
 

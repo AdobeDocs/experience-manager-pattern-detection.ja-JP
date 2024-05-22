@@ -5,7 +5,7 @@ exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 56%
+ht-degree: 64%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 56%
 
 * `custom.asset.workflow`：カスタムアセットワークフローモデル、ランチャーを検出しました。
 
-## 考えられる影響およびリスク {#implications-and-risks}
+## 考えられる影響とリスク {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_guidance"
@@ -44,7 +44,7 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_tools"
 >title="ツールとリソース"
->abstract="カスタムのアセットワークフローモデルまたはランチャーが特定されたら、アセットワークフロー移行ツールを確認し実行計画を立てます。 ヘルプおよび詳しい説明については、アドビサポートにお問い合わせください。"
+>abstract="カスタムのアセットワークフローモデルまたはランチャーを識別したら、アセットワークフロー移行ツールを確認し実行計画を立てます。ヘルプおよび詳しい説明については、アドビサポートにお問い合わせください。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/asset-workflow-migration-tool" text="アセットワークフロー移行ツール"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 

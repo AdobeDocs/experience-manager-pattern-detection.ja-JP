@@ -5,7 +5,7 @@ exl-id: ae4df44d-43ca-438c-8373-11381b916af3
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 68%
+ht-degree: 69%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 68%
 
 `DOPI`  順序付きプロパティインデックス定義（`primaryType=oak:QueryIndexDefinition` および `type="ordered"`）に設定します。 この定義はAEM 6.1 で非推奨（廃止予定）となり、AEM 6.2 で削除されました。
 
-## 考えられる影響およびリスク {#implications-and-risks}
+## 考えられる影響とリスク {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_guidance"
@@ -41,7 +41,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_tools"
 >title="ツールとリソース"
->abstract="wknd-legacy プロジェクトを確認し、DOPI 違反を修正して AEM as a Cloud Service に対応させる方法を把握します。また、GitHub の DOPI 違反の例も確認してください。 これにより、従来の順序付きインデックスをAEMas a Cloud Serviceでサポートされている Lucene ベースのインデックスに変換する方法を理解できます。"
+>abstract="wknd-legacy プロジェクトを確認し、DOPI 違反を修正して AEM as a Cloud Service と互換性を持たせる方法を把握します。また、GitHub の DOPI 違反の例も確認してください。 これにより、従来の順序付きインデックスをAEMas a Cloud Serviceでサポートされている Lucene ベースのインデックスに変換する方法を理解できます。"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="wknd-legacy プロジェクト"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="DOPI 違反の例 - GitHub"
 

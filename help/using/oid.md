@@ -28,7 +28,7 @@ Oak インデックス定義
 * `index.rule.violation`：カスタム Oak インデックスと AEM as a Cloud Service との非互換性
 * `standard.index.modification`：標準 Oak インデックスに対する変更
 
-## 考えられる影響およびリスク {#implications-and-risks}
+## 考えられる影響とリスク {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_guidance"

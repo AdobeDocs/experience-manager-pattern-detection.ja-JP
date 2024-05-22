@@ -2,10 +2,10 @@
 title: NCC
 description: パターン検出コードのヘルプページ。
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '193'
-ht-degree: 100%
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
+workflow-type: tm+mt
+source-wordcount: '191'
+ht-degree: 76%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_overview"
 >title="互換性のない変更"
->abstract="NCC は、一部の JCR ノードやバンドルが、互換性のない形で変更される状況を表します。顧客はアップグレード前に、この変更について認識していないことがあります。"
+>abstract="NCC は、一部の JCR ノードやバンドルが、互換性のない方法で変更されている状況を特定します。 顧客はアップグレード前に、この変更について認識していないことがあります。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主な変更点 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="リリースノート - AEM as a Cloud Service"
 
-`NCC` は、一部の JCR ノードやバンドルが、互換性のない方法で変更される状況を識別します。顧客はアップグレード前に、この変更について認識していないことがあります。
+`NCC`  一部の JCR ノードやバンドルが、互換性のない方法で変更される状況を識別します。 顧客はアップグレード前に、この変更について認識していないことがあります。
 
 ## 考えられる影響およびリスク {#implications-and-risks}
 
@@ -39,5 +39,5 @@ ht-degree: 100%
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * 下位互換性のある Sling コンポーネントのみをオーバーレイまたは参照します。
-* AEM のアップグレード後に、`/libs` またはバンドルからのリソースを適応することを検討してください。
+* から得られるリソースの適応を検討する `/libs` AEMのアップグレード後のまたはバンドル。
 * 詳しい説明や懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

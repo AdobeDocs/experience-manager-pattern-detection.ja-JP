@@ -2,10 +2,10 @@
 title: ASO
 description: パターン検出コードのヘルプページ。
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '473'
-ht-degree: 100%
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 85%
 
 ---
 
@@ -32,7 +32,7 @@ AEM システムの概要
 * `data.store`：データストアの実装タイプ（FileDataStore、S3DataStore、AzureDataStore）。
 * `maintenance.task`：メンテナンスタスク。
 * `slow.query`：低速のクエリ。
-* `group.membership`：グループ内のユーザーとサブグループ（直接／宣言されたメンバーのみ）の数。
+* `group.membership`：グループ内のユーザーとサブグループ（ダイレクト/宣言されたメンバーのみ）の数。
 * `cqtag.count`：CQ タグ付きアセットの数。
 * `smarttag.count`：スマートタグ付きアセットの数。
 * `ccom.version`：コアコンポーネントパッケージのバージョン。
@@ -61,7 +61,7 @@ AEM システムの概要
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * サポートされていない製品や機能を使用した AEM アップグレードは推奨されず、サポートの対象外となる場合があります。
-* 未処理のアセットを処理し、アセットの `jcr:content` ノードの `dam:assetState` プロパティを「処理済み」に設定する必要があります。または、AEMaaCS に移行する前に、これらのアセットを移行セットから削除する必要があります。
+* 未処理のアセットを処理し、 `dam:assetState` のプロパティ `jcr:content` アセットのノードは、「処理済み」に設定する必要があります。 または、AEMaaCS に移行する前に、これらのアセットを移行セットから削除する必要があります。
 * バニティー URL は Apache Rewrites に置き換えることができます。
 * 時間がかかるクエリの処理に関するトラブルシューティングについては、[ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries)を参照してください。
 * AEM as a Cloud Service における最新の変更事項について詳しくは、[リリースノート](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current)を参照してください。

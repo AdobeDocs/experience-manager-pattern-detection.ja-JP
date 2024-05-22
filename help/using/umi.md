@@ -2,10 +2,10 @@
 title: UMI
 description: パターン検出コードのヘルプページ。
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
-workflow-type: ht
-source-wordcount: '351'
-ht-degree: 100%
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 87%
 
 ---
 
@@ -31,15 +31,15 @@ ht-degree: 100%
 * `org.apache.sling.engine.impl.auth.SlingAuthenticator`
 * `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory`
 * `com.day.cq.commons.impl.ExternalizerImpl`
-* `org.apache.sling.commons.log.LogManager.factory.config`：カスタムロガーの `org.apache.sling.commons.log.file` プロパティが `logs/error.log` ファイル以外を指しているかどうかを識別します。
+* `org.apache.sling.commons.log.LogManager.factory.config` ：次のかどうかを識別します `org.apache.sling.commons.log.file` カスタムロガーのプロパティが以外を指している `logs/error.log` ファイル。
 
-## 考えられる影響およびリスク {#implications-and-risks}
+## 考えられる影響とリスク {#implications-and-risks}
 
-* 設定の変更や削除を行うと、次の問題を生じることがあります。
+* 設定を変更または削除すると、次の問題が発生する場合があります。
    * アップグレードの停止（例：`org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids` には存在する `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName` が存在していない場合）。
    * アップグレード後の認証の問題（`org.apache.sling.engine.impl.auth.SlingAuthenticator`）。
    * 特定の機能で所定の動作が実行されない場合があります。例えば、`org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` を変更すると、一部の JSP ファイルがコンパイルから除外され、結果的に機能が欠落することがあります。
-   * Externalizer 設定の値 `com.day.cq.commons.impl.ExternalizerImpl` は、AEM as a Cloud Service の Cloud Manager 環境変数によって設定されます。
+   * Externalizer 設定の値 `com.day.cq.commons.impl.ExternalizerImpl` は、AEM as a Cloud Serviceの cloud manager 環境変数で設定されます。
    * AEM as a Cloud Services は、カスタムログファイルをサポートしていません。カスタム名のログに書き込まれたログは、AEM as a Cloud Service からアクセスできません。
 
 ## 可能な解決策 {#solutions}

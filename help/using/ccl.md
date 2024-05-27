@@ -3,9 +3,9 @@ title: CCL
 description: パターン検出コードのヘルプページ。
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '146'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccl_overview"
 >title="カスタムクライアントライブラリ"
->abstract="CCL は、AEMにインストールされているクライアントライブラリを特定します。 この情報は、ベストプラクティスの評価を目的として提供されます。"
+>abstract="CCL は、AEM にインストールされているクライアントライブラリを識別します。この情報は、ベストプラクティスの評価を目的として提供されます。"
 
-`CCL` AEMにインストールされているクライアントライブラリを特定します。 この情報は、ベストプラクティスの評価を目的として提供されます。
+`CCL` は、AEM にインストールされているクライアントライブラリを識別します。この情報は、ベストプラクティスの評価を目的として提供されます。
 
 このコードで使用できるサブタイプは 1 つです。
 
@@ -28,7 +28,7 @@ ht-degree: 69%
 
 ## 考えられる影響およびリスク {#implications-and-risks}
 
-* AEMに追加されたクライアントライブラリでは、重複がないこと、最新のバージョンが使用されていることを確認する必要があります。
+* AEM に追加されたクライアントライブラリでは、重複がないこと、最新のバージョンが使用されていることを確認する必要があります。
 
 ## 可能な解決策 {#solutions}
 

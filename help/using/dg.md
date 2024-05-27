@@ -3,9 +3,9 @@ title: DG
 description: パターン検出コードのヘルプページ。
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 91%
 ## 考えられる影響とリスク {#implications-and-risks}
 
 * `java.io.inputstream`
-   * `java.io.InputStream` を使用してバイナリデータのストリーミングを行うと、パフォーマンスに影響がほどメモリリソースを消費することがあります。この問題は、AEM as a Cloud Serviceで使用されるコンテナで使用できるメモリが制限されているためです。
+   * `java.io.InputStream` を使用してバイナリデータのストリーミングを行うと、パフォーマンスに影響を与えるほどメモリリソースを消費する場合があります。この問題は、AEM as a Cloud Service で使用するコンテナで利用可能なメモリが限られているため発生します。
 
 * `maintenance.task.configuration`
    * 従来、明示的な設定が要求されたメンテナンスタスクの一部は、AEM as a Cloud Service 内で自動的に設定、管理されるようになりました。
@@ -48,7 +48,7 @@ ht-degree: 91%
    * [バックグラウンドタスクと長時間実行されているジョブ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs)に関するガイドラインでは、スケジュールされたタスクとして実行されるコードは、実行されているインスタンスがいつでも停止される可能性があることも前提にする必要があることを示しています。したがって、コードには耐障害性と再開可能性が求められます。
 
 * `unsupported.asset.api`
-   * 次の AssetManager の API は、AEM as a Cloud Serviceでサポートされていないとしてマークされています。
+   * 次の AssetManager の API は、AEM as a Cloud Service ではサポート対象外とマークされています。
       * createAssetForBinary
       * getAssetForBinary
       * removeAssetForBinary

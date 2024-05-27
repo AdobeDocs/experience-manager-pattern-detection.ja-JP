@@ -2,9 +2,9 @@
 title: TEMPLATE
 description: パターン検出コードのヘルプページのテンプレート。
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 85%
 
 ## 考えられる影響およびリスク {#implications-and-risks}
 
-何もしない場合に発生する可能性のある影響とリスクを説明します。
+これらについて何も対応しない場合に生じる可能性のある潜在的な影響とリスクについて説明します。
 次の質問に回答します。「なぜこれを気にする必要がありますか？」
 
 * 影響またはリスク 1

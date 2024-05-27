@@ -3,9 +3,9 @@ title: DM
 description: パターン検出コードで AEM Assets - Dynamic Media の使用状況を識別する方法について説明します。
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ Dynamic Media
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_overview"
 >title="Dynamic Media"
->abstract="DM コードは、現在の実装における AEM Assets Dynamic Media の使用状況を識別します。実行モードは、Dynamic Media モードを検出します。"
+>abstract="DM コードは、現在の実装における AEM Assets Dynamic Media の使用状況を識別します。実行モードでは、Dynamic Media モードを検出します。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM の開発 - ガイドラインとベストプラクティス"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service の開発ガイドライン"
 
-`DM`（Dynamic Media）は、使用されている AEM Assets Dynamic Media を識別します。実行モードは、Dynamic Media モードを検出します。
+`DM`（Dynamic Media）は、使用されている AEM Assets Dynamic Media を識別します。実行モードでは、Dynamic Media モードを検出します。
 
 このコードには次のサブタイプが使用されます。
 
@@ -40,7 +40,7 @@ Dynamic Media
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_guidance"
 >title="実装ガイダンス"
->abstract="AEM as a Cloud Service は dynamicmedia_scene7 実行モードのみサポートしています。ヘルプおよび詳しい説明については、現在の設定を確認したうえで、Adobeサポートチームにお問い合わせください。"
+>abstract="AEM as a Cloud Service は dynamicmedia_scene7 実行モードのみサポートしています。現在の設定を確認し、ヘルプおよび詳しい説明については、アドビサポートチームにお問い合わせください。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media" text="Dynamic Media のセットアップ"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 

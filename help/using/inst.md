@@ -3,26 +3,26 @@ title: INST
 description: パターン検出コードのヘルプページ。
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # INST {#inst}
 
-インストール済みアーティファクト
+インストール済みのアーティファクト
 
 ## 背景 {#background}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_overview"
->title="インストール済みアーティファクト"
->abstract="INST は、ユーザーによってAEMにインストールされたカスタムおよびサードパーティ製のパッケージおよびバンドルを識別します。 このようなパッケージやバンドルは、システムの状態やアップグレード作業の全般的な範囲を把握するために報告されます。 サードパーティ製パッケージは、AEM as a Cloud Service の開発およびパッケージガイドラインに準拠する必要があります。"
+>title="インストール済みのアーティファクト"
+>abstract="INST は、お客様が AEM にインストールしたカスタムおよびサードパーティのパッケージとバンドルを識別します。このようなパッケージとバンドルは、システムの状態やアップグレード作業の一般的な範囲の特徴を把握するために報告されます。サードパーティ製パッケージは、AEM as a Cloud Service の開発およびパッケージガイドラインに準拠する必要があります。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="開発ガイドライン - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="パッケージガイドライン - AEM as a Cloud Service"
 
-`INST`  ユーザーによってAEMにインストールされたカスタムおよびサードパーティ製のパッケージおよびバンドルを識別します。 このようなパッケージやバンドルは、システムの状態やアップグレード作業の全般的な範囲を把握するために報告されます。
+`INST` は、お客様が AEM にインストールしたカスタムおよびサードパーティのパッケージとバンドルを識別します。このようなパッケージとバンドルは、システムの状態やアップグレード作業の一般的な範囲の特徴を把握するために報告されます。
 
 1 つのパッケージについて複数のバージョンがインストールされている場合は、最新バージョンだけが報告されます。
 
@@ -51,7 +51,7 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="ツールとリソース"
->abstract="WKND-legacy プロジェクトを確認し、INST 違反を修正して AEM as a Cloud Service と互換性を持たせる方法を把握します。また、GitHub の INST 違反例を確認し、この問題を修正してAEMas a Cloud Service環境にデプロイする方法も理解します。"
+>abstract="WKND-legacy プロジェクトを確認し、INST 違反を修正して AEM as a Cloud Service と互換性を持たせる方法を把握します。また、GitHub の INST 違反例を確認し、この問題を修正して AEM as a Cloud Service にデプロイする方法を把握します。"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="wknd-legacy プロジェクト"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="INST 違反の例 - GitHub"
 

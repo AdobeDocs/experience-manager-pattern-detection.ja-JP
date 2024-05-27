@@ -3,9 +3,9 @@ title: ECU
 description: パターン検出コードのヘルプページ。
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
 source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 75%
 
 `ECU` は、コンテンツ分類ルールに違反する形でコンテンツ領域が使用されているパターンを識別します。
 
-Sling リクエスト処理では、リソースのコンテンツ（特にリソースの `sling:resourceType` プロパティ）を使用して、コンテンツのレンダリングに用いるスクリプトを決定する方法を定義します。（詳細については、「[スクリプトの検索](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script)」を参照してください）。Sling には、オーバーレイとオーバーライドを使用してリソースにアクセスし、マージする手法も用意されています。 これらの手法については、 [Sling Resource Merger](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) および [オーバーレイ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/platform/overlays).
+Sling リクエスト処理では、リソースのコンテンツ（特にリソースの `sling:resourceType` プロパティ）を使用して、コンテンツのレンダリングに用いるスクリプトを決定する方法を定義します。（詳細については、[スクリプトの検索](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script)を参照してください）。また、Sling では、オーバーレイとオーバーライドを通じて、リソースにアクセスし、リソースを結合するテクニックも用意されています。これらのテクニックは、[Sling Resource Merger](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) の一部として、および[オーバーレイ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/platform/overlays)内で説明されています。
 
-お客様がより安全かつ簡単に以下の分野を理解できるようにする `/libs` 安全に使用してオーバーレイできる、コンテンツ： `/libs` は、「mixin」プロパティで分類されています。
+安全に使用およびオーバーレイできる `/libs` のどエリアをお客様に分かりやすくするため、`/libs` のコンテンツは次の「mixin」プロパティで分類されます。
 
-* 公開
-* 抽象
-* 最終
-* 内部
+* Public
+* Abstract
+* Final
+* Internal
 
 各分類は、コンテンツがどのように使用、継承、オーバーレイされるかを規定するルールを示します。詳細については、[持続可能なアップグレード](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades)を参照してください。
 

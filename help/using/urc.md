@@ -3,9 +3,9 @@ title: URC
 description: パターン検出コードのヘルプページ。
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 77%
 >id="aemcloud_bpa_urc_overview"
 >title="サポートされていない実行モードの設定"
 >abstract="URC は、AEM as a Cloud Service でサポートされていない実行モード名に基づく設定の使用状況を識別します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes" text="サポートされる実行モード"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes" text="サポートされている実行モード"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/deploying/overview#runmodes" text="実行モード"
 
 `URC` は、AEM as a Cloud Service でサポートされていない実行モード名に基づく設定の使用状況を識別します。
@@ -29,7 +29,7 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_guidance"
 >title="実装ガイダンス"
->abstract="ベストプラクティスは、アプリケーションで使用されるすべての実行モードがサポートされているかどうかを確認することです。 また、実行モード解決ガイドラインに従っていることを確認します"
+>abstract="ベストプラクティスとしては、アプリケーションで使用されているすべての実行モードがサポートされているかどうかを確認することをお勧めします。また、実行モード解決ガイドラインに確実に従うようにすることもお勧めします。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#deploying" text="実行モード解決ガイドライン"
 
 * AEM as a Cloud Service で様々なモードを実行するために使用できる名前のセットは制限されています。
@@ -40,7 +40,7 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"
 >title="ツールとリソース"
->abstract="wknd-legacy プロジェクトを確認し、URC 違反を修正して AEM as a Cloud Service と互換性を持たせる方法を把握します。また、GitHub の URC 違反例を確認して、AEM as a Cloud Serviceに準拠するようにカスタム実行モードベースの OSGi 設定を更新する方法も理解します。"
+>abstract="wknd-legacy プロジェクトを確認し、URC 違反を修正して AEM as a Cloud Service と互換性を持たせる方法を把握します。また、GitHub の URC 違反例を確認して、AEM as a Cloud Service に準拠するようにカスタム実行モードベースの OSGi 設定を更新する方法も把握します。"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="wknd-legacy プロジェクト"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="URC 違反の例 - GitHub"
 

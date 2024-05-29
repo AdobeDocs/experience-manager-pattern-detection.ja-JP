@@ -3,9 +3,9 @@ title: OAUI
 description: パターン検出コードのヘルプページ。
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
 source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ OAuth は、`oauth` というサブノードが、`rep:AuthorizableId` ノード
 
 例：`/home/users/ims/0001/R80w6XaUCBq3jHE47xDN/oauth`
 
-## 考えられる影響およびリスク {#implications-and-risks}
+## 考えられる影響とリスク {#implications-and-risks}
 
 * OAuth で設定された外部ユーザーは、下記の手順で再設定しない限り、オーサーインスタンスまたはパブリッシュインスタンスにはログインできません。
 

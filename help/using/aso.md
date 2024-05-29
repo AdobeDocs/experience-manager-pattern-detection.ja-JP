@@ -3,9 +3,9 @@ title: ASO
 description: パターン検出コードのヘルプページ。
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ AEM システムの概要
 * `data.store`：データストアの実装タイプ（FileDataStore、S3DataStore、AzureDataStore）。
 * `maintenance.task`：メンテナンスタスク。
 * `slow.query`：低速のクエリ。
-* `group.membership`：グループ内のユーザーとサブグループ（ダイレクト/宣言されたメンバーのみ）の数。
+* `group.membership`：グループ内のユーザーとサブグループ（直接／宣言されたメンバーのみ）の数。
 * `cqtag.count`：CQ タグ付きアセットの数。
 * `smarttag.count`：スマートタグ付きアセットの数。
 * `ccom.version`：コアコンポーネントパッケージのバージョン。
@@ -43,13 +43,13 @@ AEM システムの概要
 * `workflow.count`：実行中で古い状態のオーサーワークフローの数。
 * `jvm.arguments`：AEM の起動時にコマンドラインに追加された JVM 引数。
 
-## 考えられる影響およびリスク {#implications-and-risks}
+## 考えられる影響とリスク {#implications-and-risks}
 
 * AEM のバージョン、ノード数、グループメンバーシップ、ノードストア、データストアの実装タイプ、CQ タグ数、スマートタグ数、コアコンポーネントのバージョン、AEM インスタンスタイプ、および未処理のアセットカウントは、情報提供を目的として提供されます。
-* バニティー URL の数が多い（1000 を超える）と、高コストなクエリにより、Dispatcher とパブリッシュサーバーに負荷がかかる場合があります。
+* バニティ URL の数が多い（1000 を超える）と、高コストなクエリにより、Dispatcher と公開サーバーに負荷がかかる場合があります。
 * カスタムアプリケーションは、AEM as a Cloud Service で使用できない製品や機能に依存している場合があります。
 * サポートされていない機能を使用したままアップグレードすると、アップグレードが失敗し、アプリケーションが機能しなくなることがあります。
-* 実行中または古い状態のオーサーワークフローが多数あると、パフォーマンスが低下する可能性があります。
+* 実行中または古い状態の作成者ワークフローが多数あると、パフォーマンスが低下する可能性があります。
 * クエリの処理に時間がかかり、システムのパフォーマンスが低下する場合があります。
 
 ## 可能な解決策 {#solutions}
@@ -61,7 +61,7 @@ AEM システムの概要
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * サポートされていない製品や機能を使用した AEM アップグレードは推奨されず、サポートの対象外となる場合があります。
-* 未処理のアセットを処理し、 `dam:assetState` のプロパティ `jcr:content` アセットのノードは、「処理済み」に設定する必要があります。 または、AEMaaCS に移行する前に、これらのアセットを移行セットから削除する必要があります。
+* 未処理のアセットを処理し、アセットの `jcr:content` ノードの `dam:assetState` プロパティを「処理済み」に設定する必要があります。または、AEMaaCS に移行する前に、これらのアセットを移行セットから削除する必要があります。
 * バニティー URL は Apache Rewrites に置き換えることができます。
 * 時間がかかるクエリの処理に関するトラブルシューティングについては、[ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries)を参照してください。
 * AEM as a Cloud Service における最新の変更事項について詳しくは、[リリースノート](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current)を参照してください。

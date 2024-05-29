@@ -3,7 +3,7 @@ title: MSM
 description: パターン検出コードのヘルプページ。
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
 source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 * `cq.livesyncconfig.found`：AEM に追加されたコンテンツ内の `/jcr:content/cq:LiveSyncConfig` ノードの検出。マルチサイトマネージャーの使用を示します。
 
-## 考えられる影響およびリスク {#implications-and-risks}
+## 考えられる影響とリスク {#implications-and-risks}
 
 
 ## 可能な解決策 {#solutions}

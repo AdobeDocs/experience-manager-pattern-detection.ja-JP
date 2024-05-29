@@ -3,9 +3,9 @@ title: MI
 description: パターン検出コードのヘルプページ。
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 85%
 次のようなサブタイプを使用して、各種情報を識別します。
 
 * `sling.job.max.parallel`：最大並列設定が -1 に設定されている Sling ジョブを識別します。
-* `missing.maintenance.configuration`：不足しているメンテナンスタスク設定を特定します。
+* `missing.maintenance.configuration`：欠落しているメンテナンスタスクの設定を識別します。
 
-## 考えられる影響およびリスク {#implications-and-risks}
+## 考えられる影響とリスク {#implications-and-risks}
 
 * `sling.job.max.parallel`
    * -1 の値は、使用可能なプロセッサの数に置き換えられます。そのため、AEM インスタンスのパフォーマンスに問題が生じる可能性があります。
 * `missing.maintenance.configuration`
-   * メンテナンスタスクの設定が見つからない場合、パフォーマンスの損失やインスタンスの破損が発生する可能性があります。
+   * メンテナンスタスクの設定が欠落していると、パフォーマンスの低下やインスタンスの破損が生じる可能性があります。
 
 ## 可能な解決策 {#solutions}
 

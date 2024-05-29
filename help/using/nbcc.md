@@ -3,9 +3,9 @@ title: NBCC
 description: パターン検出コードのヘルプページ。
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 67%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_nbcc_overview"
 >title="後方互換性のない変更"
->abstract="NBCC は、一部の JCR ノードやバンドルが、互換性のない方法で変更されている状況を特定します。 顧客はアップグレード前に、この変更について認識していないことがあります。"
+>abstract="NBCC は、一部の JCR ノードやバンドルが、互換性のない方法で変更される状況を識別します。顧客はアップグレード前に、この変更について認識していないことがあります。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主な変更点 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="リリースノート - AEM as a Cloud Service"
 
-`NBCC`  一部の JCR ノードやバンドルが、互換性のない方法で変更される状況を識別します。 顧客はアップグレード前に、この変更について認識していないことがあります。
+`NBCC` は、一部の JCR ノードやバンドルが、互換性のない方法で変更される状況を特定します。顧客はアップグレード前に、この変更について認識していないことがあります。
 
-## 考えられる影響およびリスク {#implications-and-risks}
+## 考えられる影響とリスク {#implications-and-risks}
 
-* 下位互換性のない変更を使用するいずれかのコンポーネントに依存する機能は、動作しなくなったり、正しく解決されない可能性があります。
+* 後方互換性のない変更を使用した任意のコンポーネントに依存する機能は、破損する可能性や正しく解決されない可能性があります。
 * アップグレード後に、お客様のアプリケーションの機能や AEM 機能の一部が正しく動作しなくなる場合があります。
 
 ## 可能な解決策 {#solutions}
@@ -39,5 +39,5 @@ ht-degree: 67%
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * 後方互換性のある Sling コンポーネントだけをオーバーレイまたは参照の対象とします。
-* から得られるリソースの適応を検討する `/libs` AEMのアップグレード後のまたはバンドル。
+* AEM のアップグレード後に、`/libs` またはバンドルからのリソースを適応させることを検討してください。
 * 詳しい説明や懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

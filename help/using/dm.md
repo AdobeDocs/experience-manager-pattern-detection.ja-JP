@@ -3,7 +3,7 @@ title: DM
 description: パターン検出コードで AEM Assets - Dynamic Media の使用状況を識別する方法について説明します。
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
 source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%
 

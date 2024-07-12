@@ -3,7 +3,7 @@ title: OCU
 description: パターン検出コードのヘルプページ。
 exl-id: cb28c727-415d-436c-ab74-cf7f1f34f7c7
 source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
 

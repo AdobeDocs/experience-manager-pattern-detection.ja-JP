@@ -3,7 +3,7 @@ title: MSM
 description: パターン検出コードのヘルプページ。
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
 source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 100%
 

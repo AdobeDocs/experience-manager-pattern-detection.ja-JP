@@ -2,10 +2,10 @@
 title: INST
 description: パターン検出コードのヘルプページ。
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
+source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '498'
+ht-degree: 90%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 100%
 * サードパーティ製パッケージに依存するアプリケーションは、AEM as a Cloud Service での動作に合わせて正しくデプロイしない限り、期待通り動作しないことがあります。
 * サードパーティベンダーのパッケージは、AEM as a Cloud Service 用に最適化されていないと、意図しない動作をする可能性があります。
 
+また、次の特定のサブタイプにも注意を払うことを検討してください。
+
+* `guava.bundle` - Guava はAEM 6.5 LTS の標準ではサポートされておらず、アップグレード後はバンドルを使用できなくなります。
+
 ## 可能な解決策 {#solutions}
 
 >[!CONTEXTUALHELP]
@@ -60,3 +64,4 @@ ht-degree: 100%
 * サードパーティ製パッケージは、AEM as a Cloud Service の[開発](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines)および[パッケージ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package)ガイドラインに準拠する必要があります。
 * [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) プロジェクトを検証し、AEM as a Cloud Service との互換性を維持するために [INST 違反](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst)を修正および変更する方法を確認します。
 * 詳しい説明や懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+* `guava.bundle` サブタイプの場合は、Guava をインストールするか、カスタムコードで Guava が使用されている場合は使用状況を削除します。

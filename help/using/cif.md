@@ -2,10 +2,10 @@
 title: CIF
 description: パターン検出コードのヘルプページ。
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 100%
+source-wordcount: '402'
+ht-degree: 76%
 
 ---
 
@@ -50,3 +50,16 @@ Commerce Integration Framework Classic
 * CIF をデプロイするプロジェクトをサポートするために、アドビでは [AEM CIF コアコンポーネント](https://github.com/adobe/aem-core-cif-components)を提供しています。
 * AEM 6.5 用の CIF アドオンは、[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)を通じて入手できます。これは互換性があり、Experience Manager as a Cloud Service 用の CIF アドオンと同じ機能を提供します。調整は不要です。
 * 依存関係を持つクラシック CIF は使用できなくなりました。com.adobe.cq.commerce.api Java™ API を使用しているこの CIF バージョンに依存するコードは、CIF アドオンとその原則に従って調整する必要があります。
+
+また、次の様々なサブタイプに対して考えられるソリューションも参照してください。
+
+* `commerce.bundles.detected` – これらのバンドルはアップグレード時にアンインストールされます
+* `commerce.packages.detected` – これらのパッケージはアップグレード中に削除されます
+* `commerce.packages.dependency` - カスタムパッケージからCommerceへの依存関係を削除します
+* `commerce.nodes.detected` - CQ Commerce ノードを作成しないようにカスタムコードを更新します
+* `commerce.configs.detected` - カスタムコードで CQ Commerce設定プロパティを使用しない
+* `commerce.users.detected` - カスタムコードで CQ Commerce サービスユーザーを使用しない
+* `commerce.overlays.detected` - CQ Commerce オーバーレイの使用を削除
+* `commerce.paths.detected` - コマースパスを削除するには、これらのパスがAEMで使用されていないことを確認します
+* `commerce.resource.type.detected` - コマースリソースタイプの使用状況を削除
+* `commerce.usage` - カスタムコードから CQ Commerce API を削除します。

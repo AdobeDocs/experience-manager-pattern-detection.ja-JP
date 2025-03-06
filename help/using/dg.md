@@ -2,10 +2,10 @@
 title: DG
 description: パターン検出コードのヘルプページ。
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
+source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 100%
+source-wordcount: '737'
+ht-degree: 80%
 
 ---
 
@@ -33,6 +33,10 @@ ht-degree: 100%
 * `unsupported.asset.api`：アプリケーションコードでのサポートされていない Asset Manager API の使用。
 * `javax.jcr.observation.EventListener`：アプリケーションコードでのイベントリスナーの使用。
 * `custom.guava.cache`：アプリケーションコードでの Guava キャッシュの使用。
+* `java.api`：一部の Java API は、Java 11 から Java 17 に削除されました。
+* `configuration.admin`：設定にアクセスしているカスタムコードはフラグ付けされます。
+* `guava.api`:AEM 6.5 LTS では、Guava は標準ではサポートされていません。
+* `com.day.cq.dam.scene7.api.model`: `package com.day.cq.dam.scene7.api.model` のメジャーバージョンが変更されました。
 
 ## 考えられる影響とリスク {#implications-and-risks}
 
@@ -59,6 +63,18 @@ ht-degree: 100%
 
 * `custom.guava.cache`
    * Guava キャッシュを使用すると、AEM でパフォーマンスの問題が発生する可能性があります。
+
+* `java.api`
+   * JRE17 上のAEM 6.5 LTS では、これらの削除された Java API は使用できなくなり、使用も失敗します。
+
+* `configuration.admin`
+   * サポートされていない設定（ソーシャルなど）を使用していないことを確認するために、使用状況を調べる必要があります。
+
+* `guava.api`
+   * Guava はAEM 6.5 LTS ではサポートされていないので、guava を使用しているカスタムコードはアクティブになりません。
+
+* `com.day.cq.dam.scene7.api.model`
+   * カスタムバンドル内の読み込まれたパッケージ `com.day.cq.dam.scene7.api.model` は、メジャーバージョンの変更が原因で解決されません。
 
 
 ## 可能な解決策 {#solutions}
@@ -91,3 +107,12 @@ ht-degree: 100%
 * `custom.guava.cache`
    * キャッシュは、必要に応じて AEM の外部で作成する必要があります。外部キャッシュソリューションを検討することをお勧めします。
 * 詳しい説明や懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+
+* `configuration.admin`
+   * サポートされていない機能（ソーシャルなど）の設定使用を削除します。
+
+* `guava.api`
+   * Guava をインストールするか、カスタムコードで Guava が使用されている場合は使用状況を削除します。
+
+* `com.day.cq.dam.scene7.api.model`
+   * 読み込んだパッケージ `com.day.cq.dam.scene7.api.model` のバージョン範囲を **3.0.4** に更新します。

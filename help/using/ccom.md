@@ -4,7 +4,7 @@ description: パターン検出コードのヘルプページ。
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
 source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '283'
 ht-degree: 100%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccom_overview"
 >title="カスタムコンポーネント"
->abstract="CCOM は、AEM にインストールされているカスタムコンポーネントを識別します。この情報は、ベストプラクティスの評価を目的として提供されます。"
+>abstract="CCOM は、AEM にインストールされているカスタムコンポーネントを識別します。 この情報は、ベストプラクティスの評価を目的として提供されます。"
 
-`CCOM` は、AEM にインストールされているカスタムコンポーネントを識別します。この情報は、ベストプラクティスの評価を目的として提供されます。
+`CCOM` は、AEM にインストールされているカスタムコンポーネントを識別します。 この情報は、ベストプラクティスの評価を目的として提供されます。
 
 このコードのサブタイプは、コンポーネントのカテゴリの識別に使用されます。
 

@@ -4,7 +4,7 @@ description: パターン検出コードのヘルプページ。
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '250'
 ht-degree: 100%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_overview"
 >title="互換性のない変更"
->abstract="NCC は、一部の JCR ノードやバンドルが、互換性のない方法で変更される状況を特定します。顧客はアップグレード前に、この変更について認識していないことがあります。"
+>abstract="NCC は、一部の JCR ノードやバンドルが、互換性のない方法で変更される状況を特定します。 顧客はアップグレード前に、この変更について認識していないことがあります。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="主な変更点 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="リリースノート - AEM as a Cloud Service"
 
-`NCC` は、一部の JCR ノードやバンドルが、互換性のない方法で変更される状況を特定します。顧客はアップグレード前に、この変更について認識していないことがあります。
+`NCC` は、一部の JCR ノードやバンドルが、互換性のない方法で変更される状況を特定します。 顧客はアップグレード前に、この変更について認識していないことがあります。
 
 ## 考えられる影響とリスク {#implications-and-risks}
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_guidance"
 >title="実装ガイダンス"
->abstract="ベストプラクティスは、カスタムコードを確認し、後方互換性のある Sling コンポーネントのみオーバーレイまたは参照されるようにすることです。ヘルプおよび詳しい説明については、アドビサポートにお問い合わせください。"
+>abstract="ベストプラクティスは、カスタムコードを確認し、後方互換性のある Sling コンポーネントのみオーバーレイまたは参照されるようにすることです。 ヘルプおよび詳しい説明については、アドビサポートにお問い合わせください。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="オーバーレイ"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 

@@ -4,7 +4,7 @@ description: パターン検出コードのヘルプページ。
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
 source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '241'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="実装ガイダンス"
->abstract="ベストプラクティスは、コンテンツ構造を見直して、ページの複雑さを軽減することです。これにより、ページのレンダリングパフォーマンスを向上できます。ヘルプおよび詳しい説明については、アドビサポートにお問い合わせください。"
+>abstract="ベストプラクティスは、コンテンツ構造を見直して、ページの複雑さを軽減することです。 これにより、ページのレンダリングパフォーマンスを向上できます。 ヘルプおよび詳しい説明については、アドビサポートにお問い合わせください。"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * 次のアクションを実行して、ページ内のノードの合計数を減らします。

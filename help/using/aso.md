@@ -4,7 +4,7 @@ description: パターン検出コードのヘルプページ。
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '534'
 ht-degree: 100%
 
 ---
@@ -18,10 +18,10 @@ AEM システムの概要
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_overview"
 >title="AEM システムの概要"
->abstract="ASO コードは、AEM インスタンスに関する一般的な情報を識別します。各検索結果には、移行計画やリファクタリング作業に役立つ、特定タイプのシステム情報の値が 1 つ示されます。"
+>abstract="ASO コードは、AEM インスタンスに関する一般的な情報を識別します。 各検索結果には、移行計画やリファクタリング作業に役立つ、特定タイプのシステム情報の値が 1 つ示されます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - リリースノート"
 
-`ASO` は、AEM インスタンスに関する一般的な情報を識別します。各検索結果に、特定タイプのシステム情報の値が 1 つ示されます。
+`ASO` は、AEM インスタンスに関する一般的な情報を識別します。 各検索結果に、特定タイプのシステム情報の値が 1 つ示されます。
 
 次のサブタイプを使用して、各種情報を識別します。
 
@@ -45,7 +45,7 @@ AEM システムの概要
 
 ## 考えられる影響とリスク {#implications-and-risks}
 
-* AEM のバージョン、ノード数、グループメンバーシップ、ノードストア、データストアの実装タイプ、CQ タグ数、スマートタグ数、コアコンポーネントのバージョン、AEM インスタンスタイプ、および未処理のアセットカウントは、情報提供を目的として提供されます。
+* AEM のバージョン、ノード数、グループメンバーシップ、ノードストア、データストアの実装タイプ、CQ タグ数、スマートタグ数、コアコンポーネントのバージョン、AEM インスタンスタイプ、および未処理のアセット数は、情報提供を目的として提供されます。
 * バニティ URL の数が多い（1000 を超える）と、高コストなクエリにより、Dispatcher と公開サーバーに負荷がかかる場合があります。
 * カスタムアプリケーションは、AEM as a Cloud Service で使用できない製品や機能に依存している場合があります。
 * サポートされていない機能を使用したままアップグレードすると、アップグレードが失敗し、アプリケーションが機能しなくなることがあります。
@@ -57,12 +57,12 @@ AEM システムの概要
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_guidance"
 >title="実装ガイダンス"
->abstract="ASO コードによって公開される情報では、バージョン、製品アドオン、システムレベルの情報など、AEM 環境の一般的な情報を提供します。AEM as a Cloud Service でサポートされていない製品や機能について確認します。ヘルプおよび詳しい説明については、アドビサポートにお問い合わせください。"
+>abstract="ASO コードによって公開される情報では、バージョン、製品アドオン、システムレベルの情報など、AEM 環境の一般的な情報を提供します。 AEM as a Cloud Service でサポートされていない製品や機能について確認します。 ヘルプおよび詳しい説明については、アドビサポートにお問い合わせください。"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * サポートされていない製品や機能を使用した AEM アップグレードは推奨されず、サポートの対象外となる場合があります。
-* 未処理のアセットを処理し、アセットの `jcr:content` ノードの `dam:assetState` プロパティを「処理済み」に設定する必要があります。または、AEMaaCS に移行する前に、これらのアセットを移行セットから削除する必要があります。
-* バニティー URL は Apache Rewrites に置き換えることができます。
+* 未処理のアセットを処理し、アセットの `jcr:content` ノードの `dam:assetState` プロパティを「処理済み」に設定する必要があります。 または、AEMaaCS に移行する前に、これらのアセットを移行セットから削除する必要があります。
+* バニティ URL は Apache Rewrites に置き換えることができます。
 * 時間がかかるクエリの処理に関するトラブルシューティングについては、[ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/bestpractices/troubleshooting-slow-queries)を参照してください。
 * AEM as a Cloud Service における最新の変更事項について詳しくは、[リリースノート](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current)を参照してください。
 * 詳しい説明や懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

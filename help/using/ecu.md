@@ -17,7 +17,7 @@ ht-degree: 97%
 
 `ECU` は、コンテンツ分類ルールに違反する形でコンテンツ領域が使用されているパターンを識別します。
 
-Sling リクエスト処理では、リソースのコンテンツ（特にリソースの `sling:resourceType` プロパティ）を使用して、コンテンツのレンダリングに用いるスクリプトを決定する方法を定義します。 （詳しくは、[ スクリプトの検索](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script)を参照してください）。 また、Sling では、オーバーレイとオーバーライドを通じて、リソースにアクセスし、リソースを結合するテクニックも用意されています。 これらのテクニックは、[Sling Resource Merger](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) の一部として、および[オーバーレイ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/platform/overlays)内で説明されています。
+Sling リクエスト処理では、リソースのコンテンツ（特にリソースの `sling:resourceType` プロパティ）を使用して、コンテンツのレンダリングに用いるスクリプトを決定する方法を定義します。 （詳しくは、[&#x200B; スクリプトの検索](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script)を参照してください）。 また、Sling では、オーバーレイとオーバーライドを通じて、リソースにアクセスし、リソースを結合するテクニックも用意されています。 これらのテクニックは、[Sling Resource Merger](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) の一部として、および[オーバーレイ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/platform/overlays)内で説明されています。
 
 安全に使用およびオーバーレイできる `/libs` のどエリアをお客様に分かりやすくするため、`/libs` のコンテンツは次の「mixin」プロパティで分類されます。
 

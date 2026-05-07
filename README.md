@@ -1,10 +1,16 @@
 ---
-source-git-commit: b766ec44ce5d52669d0fd782a7c88475c5f740a9
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '7'
-ht-degree: 0%
+source-wordcount: '72'
+ht-degree: 5%
 
 ---
-# アーカイブ
+# Adobe Experience Managerパターン検出
 
-このリポジトリは<https://github.com/Adobe-Enterprise-Docs/experience-manager-pattern-detection.ja-JP>に移行されました。
+Adobe Experience Manager Pattern Detectionのリポジトリです。
+
+ドキュメントへのご協力は歓迎いたします。 詳しくは、次のリソースを参照してください。
+
+* [contributing.md](contributing.md)このドキュメントに貢献する方法の概要を説明します。
+* [guidelines.md](guidelines.md)投稿で期待される内容と、ドキュメントの投稿を作成する方法の概要について説明します。
+* [行動規範.md](code-of-conduct.md)このドキュメントプロジェクトに参加する際にAdobeが想定する行動の標準の概要について説明します。

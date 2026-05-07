@@ -1,7 +1,8 @@
 ---
 title: SIF
 description: パターン検出コードのヘルプページ。
-source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
+exl-id: c0a5c565-16e7-407b-befc-5a2966089da1
+source-git-commit: 29d702c9662fd185ef806123fc4f4a03a70d64aa
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 7%
@@ -12,21 +13,21 @@ ht-degree: 7%
 
 ## 背景 {#background}
 
-SIF は、AEM 6.5 LTS と互換性のないソーシャル使用状況を特定します。
+SIFは、AEM 6.5 LTSと互換性のないソーシャル使用を特定します。
 
 <!-- Alexandru: drafting for now ## Possible implications and risks {#implications-and-risks} -->
 
 ## 可能な解決策 {#solutions}
 
-次の様々なサブタイプに対して考えられるソリューションを見つけます。
+以下の様々なサブタイプに対して考えられる解決策を見つけます。
 
-* `social.bundles.detected` – これらのバンドルはアップグレード時にアンインストールされます
+* `social.bundles.detected` – これらのバンドルは、アップグレード中にアンインストールされます
 * `social.packages.detected` – これらのパッケージはアップグレード中に削除されます
-* `social.packages.dependency` - ソーシャルのパッケージ依存関係をカスタム パッケージから削除してください
-* `social.nodes.detected` - ソーシャルノードを作成しないようにカスタムコードを更新します
-* `social.configs.detected` - カスタムコードでソーシャル設定プロパティを使用しない
+* `social.packages.dependency` - ソーシャルのパッケージ依存関係をカスタムパッケージから削除してください
+* `social.nodes.detected` - カスタム コードを更新して、ソーシャル ノードを作成しないようにします
+* `social.configs.detected` - カスタム コードでソーシャル設定プロパティを使用しない
 * `social.users.detected` - カスタムコードでソーシャルユーザーを使用しない
 * `social.overlays.detected` - ソーシャルオーバーレイの使用を削除
-* `social.paths.detected` - ソーシャルパスがAEMで使用されていないことを確認した後、これらのパスを削除します
+* `social.paths.detected` – これらのパスがAEMで使用されていないことを確認した後、ソーシャルパスを削除します
 * `social.resource.type.detected` - ソーシャルリソースタイプの使用状況を削除
-* `social.usage` - カスタムコードからソーシャル API を削除します。
+* `social.usage` - カスタム コードからソーシャル APIを削除します。

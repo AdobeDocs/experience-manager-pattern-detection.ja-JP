@@ -1,9 +1,10 @@
 ---
 title: WRF
 description: パターン検出コードのヘルプページ。
-source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
+exl-id: 36578498-d5b2-46d1-a274-a1646ceaa764
+source-git-commit: 29d702c9662fd185ef806123fc4f4a03a70d64aa
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '91'
 ht-degree: 8%
 
 ---
@@ -12,18 +13,18 @@ ht-degree: 8%
 
 ## 背景 {#background}
 
-WRF は、AEM 6.5 LTS と互換性のない We-Retail の使用状況を特定します。
+WRFは、AEM 6.5 LTSと互換性のないwe-retailの使用を特定します。
 
 <!-- Alexandru: drafting for now ## Possible implications and risks {#implications-and-risks} -->
 
 ## 可能な解決策 {#solutions}
 
-次の様々なサブタイプに対して考えられるソリューションを見つけます。
+以下の様々なサブタイプに対して考えられる解決策を見つけます。
 
-* `weretail.bundles.detected` – これらのバンドルはアップグレード時にアンインストールされます
+* `weretail.bundles.detected` – これらのバンドルは、アップグレード中にアンインストールされます
 * `weretail.packages.detected` – これらのパッケージはアップグレード中に削除されます
-* `weretail.configs.detected` - カスタムコードで We.Retail 設定プロパティを使用しない
-* `weretail.packages.dependency` - We.Retail のカスタムパッケージの依存関係の削除
-* `weretail.paths.detected` – これらの We.Retail パスは、ソーシャルを使用していないことを確認した後に削除できます
-* `weretail.resource.type.detected` - We.Retail リソースタイプの使用状況の削除
-* `weretail.usage` - カスタムコードから We.Retail API を削除します。
+* `weretail.configs.detected` - カスタムコードでWe.Retail設定プロパティを使用しないでください
+* `weretail.packages.dependency` - We.Retailの任意のカスタム パッケージの依存関係を削除します
+* `weretail.paths.detected` – これらのWe.Retail パスは、ソーシャルを使用していないことを確認した後に削除できます
+* `weretail.resource.type.detected` - We.Retail リソースタイプの使用状況を削除
+* `weretail.usage` - カスタムコードからWe.Retail APIを削除します。

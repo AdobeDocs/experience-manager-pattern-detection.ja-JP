@@ -4,7 +4,7 @@ description: パターン検出コードのヘルプページ。
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
 source-git-commit: d1c652a8a45a081661ffe4443f85fcc932947541
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '166'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 >title="カスタムダイアログウィジェット"
 >abstract="CDW は、AEM as a Cloud Service との互換性を確保するために更新が必要なカスタムダイアログウィジェットを識別します。"
 
-`CDW`（`Custom Dialog Widgets`）は、カスタムクラシックダイアログウィジェットを識別します。これらのウィジェットは、AEM as a Cloud Service との互換性を持つために更新する必要があります。
+`CDW`（`Custom Dialog Widgets`）は、カスタムクラシックダイアログウィジェットを識別します。 これらのウィジェットは、AEM as a Cloud Service との互換性を持つために更新する必要があります。
 
 次のようなサブタイプを使用して、情報を識別します。
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 ## 考えられる影響およびリスク {#implications-and-risks}
 
-* AEM as a Cloud Service ではクラシック UI が使用できなくなりました。オーサリングの標準インターフェイスは、タッチ対応 UI です。
+* AEM as a Cloud Service ではクラシック UI が使用できなくなりました。 オーサリングの標準インターフェイスは、タッチ対応 UI です。
 
 ## 可能な解決策 {#solutions}
 

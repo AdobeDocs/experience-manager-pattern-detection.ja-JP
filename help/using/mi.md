@@ -4,7 +4,7 @@ description: パターン検出コードのヘルプページ。
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
 source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '296'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 ## 考えられる影響とリスク {#implications-and-risks}
 
 * `sling.job.max.parallel`
-   * -1 の値は、使用可能なプロセッサの数に置き換えられます。そのため、AEM インスタンスのパフォーマンスに問題が生じる可能性があります。
+   * -1 の値は、使用可能なプロセッサの数に置き換えられます。 そのため、AEM インスタンスのパフォーマンスに問題が生じる可能性があります。
 * `missing.maintenance.configuration`
    * メンテナンスタスクの設定が欠落していると、パフォーマンスの低下やインスタンスの破損が生じる可能性があります。
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 * `sling.job.max.parallel`
    * アドビでは、使用可能なプロセッサーの半分を活用するために、値を 0.5 に設定することをお勧めします。
 * `missing.maintenance.configuration`
-   * リビジョンのクリーンアップ：詳しくは、[リビジョンのクリーンアップ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)を参照してください。設定に関する重要な部分について詳しくは、[リビジョンクリーンアップ - テールコンパクションおよびフルコンパクションの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)を参照してください。
+   * リビジョンのクリーンアップ：詳しくは、[リビジョンのクリーンアップ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)を参照してください。 設定に関する重要な部分について詳しくは、[リビジョンクリーンアップ - テールコンパクションおよびフルコンパクションの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)を参照してください。
    * Lucene バイナリクリーンアップ：詳しくは、[操作ダッシュボード - Lucene バイナリクリーンアップ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup)を参照してください。
    * データストアのガベージコレクション：詳しくは、[データストアのガベージコレクション](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection)を参照してください。
    * ワークフローのパージ：詳しくは、[ワークフローインスタンスの定期的なパージ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances)を参照してください。

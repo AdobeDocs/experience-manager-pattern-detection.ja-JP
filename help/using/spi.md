@@ -1,7 +1,8 @@
 ---
 title: SPI
 description: パターン検出コードのヘルプページ。
-source-git-commit: e050b9190f67fd6ccfac31490c4bf2a60d47731f
+exl-id: 39f2d04e-c6e4-4da6-b000-0115bc2b87bf
+source-git-commit: 29d702c9662fd185ef806123fc4f4a03a70d64aa
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 8%
@@ -12,17 +13,17 @@ ht-degree: 8%
 
 ## 背景 {#background}
 
-SIF は、AEM 6.5 LTS と互換性のない Search and Promote の使用を特定します。
+SIFは、AEM 6.5 LTSと互換性のないSearch and Promoteの使用を特定します。
 
 <!-- Alexandru: drafting for now ## Possible implications and risks {#implications-and-risks} -->
 
 ## 可能な解決策 {#solutions}
 
-次の様々なサブタイプに対して考えられるソリューションを見つけます。
+以下の様々なサブタイプに対して考えられる解決策を見つけます。
 
-* `searchpromote.bundles.detected` – これらのバンドルはアップグレード時にアンインストールされます
+* `searchpromote.bundles.detected` – これらのバンドルは、アップグレード中にアンインストールされます
 * `earchpromote.packages.detected` – これらのパッケージはアップグレード中に削除されます
-* `searchpromote.packages.dependency` - カスタムパッケージに含まれている可能性のある Search and Promote 依存関係を削除します
-* `searchpromote.usage` - カスタムコードから Search and Promote API を削除します
-* `searchpromote.users.detected` - カスタムコードで Search and Promote サービスユーザーを使用しない
-* `searchpromote.configs.detected` - カスタムコードで Search and Promote 設定プロパティを使用しないでください。
+* `searchpromote.packages.dependency` - カスタムパッケージに含まれる可能性のある検索と昇格の依存関係を削除します
+* `searchpromote.usage` - カスタムコードから検索およびプロモーション APIを削除します
+* `searchpromote.users.detected` - カスタムコードでSearch and Promote サービスユーザーを使用しない
+* `searchpromote.configs.detected` - カスタムコードで検索および昇格の設定プロパティを使用しないでください。

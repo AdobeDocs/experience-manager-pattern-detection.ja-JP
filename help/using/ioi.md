@@ -2,7 +2,7 @@
 title: IOI
 description: パターン検出コードのヘルプページ。
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
+source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 100%

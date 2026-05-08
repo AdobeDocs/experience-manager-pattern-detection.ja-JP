@@ -2,7 +2,7 @@
 title: OU
 description: パターン検出コードのヘルプページ。
 exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
-source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
+source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 100%

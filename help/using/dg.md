@@ -2,7 +2,7 @@
 title: DG
 description: パターン検出コードのヘルプページ。
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
+source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 84%

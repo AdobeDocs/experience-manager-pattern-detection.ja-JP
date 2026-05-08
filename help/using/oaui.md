@@ -2,7 +2,7 @@
 title: OAUI
 description: パターン検出コードのヘルプページ。
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
+source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 100%

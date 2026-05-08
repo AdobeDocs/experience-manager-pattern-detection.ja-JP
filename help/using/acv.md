@@ -2,7 +2,7 @@
 title: ACV
 description: パターン検出コードのヘルプページ。
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 100%

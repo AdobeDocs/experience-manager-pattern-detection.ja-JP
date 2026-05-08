@@ -2,7 +2,7 @@
 title: OID
 description: パターン検出コードのヘルプページ。
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
+source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 100%

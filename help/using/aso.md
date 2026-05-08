@@ -2,7 +2,7 @@
 title: ASO
 description: パターン検出コードのヘルプページ。
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
+source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 100%

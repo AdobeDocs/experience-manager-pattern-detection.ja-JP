@@ -8,7 +8,7 @@ landing-page-name: experience-manager
 landing-page-breadcrumb-title: AEM
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/experience-manager-pattern-detection.en
+git-repo: https://github.com/AdobeDocs/experience-manager-pattern-detection.ja-JP
 index: false
 recommendations: noDisplay
 source-git-commit: e06355d6fc316ecabba24f94397c675f67bb7b2f

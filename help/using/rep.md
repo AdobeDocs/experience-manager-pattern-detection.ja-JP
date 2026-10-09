@@ -2,13 +2,17 @@
 title: REP
 description: パターン検出コードのヘルプページ。
 exl-id: e788deba-a301-404f-8e90-51f721409e69
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
-
 ---
-
 # [!DNL REP] {#rep}
 
 レプリケーションエージェント
@@ -18,11 +22,11 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_rep_overview"
 >title="レプリケーションエージェント"
->abstract="REP は有効なレプリケーションエージェントを識別します。 このエージェントは、AEM as a Cloud Service へのアップグレード時に対処する必要のある問題が発生する可能性があるため、報告されています。 AEM as Cloud Service では、Sling コンテンツ配布を使用して、作成者の設定したコンテンツをパブリッシュ環境に配布します。 この配布は、Adobe Developer の Adobe I/O Runtime のパイプラインサービスを使用して、AEM ランタイムの外部で実行されます。 このワークフローは、プロビジョニングされた AEM as a Cloud Service 環境で自動的に設定されます。"
+>abstract="REP は有効なレプリケーションエージェントを識別します。 これらのエージェントは、AEM as a Cloud Service へのアップグレード時に対処する必要のある問題が発生する可能性があるため、報告されています。 AEM as a Cloud Service では、Sling コンテンツ配布を使用して、オーサー環境から公開環境にコンテンツを配布します。 この配布は、Adobe Developer の Adobe I/O Runtime のパイプラインサービスを使用して、AEM ランタイムの外部で実行されます。 このワークフローは、プロビジョニングされた AEM as a Cloud Service 環境で自動的に設定されます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="主な変更点 - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="開発のガイドライン"
 
-`REP` は有効なレプリケーションエージェントを識別します。 このエージェントは、AEM as a Cloud Service へのアップグレード時に対処する必要のある問題が発生する可能性があるため、報告されています。
+`REP` は有効なレプリケーションエージェントを識別します。 これらのエージェントは、AEM as a Cloud Service へのアップグレード時に対処する必要のある問題が発生する可能性があるため、報告されています。
 
 次のサブタイプを使用して、各種情報を識別します。
 
@@ -36,9 +40,9 @@ AEM as Cloud Service では、[Sling Content Distribution](https://sling.apache.
 ## 考えられる影響およびリスク {#implications-and-risks}
 
 * AEM as a Cloud Service ではレプリケーションの設定が変更されました。 現在のすべてのレプリケーションエージェントを確認する必要があります。 このレビューは、次の項目を確認するのに役立ちます。
-   * 標準機能で置き換えることができるエージェント
-   * コードに移行する必要がある設定
-   * サポートされていない設定
+  * 標準機能で置き換えることができるエージェント
+  * コードに移行する必要がある設定
+  * サポートされていないもの
 * AEM as a Cloud Service へのアップグレード時に、カスタムコードまたはワークフローの中で何らかのレプリケーションエージェントが使用されていないかを確認する必要があります。
 * AEM as a Cloud Service では初期段階で、リバースレプリケーションはサポートされていません。
 * 個別の Dispatcher フラッシュエージェントを設定する必要はありません。 代わりに、AEM as a Cloud Service 環境で自動的に設定されます。

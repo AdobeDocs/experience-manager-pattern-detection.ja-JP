@@ -2,13 +2,17 @@
 title: INST
 description: パターン検出コードのヘルプページ。
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 92%
-
 ---
-
 # INST {#inst}
 
 インストール済みのアーティファクト
@@ -18,11 +22,11 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_overview"
 >title="インストール済みのアーティファクト"
->abstract="INST は、お客様が AEM にインストールしたカスタムおよびサードパーティのパッケージとバンドルを識別します。 このようなパッケージとバンドルは、システムの状態やアップグレード作業の一般的な範囲の特徴を把握するために報告されます。 サードパーティ製パッケージは、AEM as a Cloud Service の開発およびパッケージガイドラインに準拠する必要があります。"
+>abstract="INST は、お客様が AEM にインストールしたカスタムおよびサードパーティのパッケージとバンドルを識別します。 このようなパッケージとバンドルが報告されることで、システムの状態やアップグレード作業の一般的な範囲を把握するのに役立ちます。 サードパーティ製パッケージは、AEM as a Cloud Service の開発およびパッケージガイドラインに準拠する必要があります。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="開発ガイドライン - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="パッケージガイドライン - AEM as a Cloud Service"
 
-`INST` は、お客様が AEM にインストールしたカスタムおよびサードパーティのパッケージとバンドルを識別します。 このようなパッケージとバンドルは、システムの状態やアップグレード作業の一般的な範囲の特徴を把握するために報告されます。
+`INST` は、お客様が AEM にインストールしたカスタムおよびサードパーティのパッケージとバンドルを識別します。 このようなパッケージとバンドルが報告されることで、システムの状態やアップグレード作業の一般的な範囲を把握するのに役立ちます。
 
 1 つのパッケージについて複数のバージョンがインストールされている場合は、最新バージョンだけが報告されます。
 
@@ -38,11 +42,11 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_guidance"
 >title="実装ガイダンス"
->abstract="お客様は CRX パッケージマネージャーを使用してサードパーティ製パッケージをインストールできなくなりました。 これらのインストール済みアーティファクトを確認し、AEM as a Cloud Service と連携できるように再構成および最適化する必要があります。 サードパーティパッケージの作成者またはアドビに、AEM as a Cloud Service との互換性を確認します。"
+>abstract="お客様は CRX パッケージマネージャーを使用してサードパーティ製パッケージをインストールできなくなりました。 これらのインストール済みアーティファクトを確認し、構造化したうえで、AEM as a Cloud Service と連携できるように最適化する必要があります。 サードパーティパッケージの作成者またはアドビに、AEM as a Cloud Service との互換性を確認します。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embeddeds" text="コンテナパッケージへのサブパッケージの埋め込み"
 
 
-* CRX パッケージマネージャーを使用してサードパーティ製パッケージを AEM as a Cloud Service にインストールすることはできません。
+* AEM as a Cloud Service では、CRX パッケージマネージャーを使用したサードパーティ製パッケージのインストールはできません。
 * サードパーティ製パッケージに依存するアプリケーションは、AEM as a Cloud Service での動作に合わせて正しくデプロイしない限り、期待通り動作しないことがあります。
 * サードパーティベンダーのパッケージは、AEM as a Cloud Service 用に最適化されていないと、意図しない動作をする可能性があります。
 

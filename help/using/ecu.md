@@ -2,13 +2,17 @@
 title: ECU
 description: パターン検出コードのヘルプページ。
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
-source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 100%
-
+source-wordcount: '290'
+ht-degree: 97%
 ---
-
 # ECU {#ecu}
 
 非推奨（廃止予定）：ECU（無関係なコンテンツの使用）は CAV（コンテンツ領域違反）に置き換えられています
@@ -17,7 +21,7 @@ ht-degree: 100%
 
 `ECU` は、コンテンツ分類ルールに違反する形でコンテンツ領域が使用されているパターンを識別します。
 
-Sling リクエスト処理では、リソースのコンテンツ（特にリソースの `sling:resourceType` プロパティ）を使用して、コンテンツのレンダリングに用いるスクリプトを決定する方法を定義します。（詳細については、[スクリプトの検索](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script)を参照してください）。また、Sling では、オーバーレイとオーバーライドを通じて、リソースにアクセスし、リソースを結合するテクニックも用意されています。これらのテクニックは、[Sling Resource Merger](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) の一部として、および[オーバーレイ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/platform/overlays)内で説明されています。
+Sling リクエスト処理では、リソースのコンテンツ（特にリソースの `sling:resourceType` プロパティ）を使用して、コンテンツのレンダリングに用いるスクリプトを決定する方法を定義します。 （詳しくは、[ スクリプトの検索](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script)を参照してください）。 また、Sling では、オーバーレイとオーバーライドを通じて、リソースにアクセスし、リソースを結合するテクニックも用意されています。 これらのテクニックは、[Sling Resource Merger](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) の一部として、および[オーバーレイ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/platform/overlays)内で説明されています。
 
 安全に使用およびオーバーレイできる `/libs` のどエリアをお客様に分かりやすくするため、`/libs` のコンテンツは次の「mixin」プロパティで分類されます。
 
@@ -26,7 +30,7 @@ Sling リクエスト処理では、リソースのコンテンツ（特にリ�
 * Final
 * Internal
 
-各分類は、コンテンツがどのように使用、継承、オーバーレイされるかを規定するルールを示します。詳細については、[持続可能なアップグレード](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades)を参照してください。
+各分類は、コンテンツがどのように使用、継承、オーバーレイされるかを規定するルールを示します。 詳細については、[持続可能なアップグレード](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades)を参照してください。
 
 ## 考えられる影響およびリスク {#implications-and-risks}
 

@@ -2,13 +2,17 @@
 title: MI
 description: パターン検出コードのヘルプページ。
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
-
 ---
-
 # MI {#mi}
 
 設定ミスの問題
@@ -18,7 +22,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_mi_overview"
 >title="設定ミスの問題"
->abstract="MI が、AEM インスタンスの設定の問題を識別する"
+>abstract="MI による AEM インスタンスの設定の問題の識別"
 
 `MI`（設定ミスの問題）は、AEM インスタンスの設定の問題を識別します。
 
@@ -30,9 +34,9 @@ ht-degree: 100%
 ## 考えられる影響とリスク {#implications-and-risks}
 
 * `sling.job.max.parallel`
-   * -1 の値は、使用可能なプロセッサの数に置き換えられます。 そのため、AEM インスタンスのパフォーマンスに問題が生じる可能性があります。
+  * -1 の値は、使用可能なプロセッサの数に置き換えられます。 そのため、AEM インスタンスのパフォーマンスに問題が生じる可能性があります。
 * `missing.maintenance.configuration`
-   * メンテナンスタスクの設定が欠落していると、パフォーマンスの低下やインスタンスの破損が生じる可能性があります。
+  * メンテナンスタスクの設定が欠落していると、パフォーマンスの低下やインスタンスの破損が生じる可能性があります。
 
 ## 可能な解決策 {#solutions}
 
@@ -43,11 +47,11 @@ ht-degree: 100%
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * `sling.job.max.parallel`
-   * アドビでは、使用可能なプロセッサーの半分を活用するために、値を 0.5 に設定することをお勧めします。
+  * アドビでは、使用可能なプロセッサーの半分を活用するために、値を 0.5 に設定することをお勧めします。
 * `missing.maintenance.configuration`
-   * リビジョンのクリーンアップ：詳しくは、[リビジョンのクリーンアップ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)を参照してください。 設定に関する重要な部分について詳しくは、[リビジョンクリーンアップ - テールコンパクションおよびフルコンパクションの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)を参照してください。
-   * Lucene バイナリクリーンアップ：詳しくは、[操作ダッシュボード - Lucene バイナリクリーンアップ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup)を参照してください。
-   * データストアのガベージコレクション：詳しくは、[データストアのガベージコレクション](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection)を参照してください。
-   * ワークフローのパージ：詳しくは、[ワークフローインスタンスの定期的なパージ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances)を参照してください。
-   * 監査ログのメンテナンスタスク：詳しくは、[監査ログのメンテナンス](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log)を参照してください。
+  * リビジョンのクリーンアップ：詳しくは、[リビジョンのクリーンアップ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)を参照してください。 設定に関する重要な部分について詳しくは、[リビジョンクリーンアップ - テールコンパクションおよびフルコンパクションの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup)を参照してください。
+  * Lucene バイナリクリーンアップ：詳しくは、[操作ダッシュボード - Lucene バイナリクリーンアップ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup)を参照してください。
+  * データストアのガベージコレクション：詳しくは、[データストアのガベージコレクション](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection)を参照してください。
+  * ワークフローのパージ：詳しくは、[ワークフローインスタンスの定期的なパージ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances)を参照してください。
+  * 監査ログのメンテナンスタスク：詳しくは、[監査ログのメンテナンス](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log)を参照してください。
 * 詳しい説明や懸念事項の対応については、[Experience Manager カスタマーケアチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

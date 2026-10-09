@@ -2,13 +2,17 @@
 title: DOPI
 description: パターン検出コードのヘルプページ。
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 100%
-
 ---
-
 # DOPI {#dopi}
 
 非推奨（廃止予定）の順序付きプロパティインデックス
@@ -22,7 +26,7 @@ ht-degree: 100%
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="順序付きインデックス - 非推奨"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/operations/indexing" text="インデックス作成 - AEM as a Cloud Service"
 
-`DOPI` は、順序付きプロパティインデックス定義（`primaryType=oak:QueryIndexDefinition` および `type="ordered"`）の使用を識別します。 この定義は、AEM 6.1 で非推奨（廃止予定）となり、AEM 6.2 で削除されました。
+`DOPI` は、順序付きプロパティインデックス定義（`primaryType=oak:QueryIndexDefinition` および `type="ordered"`）の使用を識別します。 これらの定義は、AEM 6.1 で非推奨（廃止予定）となり、AEM 6.2 で削除されました。
 
 ## 考えられる影響とリスク {#implications-and-risks}
 
@@ -33,7 +37,7 @@ ht-degree: 100%
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/practices/best-practices-for-queries-and-indexing" text="ベストプラクティス - クエリとインデックス作成"
 
 * クエリによっては、応答しない場合があります。
-* お客様の機能が正しく動作しないことがあります。
+* 顧客向け機能が正しく動作しないことがあります。
 * 非推奨（廃止予定）のインデックスは効果がないため、トラバーサル警告やエラーが発生し、著しいパフォーマンスペナルティを伴うことがあります。
 
 ## 可能な解決策 {#solutions}
@@ -45,6 +49,6 @@ ht-degree: 100%
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="wknd-legacy プロジェクト"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="DOPI 違反の例 - GitHub"
 
-* インデックス定義を編集して、サポートされているインデックス定義になるようにするか、インデックスを置き換えます。 （[Oak クエリとインデックス作成](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing)を参照）。
+* インデックス定義を編集してサポートされているインデックス定義にするか、サポートされているインデックス定義でインデックスを置き換えます。 （[Oak クエリとインデックス作成](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing)を参照）。
 * [wknd-legacy](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi) プロジェクトを検証し、AEM as a Cloud Service との互換性を維持するために [DOPI 違反](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi)を修正および変更する方法を確認します。
 * 詳しい説明や懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

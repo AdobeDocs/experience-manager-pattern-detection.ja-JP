@@ -2,13 +2,17 @@
 title: OID
 description: パターン検出コードのヘルプページ。
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 100%
-
 ---
-
 # OID {#oid}
 
 Oak インデックス定義
@@ -18,7 +22,7 @@ Oak インデックス定義
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_overview"
 >title="Oak Index Definition"
->abstract="OID は、Oak インデックスの定義に関連する問題を識別します。 標準 Oak インデックス定義に加えられた変更を識別します。 AEM as a Cloud Service と互換性のないカスタム Oak インデックス定義も識別されます。 OID の各検索結果に関するメッセージでは、インデックスを識別し、追加情報を追加します。"
+>abstract="OID は、Oak インデックスの定義に関連する問題を識別します。 標準 Oak インデックス定義に加えられた変更を識別します。 AEM as a Cloud Service と互換性のないカスタム Oak インデックス定義も識別されます。 OID の各検出結果に関するメッセージでは、インデックスを識別し、追加情報を提供します。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/operations/indexing#how-to-use" text="コンテンツインデックス作成ガイドライン"
 
 `OID` は、Oak インデックスの定義に関連する問題を識別します。 標準 Oak インデックス定義に加えられた変更を識別します。 AEM as a Cloud Service と互換性のないカスタム Oak インデックス定義も識別されます。 各 `OID` 検出結果に関するメッセージでは、インデックスが識別され、追加情報が提供されます。

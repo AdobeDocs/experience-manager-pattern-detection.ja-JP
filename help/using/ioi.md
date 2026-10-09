@@ -2,13 +2,17 @@
 title: IOI
 description: パターン検出コードのヘルプページ。
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '233'
 ht-degree: 100%
-
 ---
-
 # IOI {#ioi}
 
 内部 Oak 取り込み
@@ -18,7 +22,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_overview"
 >title="内部 Oak 取り込み"
->abstract="IOI コードは、OSGi を介して読み込まれた内部 Oak パッケージが使用されているかどうかを識別します。 Oak パッケージは、バージョンなしで書き出されます。 Oak バンドルまたは低レベルの AEM サービスは、それらのみを使用します。"
+>abstract="IOI コードは、OSGi を介して内部 Oak パッケージを読み込む顧客による使用を識別します。 Oak パッケージは、バージョンなしで書き出されます。 それらを使用するのは、Oak バンドルまたは低レベルの AEM サービスのみです。"
 
 `IOI` は、OSGi を介して読み込まれた内部 Oak パッケージが使用されているかどうかを識別します。 Oak パッケージは、バージョンなしで書き出されます。 Oak バンドルまたは低レベルの AEM サービスは、それらのみを使用します。
 これらの領域の一部は `com.adobe.granite.repository` によって使用され、起動時に AEM のリポジトリを設定します。 もう 1 つの例は、Oak メンテナンスタスクをラップして提供する `com.adobe.granite.maintenance.oak` Adobe バンドルです。

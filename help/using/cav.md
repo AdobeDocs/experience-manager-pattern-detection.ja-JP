@@ -2,13 +2,17 @@
 title: CAV
 description: パターン検出コードのヘルプページ。
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
-
 ---
-
 # CAV {#cav}
 
 コンテンツ領域違反
@@ -44,7 +48,7 @@ Sling リクエスト処理では、リソースのコンテンツ（特にリ�
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_guidance"
 >title="実装ガイダンス"
->abstract="様々なコンテンツ領域違反が存在するパターンが CAS で識別されたら、そのパターンを確認する必要があります。 最終的および内部的なコンテンツ分類領域は避けてください。 ヘルプおよび詳しい説明については、アドビサポートにお問い合わせください。"
+>abstract="様々なコンテンツ領域違反が存在するパターンが CAS で識別されたら、そのパターンを確認する必要があります。 Final および Internal のコンテンツ分類領域は避けてください。 ヘルプおよび詳しい説明については、アドビサポートにお問い合わせください。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="持続可能なアップグレード"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 

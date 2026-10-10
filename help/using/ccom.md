@@ -2,13 +2,17 @@
 title: CCOM
 description: パターン検出コードのヘルプページ。
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
-
 ---
-
 # CCOM {#ccom}
 
 カスタムコンポーネント
@@ -38,7 +42,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccom_guidance"
 >title="実装ガイダンス"
->abstract="ベストプラクティスは、カスタムコンポーネントの数を最小限に抑え、コアコンポーネントを活使用し、スタイルシステムでコアコンポーネントを使用することにより、技術的負担を軽減することです。"
+>abstract="ベストプラクティスは、カスタムコンポーネントの数を最小限に抑え、コアコンポーネントを使用し、スタイルシステムでコアコンポーネントを使用することにより、技術的負担を軽減することです。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-core-components/using/introduction" text="コアコンポーネント"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use#page-authoring" text="スタイルシステム"
 

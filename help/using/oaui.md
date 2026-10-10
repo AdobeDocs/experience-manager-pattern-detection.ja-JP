@@ -2,13 +2,17 @@
 title: OAUI
 description: パターン検出コードのヘルプページ。
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 100%
-
 ---
-
 # OAUI {#oaui}
 
 OAuth ユーザーインスタンス
@@ -38,7 +42,7 @@ OAuth は、`oauth` というサブノードが、`rep:AuthorizableId` ノード
 >title="実装ガイダンス"
 >abstract="OAuth で設定された外部ユーザーは、AEM as a Cloud Service と互換性があるように再設定しない限り、オーサーインスタンスまたはパブリッシュインスタンスにはログインできません。 AEM as a Cloud Service では、作成者、管理者、開発者の各ユーザーにのみ IMS 認証サポートを提供し、パブリッシュ環境には SAML ベースの統合を提供します。 ヘルプおよび詳しい説明については、アドビサポートにお問い合わせください。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/security/ims-support" text="IMS のサポート - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier#integration-with-an-idp" text="SAML 統合 - パブリッシュ"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier#integration-with-an-idp" text="SAML 統合 - 公開"
 
 * ユーザーの移行に関するオプションについては、アドビ担当者にお問い合わせください。
 * 詳しい説明や懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

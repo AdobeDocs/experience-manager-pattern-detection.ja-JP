@@ -2,13 +2,17 @@
 title: WRK
 description: パターン検出コードのヘルプページ。
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 100%
-
 ---
-
 # WRK {#wrk}
 
 ワークフロー
@@ -18,10 +22,10 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_overview"
 >title="ワークフロー"
->abstract="WRK コードは、ワークフローモデルまたはランチャーに関連する情報を識別します。 この識別は、AEM as a Cloud Service へのアップグレード時にカスタムアセットワークフローモデルを移行する必要があるために報告されます。 AEM as a Cloud Service を使用すると、アセットマイクロサービスがアセット処理を実行します。"
+>abstract="WRK コードは、ワークフローモデルまたはランチャーに関連する検出結果を識別します。 これらの識別は、AEM as a Cloud Service へのアップグレード時にカスタムアセットワークフローモデルを移行する必要があるため報告されます。 AEM as a Cloud Service を使用すると、アセットマイクロサービスがアセット処理を実行します。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview" text="アセットマイクロサービス"
 
-`WRK` は、ワークフローモデルまたはランチャーに関連する検出結果を識別します。 この識別は、AEM as a Cloud Service へのアップグレード時にカスタムアセットワークフローモデルを移行する必要があるために報告されます。
+`WRK` は、ワークフローモデルまたはランチャーに関連する検出結果を識別します。 これらの識別は、AEM as a Cloud Service へのアップグレード時にカスタムアセットワークフローモデルを移行する必要があるため報告されます。
 
 サブタイプを使用して、現在検出されているワークフローの問題の種類を識別します。
 
@@ -32,12 +36,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_guidance"
 >title="実装ガイダンス"
->abstract="標準のアセットワークフローは、アセットマイクロサービスで自動的にサポートされます。 したがって、ベストプラクティスとしては、すべてのカスタムアセットワークフローモデルまたはランチャーを確認することをお勧めします。 確認すると、AEM as a Cloud Service への移行後にこれらが必要かどうかを確認できます。 アセットワークフローをカスタマイズするには、アセットワークフロー移行ツールを使用して AEM as a Cloud Service と連携するための移行が必要です。"
+>abstract="通常アセットワークフローは、アセットマイクロサービスによって自動的にサポートされます。 したがって、ベストプラクティスとしては、すべてのカスタムアセットワークフローモデルまたはランチャーを確認することをお勧めします。 確認すると、AEM as a Cloud Service への移行後にこれらが必要かどうかを確認できます。 アセットワークフローをカスタマイズするには、アセットワークフロー移行ツールを使用して AEM as a Cloud Service と連携するための移行が必要です。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/asset-microservices-configure-and-use" text="はじめに - アセットマイクロサービス"
 
 * アセット処理はこれまで、AEM オーサーインスタンス上で実行するアセットワークフローで実行されていました。 AEM as a Cloud Service を使用すると、アセットマイクロサービスがアセット処理を実行します。 詳しくは、[アセットマイクロサービスの概要](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview)を参照してください。
-* 標準のアセットワークフローは、アセットマイクロサービスで自動的にサポートされます。
-* アセットワークフローをカスタマイズするには、AEM as a Cloud Service で操作するように移行する必要があります。
+* 通常アセットワークフローは、アセットマイクロサービスによって自動的にサポートされます。
+* アセットワークフローのカスタマイズを AEM as a Cloud Service で動作させるには、移行が必要です。
 
 ## 可能な解決策 {#solutions}
 

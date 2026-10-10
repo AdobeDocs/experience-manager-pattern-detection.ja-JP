@@ -2,13 +2,17 @@
 title: PCX
 description: パターン検出コードのヘルプページ。
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 100%
-
 ---
-
 # PCX {#pcx}
 
 ページの複雑さ
@@ -42,9 +46,9 @@ ht-degree: 100%
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * 次のアクションを実行して、ページ内のノードの合計数を減らします。
-   * 不要なコンテナがないことを確認します。
-   * コンテナを減らしてもレイアウトが同じになるかどうかをテストします。
-   * ページのコンテンツを簡素化します。
-   * ノード構造の深さを減らします。
-   * 簡素化のために、内部のエクスペリエンスフラグメントをリファクタリングします。
+  * 不要なコンテナがないことを確認します。
+  * コンテナを減らしてもレイアウトが同じになるかどうかをテストします。
+  * ページのコンテンツを簡素化します。
+  * ノード構造の深さを減らします。
+  * 簡素化のために、含まれているエクスペリエンスフラグメントをリファクタリングします。
 * 詳しい説明や懸念事項の対応については、[AEM サポートチーム](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

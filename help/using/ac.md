@@ -2,13 +2,17 @@
 title: AC
 description: パターン検出コードのヘルプページ。
 exl-id: 4c6ac075-5ba6-4511-97c6-a9b496d4677a
-source-git-commit: 9c2f5452ff694e11a49c7b38efa61acc65924dd6
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 7%
-
 ---
-
 # AC {#ac}
 
 ## 背景 {#background}

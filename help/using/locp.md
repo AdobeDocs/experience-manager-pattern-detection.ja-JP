@@ -2,13 +2,17 @@
 title: LOCP
 description: パターン検出コードのヘルプページ。
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 100%
-
 ---
-
 # LOCP {#locp}
 
 /libs カスタムパッケージの上書き
@@ -26,7 +30,7 @@ ht-degree: 100%
 
 ## 考えられる影響およびリスク {#implications-and-risks}
 
-* カスタムコードは、CFP、SP または主要な AEM アップグレードで削除されたり置き換えられたりする場合があります。
+* 顧客コードは、CFP、SP または主要な AEM アップグレードで削除されたり置き換えられたりする場合があります。
 * 新しいコンテンツが適切にインストールされない場合があります。
 
 ## 可能な解決策 {#solutions}
@@ -34,7 +38,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_guidance"
 >title="実装ガイダンス"
->abstract="お客様は、カスタムコードとパッケージを確認して、コンテンツが `/libs` に配信されているかどうかを識別する必要があります。 必要に応じて、/apps の下のコンテンツのオーバーレイに依存するようにリファクタリングし、AEM as a Cloud Service と互換性を持たせます。 ヘルプおよび詳しい説明については、アドビサポートにお問い合わせください。"
+>abstract="お客様は、カスタムコードとパッケージを確認して、コンテンツが `/libs` に配信されているかどうかを識別する必要があります。 必要に応じて、/apps の下のコンテンツをオーバーレイするようにリファクタリングし、AEM as a Cloud Service と互換性を持たせます。 ヘルプおよび詳しい説明については、アドビサポートにお問い合わせください。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="オーバーレイ"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 

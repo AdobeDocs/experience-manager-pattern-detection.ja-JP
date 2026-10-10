@@ -2,13 +2,14 @@
 title: FORM
 description: パターン検出コードのヘルプページ。
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '1231'
 ht-degree: 96%
-
 ---
-
 # [!DNL FORMS] {#form}
 
 [!DNL Adobe Experience Manager Forms]
@@ -25,7 +26,7 @@ ht-degree: 96%
 
 次のサブタイプを利用して、様々なタイプの問題を特定することができます。
 
-* `modified.feature`：これらの機能、アセット、または API は、Cloud Service に対応して更新、または変更されています。 Cloud Service に移行する前に、移行ユーティリティを実行して、これらの機能やアセットが Cloud Service との互換性を維持できるようにします。
+* `modified.feature`：これらの機能、アセット、または API は、Cloud Service に対応して更新、または変更されています。 Cloud Service に移行する前に、移行ユーティリティを実行して、これらの機能やアセットを Cloud Service と互換性のあるものにします。
 * `unavailable.feature`：使用環境に、Cloud Service では利用できない、あるいは Cloud Service から削除された機能やアセットが含まれています。 このような機能やアセットは、Cloud Service 環境には移行しないでください。
 * `unsupported.feature`：使用環境で、Cloud Service ではまだサポートされていない機能が使用されています。 このような機能やアセットは、Cloud Service 環境には移行しないでください。 これらの機能の提供状況については、毎月のリリースノートを参照してください。
 * `unsupported.api`：使用環境に、Cloud Service ではまだサポートされていない API が一部含まれています。 Cloud Service に移行する前に、コード中のこれらの API を無効にするか、別の API に置き換えるか、削除してください。 これらの機能の提供状況については、毎月のリリースノートを参照してください。
@@ -54,9 +55,9 @@ ht-degree: 96%
 
 * インタラクティブなコミュニケーション機能は使用できません。 (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
-* メタデータのアコーディオン機能は使用できません。 (METADATA_ACCORDION_FORM_CONTAINER)
+* メタデータアコーディオンは使用できません。 (METADATA_ACCORDION_FORM_CONTAINER)
 
-* CAPTCHA コンポーネントでは、デフォルトにより Google reCAPTCHA サービスを使用して CAPTCHA を検証できるようになりました。 Adobe Experience Manager を使用して CAPTCHA を検証するオプションは廃止されました。 （FORMS_CAPTCHA）
+* CAPTCHA コンポーネントでは、デフォルトで Google reCAPTCHA サービスを使用して CAPTCHA を検証するようになりました。 Adobe Experience Manager を使用して CAPTCHA を検証するオプションは廃止されました。 （FORMS_CAPTCHA）
 
 * [!DNL AEM Forms] アプリは [!DNL Cloud Services] には使用できません。 (AEM_FORMS_APP)
 
@@ -70,9 +71,9 @@ ht-degree: 96%
 >abstract="FORMS コードで公開された情報は、一部の機能および API を Cloud Service に対応させるために必要な置き換えなどの措置に関するガイダンスを提供できます。 ヘルプおよび詳しい説明については、アドビサポートにお問い合わせください。"
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
-* 移行ユーティリティを使用して、現在の環境にあるルールスクリプトをすべて再利用可能な関数に変換します。 再利用可能な関数をビジュアルルールエディターで使用することにより、ルールスクリプトで取得した結果を引き続き利用できるようになります。 (CODE_EDITOR)
+* 移行ユーティリティを使用して、ご使用の環境にあるルールスクリプトをすべて再利用可能な関数に変換します。 再利用可能な関数をビジュアルルールエディターで使用することにより、ルールスクリプトで得られていた結果を引き続き得ることができます。 (CODE_EDITOR)
 
-* ご使用の環境でメール（オープン SMTP ポート）機能を有効にする方法については、サポートチームにお問い合わせください。 デフォルトでは、送信 HTTP と HTTPS 接続が有効になります。 (EMAIL_SERVICE_CONFIGURATION, メールステップ)
+* ご使用の環境でメール（オープン SMTP ポート）機能を有効にできるよう、サポートチームにお問い合わせください。 デフォルトでは、送信 HTTP 接続と HTTPS 接続のみが有効です。 (EMAIL_SERVICE_CONFIGURATION, メールステップ)
 
 * 「**[!UICONTROL PDF のメール]**」ではなく、「**[!UICONTROL メール]**」送信アクションを使用します。 「**[!UICONTROL メール]**」送信アクションでは、添付ファイルを送信し、メールにレコードのドキュメント（DoR）を添付するオプションが提供されます。 (EMAIL_PDF_SUBMIT_ACTION)
 

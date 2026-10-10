@@ -2,13 +2,17 @@
 title: UMI
 description: パターン検出コードのヘルプページ。
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%
-
 ---
-
 # UMI {#umi}
 
 アップグレード設定ミスの問題
@@ -24,7 +28,7 @@ ht-degree: 100%
 
 `UMI` は、アップグレードに伴い、アップグレードの失敗や機能低下も含め、問題を生じる原因となる特定の OSGi 設定への変更を識別します。
 
-次の設定について変更がないかをチェックします。
+次の設定について変更があるかどうかをチェックします。
 
 * `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName`
 * `org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids`
@@ -36,11 +40,11 @@ ht-degree: 100%
 ## 考えられる影響とリスク {#implications-and-risks}
 
 * 設定の変更や削除を行うと、次の問題が発生する場合があります。
-   * アップグレードの停止（例：`org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids` には存在する `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName` が存在していない場合）。
-   * アップグレード後の認証の問題（`org.apache.sling.engine.impl.auth.SlingAuthenticator`）。
-   * 特定の機能で所定の動作が実行されない場合があります。 例えば、`org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` を変更すると、一部の JSP ファイルがコンパイルから除外され、結果的に機能が欠落することがあります。
-   * Externalizer 設定の値 `com.day.cq.commons.impl.ExternalizerImpl` は、AEM as a Cloud Service の Cloud Manager 環境変数によって設定されます。
-   * AEM as a Cloud Services は、カスタムログファイルをサポートしていません。 カスタム名のログに書き込まれたログは、AEM as a Cloud Service からアクセスできません。
+  * アップグレードの停止（例：`org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids` には存在する `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName` が存在していない場合）。
+  * アップグレード後の認証の問題（`org.apache.sling.engine.impl.auth.SlingAuthenticator`）。
+  * 特定の機能が期待どおりに動作しない場合があります。 例えば、`org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` を変更すると、一部の JSP ファイルがコンパイルから除外され、結果的に機能が欠落することがあります。
+  * Externalizer 設定の値 `com.day.cq.commons.impl.ExternalizerImpl` は、AEM as a Cloud Service の Cloud Manager 環境変数によって設定されます。
+  * AEM as a Cloud Service は、カスタムログファイルをサポートしていません。 カスタム名のログに書き込まれたログは、AEM as a Cloud Service からアクセスできません。
 
 ## 可能な解決策 {#solutions}
 
@@ -51,9 +55,9 @@ ht-degree: 100%
 >additional-url="https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud のサポート"
 
 * 上記の 4 つの設定は、変更または削除しないでください。
-   * 次の違反があった場合：\
-     「Required properties for the OSGi configuration `xyz-configuration` are missing: &#39;[property-1,property-2...]&#39;.」\
-     これらの OSGi 設定は OOTB であり、OSGi 設定マネージャーから変更または保存されたことがない可能性があるので、これらの削除が正しいかどうかを確認してください。
+  * 次の違反があった場合：\
+    「Required properties for the OSGi configuration `xyz-configuration` are missing: &#39;[property-1,property-2...]&#39;.」\
+    これらの OSGi 設定は OOTB であり、OSGi 設定マネージャーから変更または保存されたことがない可能性があるので、これらの削除が正しいかどうかを確認してください。
 * 設定を変更した場合は、所定の値に戻す必要があります。 これらの値は、`UMI` メッセージで指示されます。
 * `com.day.cq.commons.impl.ExternalizerImpl` について詳しくは、AEM as a Cloud Service の Cloud Manager 環境変数を使用して Externalizer 設定を行う場合の[ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/developer-tools/externalizer)を参照してください。
 * `org.apache.sling.commons.log.LogManager.factory.config` について詳しくは、カスタマイズしたロガーを `logs/error.log` ファイルに送信するように OSGI 設定を変更します。 `logs/error.log` ファイルへの再指定について詳しくは、[ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/logs)を参照してください。

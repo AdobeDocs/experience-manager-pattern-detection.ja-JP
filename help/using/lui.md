@@ -2,13 +2,17 @@
 title: LUI
 description: パターン検出コードのヘルプページ。
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 89b6489ff2881ae05bb98eb5a01b758501fddfdb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: baa8f6dbf24b735348ed6b27f1e885b5078859ce
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '799'
 ht-degree: 89%
-
 ---
-
 # LUI {#lui}
 
 レガシーユーザーインターフェイス
@@ -23,31 +27,31 @@ ht-degree: 89%
 
 `LUI` は、非推奨のユーザーインターフェイス要素の使用を識別します。 これらの要素は、AEM の後続バージョンや AEM as a Cloud Service では推奨またはサポートされていません。
 
-サブタイプを使用して、アップグレードが必要な、各種のユーザーインターフェイス要素を識別します。
+サブタイプを使用して、アップグレードすべきまたは必要な各種のユーザーインターフェイス要素を識別します。
 
 * `legacy.dialog.classic`：ExtJS に基づくクラシック UI ダイアログボックスは、Coral に変更する必要があります。
-   * このサブタイプは、ダイアログボックス名が`dialog`または`design_dialog`の場合と、その場合に検出されます
-`jcr:primaryType` プロパティ値または`xtype` プロパティ値は`cq:Dialog`です。
+  * このサブタイプは、ダイアログボックス名が`dialog`または`design_dialog`の場合と、その場合に検出されます
+    `jcr:primaryType` プロパティ値または`xtype` プロパティ値は`cq:Dialog`です。
 * `legacy.dialog.coral2`：`Coral 3` を使用するには、`Coral 2` ダイアログボックスを更新する必要があります。
-   * このサブタイプは、ダイアログボックスとその子コンテンツノード名が、
-      * `cq:dialog/content`、
-      * `cq:design_dialog/content`、
-      * `cq:dialog.coral2/content`、
-      * または `cq:design_dialog.coral2/content`
-`sling:resourceType` プロパティ値に`granite/ui/components/coral/foundation`が含まれていません。
+  * このサブタイプは、ダイアログとその子コンテンツノード名が、
+    * `cq:dialog/content`、
+    * `cq:design_dialog/content`、
+    * `cq:dialog.coral2/content`、
+    * または `cq:design_dialog.coral2/content`
+      `sling:resourceType` プロパティ値に`granite/ui/components/coral/foundation`が含まれていません。
 * `legacy.custom.component`：`foundation/components` から継承されるコンポーネントは、コアコンポーネントを使用するようにアップデートする必要があります。
-   * このサブタイプは、`jcr:primaryType` プロパティ値が `cq:Component` で、
-     `sling:resourceSuperType` プロパティ値に「foundation / components」が含まれている場合に検出されます。 または、
-     スーパータイプコンポーネントのチェーンの`sling:resourceSuperType` プロパティ値に
-「基礎/コンポーネント」
+  * このサブタイプは、`jcr:primaryType` プロパティ値が `cq:Component` で、
+    `sling:resourceSuperType` プロパティ値に「foundation / components」が含まれている場合に検出されます。 または次のいずれか
+    スーパータイプコンポーネントのチェーンの`sling:resourceSuperType` プロパティ値に
+    「基礎/コンポーネント」
 * `legacy.static.template`：静的テンプレートは、編集可能なテンプレートにアップグレードする必要があります。
-   * このサブタイプは、`jcr:primaryType` プロパティ値が `cq:Template` の場合に検出されます。
+  * このサブタイプは、`jcr:primaryType` プロパティ値が `cq:Template` の場合に検出されます。
 * `content.fragment.template`：コンテンツフラグメントテンプレートでは、フラグメントテンプレートを置き換えるために、フラグメントモデルを作成する必要があります。
-   * コンテンツフラグメントテンプレートは、次の場所にあります。
-      * 標準搭載のコンテンツフラグメントテンプレートは、`/libs/settings/dam/cfm/templates` に格納されています。
-      * それらは、`/apps/settings/dam/cfm/templates` または `/conf/.../settings/dam/cfm/templates`（... = global または &quot;tenant&quot;）でオーバーレイできます。
+  * コンテンツフラグメントテンプレートは、次の場所にあります。
+    * 標準搭載のコンテンツフラグメントテンプレートは、`/libs/settings/dam/cfm/templates` に格納されています。
+    * それらは、`/apps/settings/dam/cfm/templates` または `/conf/.../settings/dam/cfm/templates`（... = global または &quot;tenant&quot;）でオーバーレイできます。
 * `translation.dictionary`：`/apps` の下にある 。`I18n` 辞書
-   * `/apps` は実行時に不変で、translator.html は AEM as a Cloud Service では使用できなくなりました。
+  * `/apps` は実行時に不変で、translator.html は AEM as a Cloud Service では使用できなくなりました。
 
 ## 考えられる影響とリスク {#implications-and-risks}
 
@@ -67,15 +71,15 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_tools"
 >title="ツールとリソース"
->abstract="AEM Modernization Tools スイートを使用すると、クラシック（ExtJS）ダイアログを Coral ダイアログに変換できます。 サポートされていない機能や従来の機能から堅牢な最新の AEM ソリューションに移行する際の支援を目的としたツールです。 これらのツールは設定可能で、設定を認識し、拡張可能です。 また、カスタムコンポーネントの代わりに標準化されたコアコンポーネントのセットを使用して、開発時間を短縮しアプリケーションのメンテナンスコストを削減することも検討します。"
+>abstract="AEM Modernization Suite を使用すると、クラシック（ExtJS）ダイアログを Coral ダイアログに変換できます。 サポートされていない機能や従来の機能から堅牢な最新の AEM ソリューションに移行する際の支援を目的としたツールです。 これらのツールは設定可能で、設定を認識し、拡張可能です。 また、カスタムコンポーネントの代わりに標準化されたコアコンポーネントのセットを使用して、開発時間を短縮しアプリケーションのメンテナンスコストを削減することも検討します。"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/component/about.html" text="コンポーネントコンバーター"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-manager-core-components/using/introduction" text="コアコンポーネント"
 
 * AEM Sites の実装を最新化するために必要な労力を軽減するには、[AEM 最新化ツールスイート](https://opensource.adobe.com/aem-modernize-tools/)を使用します。 これらのツールは、次の変換に対応します。
-   * クラシック（ExtJS）ダイアログから Coral ダイアログへ
-   * 基盤コンポーネントからコアコンポーネントへ
-   * 静的テンプレートおよび列の制御から編集可能テンプレートおよびレスポンシブグリッドへ
-   * デザインおよびデザインダイアログから編集可能テンプレートポリシーへ
+  * クラシック（ExtJS）ダイアログから Coral ダイアログへ
+  * 基盤コンポーネントからコアコンポーネントへ
+  * 静的テンプレートおよび列の制御から編集可能テンプレートおよびレスポンシブグリッドへ
+  * デザインおよびデザインダイアログから編集可能テンプレートポリシーへ
 * プロジェクトのカスタムコンポーネントライブラリを見直し、可能であれば、標準化された[コアコンポーネント](https://experienceleague.adobe.com/ja/docs/experience-manager-core-components/using/introduction)への移行を検討することにより、アプリケーションの開発時間を短縮し、メンテナンスコストを削減することができます。
 * 従来のテンプレートと同等の機能を持つコンテンツフラグメントモデルを作成し、将来のコンテンツフラグメントの作成にこれらのモデルを使用します。 詳しくは、[コンテンツフラグメントモデル](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/content-fragments/content-fragments-models)を参照してください。
 * `I18n` 辞書は、CI／CD パイプラインを通じて Git から取得する必要があります。 [ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#apps-libs-immutable)
